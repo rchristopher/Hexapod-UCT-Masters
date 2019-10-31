@@ -54,7 +54,7 @@ void Hexapod::Initialise(){
 
 	this->enableMotors();
 
-	this->resetAllMotors();	// wont work if motors arent enabled
+	//this->resetAllMotors();	// wont work if motors arent enabled
 
 
 	/** SET INITIAL STANDING POSITION **/
@@ -752,11 +752,11 @@ void Hexapod::setBodyHeight(double height){
 void Hexapod::stand(void){
 	double stand[6][3] = {{283.710,0.0,-this->bodyHeight},{141.855,-245.7,-this->bodyHeight},{-141.855,-245.7,-this->bodyHeight},{-283.710,0.0,-this->bodyHeight},{-141.855,245.7,-this->bodyHeight},{141.855,245.7,-this->bodyHeight}};
 	this->setPosition(stand);
-	this->bodyTwist = 0;
 	this->twistBody(0);
 	this->setPose(0,0);
 	this->setSpeedRPM(20,20,20);
 	this->move(DMA);
+	this->newPosition = false;
 }
 
 void Hexapod::setSpeedRPM(double th1d, double th2d, double th3d){
@@ -794,18 +794,16 @@ void Hexapod::update(void){
 			bool makePath = false;
 
 			// Speed changed
-			if(this->remote->speed != this->speed && this->remote->speed >= 0 && this->remote->speed <= (1/4.5)*500){	//4.5 max speed from multiplier in process remote data.
+			if(this->remote->speed != this->speed && this->remote->speed >= 0 && this->remote->speed <= 100){	//4.5 max speed from multiplier in process remote data.
 				this->speed = this->remote->speed;
 				if(this->speed == 0){
 					this->direction = -10;
 				}else{
-					/*double spd = 0.1*(this->speed/100);
-					uint32_t time = spd;//((1.0/this->speed)*500)*2;
-					this->setTIM2Time(350*(1.1-spd));
+					this->setTIM2Time(600*(1.1-this->speed));
 					for(int i = 0; i < 6; i++){
-						double tfNew = (double)(3.33333*(1.1-spd));
-						this->legs[i]->legPath->tf = tfNew;	// (time/100)*20
-					}*/
+						double tfNew = (double)(2.33333*(1.1-this->speed));
+						this->legs[i]->legPath->tf = tfNew;
+					}
 
 					makePath = true;
 				}

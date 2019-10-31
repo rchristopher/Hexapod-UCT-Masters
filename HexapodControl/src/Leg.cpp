@@ -170,9 +170,9 @@ void Leg::setSpeed(double _xd, double _yd, double _zd){
 	if(isnan(thd1)){
 		this->theta_dot->p1 = 10;
 	}else if(thd1 < 1){
-		this->theta_dot->p1 = 1;
+		//this->theta_dot->p1 = 1;
 	}else if(thd1 > 114){
-		this->theta_dot->p1 = 114;
+		//this->theta_dot->p1 = 114;
 	}else{
 		this->theta_dot->p1 = thd1*1.2;
 	}
@@ -180,9 +180,9 @@ void Leg::setSpeed(double _xd, double _yd, double _zd){
 	if(isnan(thd2)){
 		this->theta_dot->p2 = 25;
 	}else if(thd2 < 1){
-		this->theta_dot->p2 = 1;
+		//this->theta_dot->p2 = 25;
 	}else if(thd2 > 114){
-		this->theta_dot->p2 = 114;
+		//this->theta_dot->p2 = 114;
 	}else{
 		this->theta_dot->p2 = thd2*1.4;
 	}
@@ -190,9 +190,9 @@ void Leg::setSpeed(double _xd, double _yd, double _zd){
 	if(isnan(thd3)){
 		this->theta_dot->p3 = 25;//15;
 	}else if(thd3 < 1){
-		this->theta_dot->p3 = 1;
+		//this->theta_dot->p3 = 25;
 	}else if(thd3 > 114){
-		this->theta_dot->p3 = 114;
+		//this->theta_dot->p3 = 114;
 	}else{
 		this->theta_dot->p3 = thd3;
 	}

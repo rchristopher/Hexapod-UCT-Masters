@@ -141,7 +141,7 @@ void Remote::processRemoteData(){
 				this->twistBody = ((dma_dataPacket[2]/100.0)-1)*1.0;
 
 				if(dma_dataPacket[3] == 0x02){	//speed command
-					this->speed = (dma_dataPacket[4]/100.0)*4.5;
+					this->speed = (dma_dataPacket[4]/100.0);
 					if(this->speed == 0){
 						this->speed = 1;
 					}

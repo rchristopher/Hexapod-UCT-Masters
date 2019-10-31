@@ -16,6 +16,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.IOException;
@@ -153,7 +154,7 @@ public final class ReadAllEvents extends TimerTask implements SerialPortEventLis
             this.hatDown = false;
             this.button = 0;
             this.buttonDown = false;
-            this.sliderValue = 10;
+            this.sliderValue = 50;
             this.selectedController = 0;
             this.selectedControllerOffset = 0;
             this.movementError = 0.0;
@@ -161,7 +162,7 @@ public final class ReadAllEvents extends TimerTask implements SerialPortEventLis
             
             this.plotWindow = new PlotFrameWindow();
             
-            this.currentSpeed = 10;
+            this.currentSpeed = 50;
             this.currentDirection = 0;
             this.currentHeight = 50;
             
@@ -205,6 +206,7 @@ public final class ReadAllEvents extends TimerTask implements SerialPortEventLis
                     compControlWindow.setVisible(true);
                 } 
             } );  
+            
             
             window.getPlotButton().addActionListener(new ActionListener() { 
                 public void actionPerformed(ActionEvent e) { 
@@ -321,6 +323,28 @@ public final class ReadAllEvents extends TimerTask implements SerialPortEventLis
                     sendData(true);
                 } 
             } );
+            
+            compControlWindow.getSpeedSlider().addMouseListener(new MouseListener(){
+                @Override
+                public void mouseClicked(MouseEvent e) {}
+
+                @Override
+                public void mousePressed(MouseEvent e) {}
+
+                @Override
+                public void mouseReleased(MouseEvent e) {
+                  int value = compControlWindow.getSpeedSlider().getValue();
+                        currentSpeed = (int)value;
+                        sendData(true);
+                }
+
+                @Override
+                public void mouseEntered(MouseEvent e) {}
+
+                @Override
+                public void mouseExited(MouseEvent e) {}
+                
+             });   
             /*****/
             
             window.getResetButton().addActionListener(new ActionListener() { 
@@ -879,132 +903,134 @@ public final class ReadAllEvents extends TimerTask implements SerialPortEventLis
         
         public void sendMovementData(boolean computerControl){
             
-            int direction = 0;
-            int height = currentHeight;
-            
-            // System.out.println(atan2(-this.yAxis, this.xAxis));  //better all direction control (needs work)
-            
-            if(this.xAxis > 0.5){
-                if(this.yAxis > 0.5){
-                    //System.out.println("RIGHT-DOWN");
-                    direction = 6;
-                }else if(this.yAxis < -0.5){
-                    //System.out.println("RIGHT-UP");
-                    direction = 5;
-                }else{
-                    //System.out.println("RIGHT");
-                    direction = 4;
-                }
-            }else if(this.xAxis < -0.5){
-                if(this.yAxis > 0.5){
-                    //System.out.println("LEFT-DOWN");
-                    direction = 8;
-                }else if(this.yAxis < -0.5){
-                    //System.out.println("LEFT-UP");
-                    direction = 7;
-                }else{
-                    //System.out.println("LEFT");
-                    direction = 3;
-                }
-            }else if(this.yAxis > 0.5){
-                //System.out.println("DOWN");
-                direction = 2;
-            }else if(this.yAxis < -0.5){
-                //System.out.println("UP");
-                direction = 1;
-            }else{
-                direction = 0;
-            }
-                       
-            if(this.hatValue == 0.25){
-                    if(!hatDown)
-                        height+=5;
-                    hatDown = true;
-                }else if(this.hatValue == 0.5){
-                    hatDown = true;
-                }else if(this.hatValue == 0.75){
-                    if(!hatDown)
-                        height-=5;
-                    hatDown = true;
-                }else if(this.hatValue == 1.0){
-                    hatDown = true;
-                }else{
-                    this.hatDown = false;
-                }
-            
-            boolean sendNewData = false;
-            
-            if(direction != this.currentDirection){
-                this.currentDirection = direction;
-                sendNewData = true;
-            }
-                     
-            if(Math.abs(this.zAxis) >= 0.1){
-                if(Math.abs(this.zAxis - this.oldZAxis) >= 0.1 ){
-                    this.oldZAxis = this.zAxis;
-                    sendNewData = true;
-                }
-            }else{
-                if(this.oldZAxis != 0){
-                    this.zAxis = 0;
-                    this.oldZAxis = 0;
+            if(!compControlWindow.isVisible()){
 
+                int direction = 0;
+                int height = currentHeight;
+
+                // System.out.println(atan2(-this.yAxis, this.xAxis));  //better all direction control (needs work)
+
+                if(this.xAxis > 0.5){
+                    if(this.yAxis > 0.5){
+                        //System.out.println("RIGHT-DOWN");
+                        direction = 6;
+                    }else if(this.yAxis < -0.5){
+                        //System.out.println("RIGHT-UP");
+                        direction = 5;
+                    }else{
+                        //System.out.println("RIGHT");
+                        direction = 4;
+                    }
+                }else if(this.xAxis < -0.5){
+                    if(this.yAxis > 0.5){
+                        //System.out.println("LEFT-DOWN");
+                        direction = 8;
+                    }else if(this.yAxis < -0.5){
+                        //System.out.println("LEFT-UP");
+                        direction = 7;
+                    }else{
+                        //System.out.println("LEFT");
+                        direction = 3;
+                    }
+                }else if(this.yAxis > 0.5){
+                    //System.out.println("DOWN");
+                    direction = 2;
+                }else if(this.yAxis < -0.5){
+                    //System.out.println("UP");
+                    direction = 1;
+                }else{
+                    direction = 0;
+                }
+
+                if(this.hatValue == 0.25){
+                        if(!hatDown)
+                            height+=5;
+                        hatDown = true;
+                    }else if(this.hatValue == 0.5){
+                        hatDown = true;
+                    }else if(this.hatValue == 0.75){
+                        if(!hatDown)
+                            height-=5;
+                        hatDown = true;
+                    }else if(this.hatValue == 1.0){
+                        hatDown = true;
+                    }else{
+                        this.hatDown = false;
+                    }
+
+                boolean sendNewData = false;
+
+                if(direction != this.currentDirection){
+                    this.currentDirection = direction;
                     sendNewData = true;
                 }
-            }
-            
-            if(this.sliderValue != this.currentSpeed){
-                this.currentSpeed = this.sliderValue;
-                window.getSpeedBar().setValue(this.currentSpeed);
-                sendNewData = true;
-            }
-            
-            if(height <= 100 && height >= 0 && height != this.currentHeight){
-                this.currentHeight = height;
-                window.getHeightBar().setValue(this.currentHeight);
-                sendNewData = true;
-            }
-            
-            if(this.button == 1 && this.buttonDown == true){
-                sendNewData = true;
-                this.buttonDown = false;
-            }
-            
-            if(this.button == 2 && this.buttonDown == true){
-                sendNewData = true;
-                this.buttonDown = false;
-            }
-            
-            if(this.button == 5 && this.buttonDown == true){
-                sendNewData = true;
-                // sendByte(122);
-                this.buttonDown = false;
-            }
-            
-            if(this.button == 3 && this.buttonDown == true){
-                sendNewData = true;
-                this.buttonDown = false;
-            }
-            
-            if(this.button == 4 && this.buttonDown == true){
-                sendNewData = true;
-                this.buttonDown = false;
-            }
-            
-            if(this.button == 7 && this.buttonDown == true){
-                sendNewData = true;
-                //sendByte(126);
-                this.buttonDown = false;
-            }
-            
-            if(this.button == 8 && this.buttonDown == true){
-                sendNewData = true;
-                //sendByte(125);
-                this.buttonDown = false;
-            }
+
+                if(Math.abs(this.zAxis) >= 0.1){
+                    if(Math.abs(this.zAxis - this.oldZAxis) >= 0.1 ){
+                        this.oldZAxis = this.zAxis;
+                        sendNewData = true;
+                    }
+                }else{
+                    if(this.oldZAxis != 0){
+                        this.zAxis = 0;
+                        this.oldZAxis = 0;
+
+                        sendNewData = true;
+                    }
+                }
+
+                if(this.sliderValue != this.currentSpeed){
+                    this.currentSpeed = this.sliderValue;
+                    window.getSpeedBar().setValue(this.currentSpeed);
+                    sendNewData = true;
+                }
+
+                if(height <= 100 && height >= 0 && height != this.currentHeight){
+                    this.currentHeight = height;
+                    window.getHeightBar().setValue(this.currentHeight);
+                    sendNewData = true;
+                }
+
+                if(this.button == 1 && this.buttonDown == true){
+                    sendNewData = true;
+                    this.buttonDown = false;
+                }
+
+                if(this.button == 2 && this.buttonDown == true){
+                    sendNewData = true;
+                    this.buttonDown = false;
+                }
+
+                if(this.button == 5 && this.buttonDown == true){
+                    sendNewData = true;
+                    // sendByte(122);
+                    this.buttonDown = false;
+                }
+
+                if(this.button == 3 && this.buttonDown == true){
+                    sendNewData = true;
+                    this.buttonDown = false;
+                }
+
+                if(this.button == 4 && this.buttonDown == true){
+                    sendNewData = true;
+                    this.buttonDown = false;
+                }
+
+                if(this.button == 7 && this.buttonDown == true){
+                    sendNewData = true;
+                    //sendByte(126);
+                    this.buttonDown = false;
+                }
+
+                if(this.button == 8 && this.buttonDown == true){
+                    sendNewData = true;
+                    //sendByte(125);
+                    this.buttonDown = false;
+                }
             
             //do{
-            if(!compControlWindow.isVisible()){
+
                 sendData(sendNewData);
             }
            // }while(this.buttonDown);

@@ -16,7 +16,7 @@ void main(){
 	HEX.Initialise();
 	HEX.startTimers();
 
-	for(int i = 0; i < 100000;i++);	//delay (HAL_Delay causes timer issues)
+	for(int i = 0; i < 1000000;i++);	//delay (HAL_Delay causes timer issues)
 	HEX.stand();
 	for(int i = 0; i < 100000;i++);	//delay (HAL_Delay causes timer issues)
 
@@ -359,8 +359,6 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef * UART_HandleStructure){
 				}
 		}else if(UART_HandleStructure->pRxBuffPtr[0] == 255 && UART_HandleStructure->pRxBuffPtr[1] == 221){ // set IMU transmission frequency
 			HEX.IMUTransFreq = HEX.remote->bytesToFloat(&UART_HandleStructure->pRxBuffPtr[2]);
-		}else{
-			for(int i = 0; i < 10; i++);
 		}
 
 	}else if(UART_HandleStructure->Instance == UART3){							//accelerometer data
