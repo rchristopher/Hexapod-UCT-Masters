@@ -52,6 +52,8 @@ var searchData=
   ['hexapod',['Hexapod',['../class_hexapod.html',1,'Hexapod'],['../class_hexapod.html#a79efec751b5959388466cb095275f3d8',1,'Hexapod::Hexapod()']]],
   ['hexapod_2ecpp',['Hexapod.cpp',['../_hexapod_8cpp.html',1,'']]],
   ['hexapod_2eh',['Hexapod.h',['../_hexapod_8h.html',1,'']]],
+  ['highest_5flimit_5ftemperature',['HIGHEST_LIMIT_TEMPERATURE',['../enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a0c7ba51bc52be76ee79589c034bb4b77',1,'enumDefinitions.h']]],
+  ['highest_5flimit_5fvoltage',['HIGHEST_LIMIT_VOLTAGE',['../enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a51bacd3154fa00f023703af4b5055d88',1,'enumDefinitions.h']]],
   ['hse_5fstartup_5ftimeout',['HSE_STARTUP_TIMEOUT',['../stm32f4xx__hal__conf_8h.html#a68ecbc9b0a1a40a1ec9d18d5e9747c4f',1,'stm32f4xx_hal_conf.h']]],
   ['hse_5fvalue',['HSE_VALUE',['../stm32f4xx__hal__conf_8h.html#aeafcff4f57440c60e64812dddd13e7cb',1,'stm32f4xx_hal_conf.h']]],
   ['hsi_5fvalue',['HSI_VALUE',['../stm32f4xx__hal__conf_8h.html#aaa8c76e274d0f6dd2cefb5d0b17fbc37',1,'stm32f4xx_hal_conf.h']]]

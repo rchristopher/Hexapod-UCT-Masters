@@ -29,6 +29,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Hexapod~Control
+   &#160;<span id="projectnumber">1.0</span>
    </div>
   </td>
  </tr>
@@ -101,6 +102,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <h3><a id="index_b"></a>- b -</h3><ul>
 <li>bytesToFloat()
 : <a class="el" href="class_accelerometer.html#aec27f88de7102fcb741fc5b8acc46e48">Accelerometer</a>
+, <a class="el" href="class_remote.html#a5a64038b60ee7e6034f12e4941e6f59b">Remote</a>
 </li>
 </ul>
 
@@ -147,6 +149,12 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>enableMotors()
 : <a class="el" href="class_hexapod.html#a21d2210df12f061b1f9f394df2065231">Hexapod</a>
 </li>
+<li>enterLowPowerMode()
+: <a class="el" href="class_hexapod.html#a59529db5de40ac8161e0b60cc8f69c54">Hexapod</a>
+</li>
+<li>exitLowPowerMode()
+: <a class="el" href="class_hexapod.html#a676a21c15fd388090725bf01acf60444">Hexapod</a>
+</li>
 </ul>
 
 
@@ -169,6 +177,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </li>
 <li>getAccUART()
 : <a class="el" href="class_comms_manager.html#a5d9f6cd5ab41734fc8b80945ec0e42e3">CommsManager</a>
+</li>
+<li>getError()
+: <a class="el" href="class_p_i_d.html#afab1724ee3007eb4d690ad58aa218b2b">PID</a>
 </li>
 <li>getGoalMovementBits()
 : <a class="el" href="class_motor.html#accca547345173c711f3f2571617adfa2">Motor</a>
@@ -236,6 +247,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="class_hexapod.html#afab9c574b284b3dd082c7875c603620b">Hexapod</a>
 , <a class="el" href="class_leg.html#ae02f326e0d3702ec7b6055f3a80a8127">Leg</a>
 </li>
+<li>liftOntoBase()
+: <a class="el" href="class_hexapod.html#a50c2a9a0df8a7310bd06b8e5a65712ca">Hexapod</a>
+</li>
 </ul>
 
 
@@ -288,6 +302,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 
 
 <h3><a id="index_r"></a>- r -</h3><ul>
+<li>reachablePosition()
+: <a class="el" href="class_hexapod.html#a91e8c91676a60206a3adc4b8e965d17a">Hexapod</a>
+</li>
 <li>readAllMotors()
 : <a class="el" href="class_hexapod.html#aaa146af627e1ae7e10dc1b7d066fcb30">Hexapod</a>
 </li>
@@ -327,11 +344,17 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>requestAccelData()
 : <a class="el" href="class_accelerometer.html#af50c4df7076e372e1a97fe5be505481e">Accelerometer</a>
 </li>
+<li>reset()
+: <a class="el" href="class_p_i_d.html#af9677e76cb1beffbcf3f54cbc627c530">PID</a>
+</li>
 <li>resetAllMotors()
 : <a class="el" href="class_hexapod.html#a2b799039ab0a0340e32f581dbe646aaf">Hexapod</a>
 </li>
 <li>resetErrors()
 : <a class="el" href="class_motor.html#a481578665765ae569769f5f599d1b583">Motor</a>
+</li>
+<li>resetHeading()
+: <a class="el" href="class_accelerometer.html#a3243278fba821cf2c6c0507b4e434b97">Accelerometer</a>
 </li>
 <li>resetMotor()
 : <a class="el" href="class_hexapod.html#af22ac90056285244507ad4ff784b51ad">Hexapod</a>
@@ -345,6 +368,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </li>
 <li>sendASCII()
 : <a class="el" href="class_remote.html#a47b31b7a26d91e680d15301982e13b38">Remote</a>
+</li>
+<li>sendCharging()
+: <a class="el" href="class_remote.html#ab89f2598d29a2a98fe5a15f256ec0f19">Remote</a>
 </li>
 <li>sendError()
 : <a class="el" href="class_remote.html#a3a2292d94872b19b133489c6b1bc077c">Remote</a>
@@ -360,6 +386,15 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </li>
 <li>setGoalPositionSpeed()
 : <a class="el" href="class_motor.html#a4951362199bafcca0462253af4651b36">Motor</a>
+</li>
+<li>setKd()
+: <a class="el" href="class_p_i_d.html#ac0e4e314f6796b6f735ccd43ccf2865d">PID</a>
+</li>
+<li>setKi()
+: <a class="el" href="class_p_i_d.html#aa8e469ffc07b844d49890f17d5244477">PID</a>
+</li>
+<li>setKp()
+: <a class="el" href="class_p_i_d.html#aab578bddfeb7eabf72be2ed15e2fb71d">PID</a>
 </li>
 <li>setLegOffsets()
 : <a class="el" href="class_hexapod.html#aea0df7d94fe10042d1c1d4547b248a36">Hexapod</a>
@@ -379,6 +414,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>setParamenters()
 : <a class="el" href="class_hexapod.html#a3e508a6b7636436868eb4151fa1bbe4f">Hexapod</a>
 </li>
+<li>setParameters()
+: <a class="el" href="class_p_i_d.html#aa58c3ddf74308d5bd5a6947287a3c24e">PID</a>
+</li>
 <li>setPIDSetPoints()
 : <a class="el" href="class_hexapod.html#a642866fb1d0188e1f1aff5296199c846">Hexapod</a>
 </li>
@@ -394,8 +432,11 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </li>
 <li>setPositionBits()
 : <a class="el" href="class_hexapod.html#a7f8e6480555fa23118cd07dd466db637">Hexapod</a>
-, <a class="el" href="class_leg.html#a56e99bda2b76726cd4b564fb15121b31">Leg</a>
+, <a class="el" href="class_leg.html#aec27eea7990fdd4e48f193693ccbcc59">Leg</a>
 , <a class="el" href="class_motor.html#a929d98fbd408530c8b5ef65cf91948d8">Motor</a>
+</li>
+<li>setRemoteBaud()
+: <a class="el" href="class_comms_manager.html#a5163151618c7506e8b9ab1116b0acfd6">CommsManager</a>
 </li>
 <li>setRemoteConfig()
 : <a class="el" href="class_hexapod.html#a21d020bb754ff0b5b7376f473027cb75">Hexapod</a>
@@ -409,10 +450,11 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 , <a class="el" href="class_motor.html#a44ab72e0be6481d09338581cd2ae5479">Motor</a>
 </li>
 <li>setSpeedRPM()
-: <a class="el" href="class_leg.html#a535239714c055ab02908fb58460fe875">Leg</a>
+: <a class="el" href="class_hexapod.html#a52b6fa8359d85ec682d11e470d00ce71">Hexapod</a>
+, <a class="el" href="class_leg.html#a535239714c055ab02908fb58460fe875">Leg</a>
 </li>
 <li>setTheta()
-: <a class="el" href="class_leg.html#ac269b14ade3b8d03d500316a238489cd">Leg</a>
+: <a class="el" href="class_leg.html#a1cf49a29095ab01da0826a2003513259">Leg</a>
 </li>
 <li>setTick()
 : <a class="el" href="class_hexapod.html#a132d3e9cff50f3d1ee4513344b867979">Hexapod</a>
@@ -426,8 +468,20 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>stand()
 : <a class="el" href="class_hexapod.html#a970a02afb24794548080436a817aaa9f">Hexapod</a>
 </li>
+<li>startCharging()
+: <a class="el" href="class_hexapod.html#a376126bd0475eb2d72140b57da677dc6">Hexapod</a>
+</li>
 <li>startTimers()
 : <a class="el" href="class_hexapod.html#ac186dd7342f9f93b9c2a45398ab465f3">Hexapod</a>
+</li>
+<li>stop()
+: <a class="el" href="class_hexapod.html#afad52e84aed779b122638c7ffa298d60">Hexapod</a>
+</li>
+<li>stopCharging()
+: <a class="el" href="class_hexapod.html#a4bf3757765d02709aa0cca31e5b7749d">Hexapod</a>
+</li>
+<li>successfulPing()
+: <a class="el" href="class_remote.html#aada57911eb33965e3a1cb423e79ba4e1">Remote</a>
 </li>
 <li>SystemClock_Config()
 : <a class="el" href="class_hexapod.html#a9f7e97ca56c6c9ddd6272ba08aa58ae8">Hexapod</a>
@@ -444,6 +498,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </li>
 <li>toArray()
 : <a class="el" href="class_point.html#afc151429dbd97397a1be477a9ae48cc5">Point&lt; T &gt;</a>
+</li>
+<li>toggleLED()
+: <a class="el" href="class_hexapod.html#a7abbe3c13a21ab1ed80b4cb308bd6fe9">Hexapod</a>
 </li>
 <li>togglePID()
 : <a class="el" href="class_p_i_d.html#aecbe21415f1a07edd571572adb313394">PID</a>

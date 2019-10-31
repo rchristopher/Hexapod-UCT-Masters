@@ -7,5 +7,6 @@ var searchData=
   ['tim3_5fhandlestructure',['TIM3_HandleStructure',['../class_hexapod.html#a4bf68c3756c20efb8b4423c2bb889433',1,'Hexapod']]],
   ['tim3counter',['TIM3Counter',['../class_hexapod.html#ae94684d9b938465a7769c084943dfc70',1,'Hexapod']]],
   ['timersready',['timersReady',['../class_hexapod.html#a70a00e03116193f8555a60aaa2f3e89c',1,'Hexapod']]],
-  ['timestamp',['timestamp',['../class_accelerometer.html#acea7abb0901ecbdce070e21d8a0b928c',1,'Accelerometer']]]
+  ['timestamp',['timestamp',['../class_accelerometer.html#acea7abb0901ecbdce070e21d8a0b928c',1,'Accelerometer']]],
+  ['twistbody',['twistBody',['../class_remote.html#a81544e3a510a0c6d3db44e8f71b9faf4',1,'Remote']]]
 ];

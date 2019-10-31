@@ -2,6 +2,7 @@ var searchData=
 [
   ['getaccdma',['getAccDMA',['../class_comms_manager.html#a249c6cc60e6aa33478f422341c801467',1,'CommsManager']]],
   ['getaccuart',['getAccUART',['../class_comms_manager.html#a5d9f6cd5ab41734fc8b80945ec0e42e3',1,'CommsManager']]],
+  ['geterror',['getError',['../class_p_i_d.html#afab1724ee3007eb4d690ad58aa218b2b',1,'PID']]],
   ['getgoalmovementbits',['getGoalMovementBits',['../class_motor.html#accca547345173c711f3f2571617adfa2',1,'Motor']]],
   ['getmotor',['getMotor',['../class_hexapod.html#accf04879f1cd9943da9fe7bb48f5ee3f',1,'Hexapod::getMotor()'],['../class_leg.html#a5f76b17053e1b168ab104ffdcdae18df',1,'Leg::getMotor()']]],
   ['getmotordma',['getMotorDMA',['../class_comms_manager.html#a29caaeec0e3d21531092a0c9f1463475',1,'CommsManager']]],
@@ -12,6 +13,8 @@ var searchData=
   ['getremoteuart',['getRemoteUART',['../class_comms_manager.html#a038cdaddef72e25bf6523a0b484fba17',1,'CommsManager']]],
   ['gettick',['getTick',['../class_hexapod.html#adc588081907617b21ee99e38cf6d1db5',1,'Hexapod']]],
   ['gettim',['getTIM',['../class_hexapod.html#a729a0e08a6ff56c605f20c79ba31d7c8',1,'Hexapod']]],
+  ['goal_5fposition_5fh',['GOAL_POSITION_H',['../enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87abb8463cfa19572da9492cd6e9ce7c673',1,'enumDefinitions.h']]],
+  ['goal_5fposition_5fl',['GOAL_POSITION_L',['../enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a9fd6c532b28cedd0e7d0b3b971e7c5cb',1,'enumDefinitions.h']]],
   ['goalmovementbits',['goalMovementBits',['../class_motor.html#af98a46b8e573fa5a443690f15cb5168c',1,'Motor']]],
   ['gotoconfig',['gotoConfig',['../class_accelerometer.html#ae725991ae6041c8dd7be4ded71e51bfb',1,'Accelerometer']]],
   ['gotomeasurement',['gotoMeasurement',['../class_accelerometer.html#a006dff6bd0ed6cc226e67eaab07988fd',1,'Accelerometer']]],

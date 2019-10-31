@@ -1,9 +1,13 @@
 var searchData=
 [
+  ['data',['DATA',['../enum_definitions_8h.html#af192d9cc8ec6c32858ad00fd15fddad4a9d7d6f31868d66330397c967c4afd2d2',1,'enumDefinitions.h']]],
   ['data_5fcache_5fenable',['DATA_CACHE_ENABLE',['../stm32f4xx__hal__conf_8h.html#a5b4c32a40cf49b06c0d761e385949a6b',1,'stm32f4xx_hal_conf.h']]],
+  ['dependent',['DEPENDENT',['../enum_definitions_8h.html#a0d3070bdcdbcb1793d32ac3f9363d10aadc70e348e42e63595cdcab327b183776',1,'enumDefinitions.h']]],
   ['direction',['direction',['../class_hexapod.html#afeb72cd05c266143fd7c59ac69676aa9',1,'Hexapod::direction()'],['../class_remote.html#a9e1394a0254eb7d91f33fd62e901cc0d',1,'Remote::direction()']]],
   ['disablechargerreading',['disableChargerReading',['../class_hexapod.html#a65a54f3b45b7aba33ee0ce4339f7d423',1,'Hexapod']]],
   ['disablemotors',['disableMotors',['../class_hexapod.html#a9368bb11c6bb33cb8f1087d300919a8b',1,'Hexapod']]],
+  ['distancewalked',['distanceWalked',['../class_hexapod.html#a999e2503a9c307cfee5095dca03973ca',1,'Hexapod']]],
+  ['dma',['DMA',['../enum_definitions_8h.html#a35ab6373d2bef258ae1d9f8ba347e722a6537a62f6f155792bb9a320ee2ec4d68',1,'enumDefinitions.h']]],
   ['dma1_5fhandlestructure_5fuart2_5frx',['DMA1_HandleStructure_UART2_RX',['../class_comms_manager.html#adda0757b994a436eeb2379a5e945289e',1,'CommsManager']]],
   ['dma1_5fhandlestructure_5fuart2_5ftx',['DMA1_HandleStructure_UART2_TX',['../class_comms_manager.html#aedde37a000c5967e08ead4fd9e4f8774',1,'CommsManager']]],
   ['dma1_5fhandlestructure_5fuart3_5frx',['DMA1_HandleStructure_UART3_RX',['../class_comms_manager.html#a096f45c7b675de5d19d4532c025fca8d',1,'CommsManager']]],
@@ -22,6 +26,7 @@ var searchData=
   ['dma_5finfopacket',['dma_infoPacket',['../class_accelerometer.html#a18549fd110b04515ebf0a94d24d64298',1,'Accelerometer']]],
   ['dma_5finit',['DMA_init',['../class_comms_manager.html#ae2fe6d17c0335aed3e5114044270cb9f',1,'CommsManager']]],
   ['dma_5fmotor_5fstatuspacket',['dma_motor_statusPacket',['../class_motor.html#a8390e61175ef6accfd221f83e0412101',1,'Motor']]],
+  ['docked',['DOCKED',['../enum_definitions_8h.html#a5bcae88e5e81b4706c44cf1eeb8dd9bea00ddb6ac2f6beae3b9c42f8991e5809d',1,'enumDefinitions.h']]],
   ['dp83848_5fphy_5faddress',['DP83848_PHY_ADDRESS',['../stm32f4xx__hal__conf_8h.html#a25f014091aaba92bdd9d95d0b2f00503',1,'stm32f4xx_hal_conf.h']]],
   ['dutyoffset',['dutyOffset',['../class_leg.html#add280d4f359ae909372c169776c8d7a7',1,'Leg']]]
 ];

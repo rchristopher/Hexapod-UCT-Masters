@@ -1,6 +1,7 @@
 var searchData=
 [
   ['direction',['direction',['../class_hexapod.html#afeb72cd05c266143fd7c59ac69676aa9',1,'Hexapod::direction()'],['../class_remote.html#a9e1394a0254eb7d91f33fd62e901cc0d',1,'Remote::direction()']]],
+  ['distancewalked',['distanceWalked',['../class_hexapod.html#a999e2503a9c307cfee5095dca03973ca',1,'Hexapod']]],
   ['dma1_5fhandlestructure_5fuart2_5frx',['DMA1_HandleStructure_UART2_RX',['../class_comms_manager.html#adda0757b994a436eeb2379a5e945289e',1,'CommsManager']]],
   ['dma1_5fhandlestructure_5fuart2_5ftx',['DMA1_HandleStructure_UART2_TX',['../class_comms_manager.html#aedde37a000c5967e08ead4fd9e4f8774',1,'CommsManager']]],
   ['dma1_5fhandlestructure_5fuart3_5frx',['DMA1_HandleStructure_UART3_RX',['../class_comms_manager.html#a096f45c7b675de5d19d4532c025fca8d',1,'CommsManager']]],

@@ -5,6 +5,14 @@
  * @brief main function
  **/
 
+/*! \mainpage "Hexapod" Masters Project
+ * Robotics and Agents Research Lab, University of Cape Town
+ *
+ *
+ *
+ */
+
+
 #include "CommsManager.h"
 #include "Hexapod.h"
 

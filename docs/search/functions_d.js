@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['reachableposition',['reachablePosition',['../class_hexapod.html#a91e8c91676a60206a3adc4b8e965d17a',1,'Hexapod']]],
   ['readallmotors',['readAllMotors',['../class_hexapod.html#aaa146af627e1ae7e10dc1b7d066fcb30',1,'Hexapod']]],
   ['readcharger',['readCharger',['../class_hexapod.html#aa5f943971f7a0296e735a9d5b1e71301',1,'Hexapod']]],
   ['readinternaltemp',['readInternalTemp',['../class_hexapod.html#a19aee8228571acca710b6b3d6cae5a26',1,'Hexapod']]],
@@ -13,7 +14,9 @@ var searchData=
   ['receiveremotedata',['receiveRemoteData',['../class_remote.html#a1b6238f1ff74e9dbd3c2f75e563a9377',1,'Remote']]],
   ['remote',['Remote',['../class_remote.html#a3882dee4f97d0e097adb9ab612bf9e2b',1,'Remote']]],
   ['requestacceldata',['requestAccelData',['../class_accelerometer.html#af50c4df7076e372e1a97fe5be505481e',1,'Accelerometer']]],
+  ['reset',['reset',['../class_p_i_d.html#af9677e76cb1beffbcf3f54cbc627c530',1,'PID']]],
   ['resetallmotors',['resetAllMotors',['../class_hexapod.html#a2b799039ab0a0340e32f581dbe646aaf',1,'Hexapod']]],
   ['reseterrors',['resetErrors',['../class_motor.html#a481578665765ae569769f5f599d1b583',1,'Motor']]],
+  ['resetheading',['resetHeading',['../class_accelerometer.html#a3243278fba821cf2c6c0507b4e434b97',1,'Accelerometer']]],
   ['resetmotor',['resetMotor',['../class_hexapod.html#af22ac90056285244507ad4ff784b51ad',1,'Hexapod']]]
 ];

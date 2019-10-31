@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['xd',['xd',['../class_hexapod.html#a52b4a3bd1617c9d451b5f52efaa299fb',1,'Hexapod']]],
-  ['xyz_5fstand',['xyz_stand',['../class_hexapod.html#a261121c316c3ae13db7496c8188db08f',1,'Hexapod']]]
+  ['voltage',['voltage',['../struct_c_h_a_r_g_e_r.html#a01f29843f85835f95dedb04c13cf01ad',1,'CHARGER']]]
 ];

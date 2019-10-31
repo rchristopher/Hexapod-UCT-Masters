@@ -1,0 +1,23 @@
+digraph "Hexapod"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Hexapod",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" accel" ,fontname="Helvetica"];
+  Node2 [label="Accelerometer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_accelerometer.html",tooltip="Class for controlling and reading data from the hexapod accelerometer via UART. "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" remote" ,fontname="Helvetica"];
+  Node3 [label="Remote",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_remote.html",tooltip="Class for sending data to and receiving data from the remote control. "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pidPitch\npidYaw\npidRoll" ,fontname="Helvetica"];
+  Node4 [label="PID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_p_i_d.html",tooltip="PID Class. "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" legs" ,fontname="Helvetica"];
+  Node5 [label="Leg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_leg.html",tooltip="Leg Class. "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" motors" ,fontname="Helvetica"];
+  Node6 [label="Motor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_motor.html",tooltip="Class for controlling an individual motor. "];
+  Node7 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" legPath" ,fontname="Helvetica"];
+  Node7 [label="Path",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_path.html",tooltip="Path Class. "];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pathXYZ\npathXYZ_dot" ,fontname="Helvetica"];
+  Node8 [label="Point\< double \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_point.html"];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" positionXYZ\ntheta_dot\npositionTHETA" ,fontname="Helvetica"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" comms" ,fontname="Helvetica"];
+  Node9 [label="CommsManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_comms_manager.html",tooltip="Communications Manager object. "];
+}

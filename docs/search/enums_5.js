@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['uart_5ftransmission_5ftype',['UART_TRANSMISSION_TYPE',['../enum_definitions_8h.html#a35ab6373d2bef258ae1d9f8ba347e722',1,'enumDefinitions.h']]]
+  ['turn_5fmode',['TURN_MODE',['../enum_definitions_8h.html#a0d3070bdcdbcb1793d32ac3f9363d10a',1,'enumDefinitions.h']]]
 ];

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['tf',['tf',['../class_path.html#aa93cd028d120125e31a3ef1795f53cd0',1,'Path']]],
+  ['theta',['THETA',['../enum_definitions_8h.html#adc716dd21485bffb9015eaeb3cfe6859a2ca1df2c1d9af87b566993bd594570ce',1,'enumDefinitions.h']]],
   ['theta_5fdot',['theta_dot',['../class_leg.html#acfcb839f6148257accaf8b5bd85544f4',1,'Leg']]],
   ['tick_5fint_5fpriority',['TICK_INT_PRIORITY',['../stm32f4xx__hal__conf_8h.html#ae27809d4959b9fd5b5d974e3e1c77d2e',1,'stm32f4xx_hal_conf.h']]],
   ['tiltoffset',['tiltOffset',['../class_leg.html#a13b179c45ba24b6b2f1c2fd1d12481eb',1,'Leg']]],
@@ -14,10 +15,16 @@ var searchData=
   ['timersready',['timersReady',['../class_hexapod.html#a70a00e03116193f8555a60aaa2f3e89c',1,'Hexapod']]],
   ['timestamp',['timestamp',['../class_accelerometer.html#acea7abb0901ecbdce070e21d8a0b928c',1,'Accelerometer']]],
   ['toarray',['toArray',['../class_point.html#afc151429dbd97397a1be477a9ae48cc5',1,'Point']]],
+  ['toggleled',['toggleLED',['../class_hexapod.html#a7abbe3c13a21ab1ed80b4cb308bd6fe9',1,'Hexapod']]],
   ['togglepid',['togglePID',['../class_p_i_d.html#aecbe21415f1a07edd571572adb313394',1,'PID']]],
+  ['torque_5fenable',['TORQUE_ENABLE',['../enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a438f99957e2d14482b2c1ab0292e2b3e',1,'enumDefinitions.h']]],
+  ['torque_5flimit_5fh',['TORQUE_LIMIT_H',['../enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a840382879efa0bcec390001eefd06864',1,'enumDefinitions.h']]],
+  ['torque_5flimit_5fl',['TORQUE_LIMIT_L',['../enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a48ad70bf97125747bf0ccdc90c85fbf9',1,'enumDefinitions.h']]],
   ['transmitacc',['transmitAcc',['../class_comms_manager.html#a4e435994b28653d1de398c854fb582b9',1,'CommsManager']]],
   ['transmitmotors',['transmitMotors',['../class_comms_manager.html#af982792c072c0a9b10a63b95730de7e2',1,'CommsManager']]],
   ['transmitremote',['transmitRemote',['../class_comms_manager.html#a8ec6e05b92c35fa87861a50d7ef3f37a',1,'CommsManager']]],
+  ['turn_5fmode',['TURN_MODE',['../enum_definitions_8h.html#a0d3070bdcdbcb1793d32ac3f9363d10a',1,'enumDefinitions.h']]],
   ['turnbody',['turnBody',['../class_hexapod.html#aaeda27946711b94075ad56483ca79af2',1,'Hexapod']]],
-  ['twistbody',['twistBody',['../class_hexapod.html#af061eb795f4f9b617fbdd65bb65b1bff',1,'Hexapod']]]
+  ['twistbody',['twistBody',['../class_remote.html#a81544e3a510a0c6d3db44e8f71b9faf4',1,'Remote::twistBody()'],['../class_hexapod.html#af061eb795f4f9b617fbdd65bb65b1bff',1,'Hexapod::twistBody()']]],
+  ['tx',['TX',['../enum_definitions_8h.html#a465d491dc1d60ba2dd410f42c490f5a4a951f819598b53b2729ee0e4c05e6888e',1,'enumDefinitions.h']]]
 ];

@@ -2,6 +2,7 @@ var searchData=
 [
   ['getaccdma',['getAccDMA',['../class_comms_manager.html#a249c6cc60e6aa33478f422341c801467',1,'CommsManager']]],
   ['getaccuart',['getAccUART',['../class_comms_manager.html#a5d9f6cd5ab41734fc8b80945ec0e42e3',1,'CommsManager']]],
+  ['geterror',['getError',['../class_p_i_d.html#afab1724ee3007eb4d690ad58aa218b2b',1,'PID']]],
   ['getgoalmovementbits',['getGoalMovementBits',['../class_motor.html#accca547345173c711f3f2571617adfa2',1,'Motor']]],
   ['getmotor',['getMotor',['../class_hexapod.html#accf04879f1cd9943da9fe7bb48f5ee3f',1,'Hexapod::getMotor()'],['../class_leg.html#a5f76b17053e1b168ab104ffdcdae18df',1,'Leg::getMotor()']]],
   ['getmotordma',['getMotorDMA',['../class_comms_manager.html#a29caaeec0e3d21531092a0c9f1463475',1,'CommsManager']]],

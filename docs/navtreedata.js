@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "Hexapod~Control", "index.html", [
+    [ "\"Hexapod\" Masters Project", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -13,10 +14,11 @@ var NAVTREE =
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -26,8 +28,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_accelerometer_8cpp.html",
-"class_motor.html#a99f4071202ee9600229107a43759387a",
-"enum_definitions_8h.html#af192d9cc8ec6c32858ad00fd15fddad4a702582f7f825ca83bdb076b15b4c0fc2"
+"class_motor.html#a4951362199bafcca0462253af4651b36",
+"enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87ac0cb2fb8680828581b8c65689437a489"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

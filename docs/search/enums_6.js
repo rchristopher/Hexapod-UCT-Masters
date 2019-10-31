@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['write_5ftype',['WRITE_TYPE',['../enum_definitions_8h.html#ae087ce7caaa168bc01d5c90d4b707e7a',1,'enumDefinitions.h']]]
+  ['uart_5ftransmission_5ftype',['UART_TRANSMISSION_TYPE',['../enum_definitions_8h.html#a35ab6373d2bef258ae1d9f8ba347e722',1,'enumDefinitions.h']]]
 ];

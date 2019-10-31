@@ -29,6 +29,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Hexapod~Control
+   &#160;<span id="projectnumber">1.0</span>
    </div>
   </td>
  </tr>
@@ -102,16 +103,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abaf23f944a5a68d25005fbb0a6240606"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#abaf23f944a5a68d25005fbb0a6240606">~CommsManager</a> (void)</td></tr>
 <tr class="memdesc:abaf23f944a5a68d25005fbb0a6240606"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor for the class.  <a href="#abaf23f944a5a68d25005fbb0a6240606">More...</a><br /></td></tr>
 <tr class="separator:abaf23f944a5a68d25005fbb0a6240606"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5dc7d8e9f739a39296b3e152e1dc6fb"><td class="memItemLeft" align="right" valign="top"><a id="ad5dc7d8e9f739a39296b3e152e1dc6fb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#ad5dc7d8e9f739a39296b3e152e1dc6fb">UART_init</a> (void)</td></tr>
-<tr class="memdesc:ad5dc7d8e9f739a39296b3e152e1dc6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the UART modules. <br /></td></tr>
+<tr class="memitem:ad5dc7d8e9f739a39296b3e152e1dc6fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#ad5dc7d8e9f739a39296b3e152e1dc6fb">UART_init</a> (void)</td></tr>
+<tr class="memdesc:ad5dc7d8e9f739a39296b3e152e1dc6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the UART modules.  <a href="#ad5dc7d8e9f739a39296b3e152e1dc6fb">More...</a><br /></td></tr>
 <tr class="separator:ad5dc7d8e9f739a39296b3e152e1dc6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5163151618c7506e8b9ab1116b0acfd6"><td class="memItemLeft" align="right" valign="top"><a id="a5163151618c7506e8b9ab1116b0acfd6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setRemoteBaud</b> (uint32_t BAUD)</td></tr>
+<tr class="memitem:a5163151618c7506e8b9ab1116b0acfd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#a5163151618c7506e8b9ab1116b0acfd6">setRemoteBaud</a> (uint32_t BAUD)</td></tr>
 <tr class="separator:a5163151618c7506e8b9ab1116b0acfd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2fe6d17c0335aed3e5114044270cb9f"><td class="memItemLeft" align="right" valign="top"><a id="ae2fe6d17c0335aed3e5114044270cb9f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#ae2fe6d17c0335aed3e5114044270cb9f">DMA_init</a> (void)</td></tr>
-<tr class="memdesc:ae2fe6d17c0335aed3e5114044270cb9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the DMA modules. <br /></td></tr>
+<tr class="memitem:ae2fe6d17c0335aed3e5114044270cb9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#ae2fe6d17c0335aed3e5114044270cb9f">DMA_init</a> (void)</td></tr>
+<tr class="memdesc:ae2fe6d17c0335aed3e5114044270cb9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the DMA modules.  <a href="#ae2fe6d17c0335aed3e5114044270cb9f">More...</a><br /></td></tr>
 <tr class="separator:ae2fe6d17c0335aed3e5114044270cb9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a865cbcf739ff1baa0d5a090601f18da3"><td class="memItemLeft" align="right" valign="top">UART_HandleTypeDef *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#a865cbcf739ff1baa0d5a090601f18da3">getMotorUART</a> ()</td></tr>
 <tr class="memdesc:a865cbcf739ff1baa0d5a090601f18da3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the UART struct for the motors (UART1).  <a href="#a865cbcf739ff1baa0d5a090601f18da3">More...</a><br /></td></tr>
@@ -152,52 +150,44 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aea83e8379fb1f083cfcd2ea678dd4ffb"><td class="memItemLeft" align="right" valign="top"><a id="aea83e8379fb1f083cfcd2ea678dd4ffb"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>remoteFailureCount</b> = 0</td></tr>
+<tr class="memitem:aea83e8379fb1f083cfcd2ea678dd4ffb"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#aea83e8379fb1f083cfcd2ea678dd4ffb">remoteFailureCount</a> = 0</td></tr>
 <tr class="separator:aea83e8379fb1f083cfcd2ea678dd4ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a2538bbc5808c1395641138554300a6cf"><td class="memItemLeft" align="right" valign="top"><a id="a2538bbc5808c1395641138554300a6cf"></a>
-UART_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#a2538bbc5808c1395641138554300a6cf">UART1_HandleStructure</a></td></tr>
-<tr class="memdesc:a2538bbc5808c1395641138554300a6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library UART1 initialization structure. <br /></td></tr>
+<tr class="memitem:a2538bbc5808c1395641138554300a6cf"><td class="memItemLeft" align="right" valign="top">UART_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#a2538bbc5808c1395641138554300a6cf">UART1_HandleStructure</a></td></tr>
+<tr class="memdesc:a2538bbc5808c1395641138554300a6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library UART1 initialization structure.  <a href="#a2538bbc5808c1395641138554300a6cf">More...</a><br /></td></tr>
 <tr class="separator:a2538bbc5808c1395641138554300a6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3e2b2084107faefde64571ad0e4d918"><td class="memItemLeft" align="right" valign="top"><a id="ae3e2b2084107faefde64571ad0e4d918"></a>
-UART_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#ae3e2b2084107faefde64571ad0e4d918">UART2_HandleStructure</a></td></tr>
-<tr class="memdesc:ae3e2b2084107faefde64571ad0e4d918"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library UART2 initialization structure. <br /></td></tr>
+<tr class="memitem:ae3e2b2084107faefde64571ad0e4d918"><td class="memItemLeft" align="right" valign="top">UART_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#ae3e2b2084107faefde64571ad0e4d918">UART2_HandleStructure</a></td></tr>
+<tr class="memdesc:ae3e2b2084107faefde64571ad0e4d918"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library UART2 initialization structure.  <a href="#ae3e2b2084107faefde64571ad0e4d918">More...</a><br /></td></tr>
 <tr class="separator:ae3e2b2084107faefde64571ad0e4d918"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cd3ad9352e4ec09b997c27e217caa17"><td class="memItemLeft" align="right" valign="top"><a id="a9cd3ad9352e4ec09b997c27e217caa17"></a>
-UART_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#a9cd3ad9352e4ec09b997c27e217caa17">UART3_HandleStructure</a></td></tr>
-<tr class="memdesc:a9cd3ad9352e4ec09b997c27e217caa17"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library UART3 initialization structure. <br /></td></tr>
+<tr class="memitem:a9cd3ad9352e4ec09b997c27e217caa17"><td class="memItemLeft" align="right" valign="top">UART_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#a9cd3ad9352e4ec09b997c27e217caa17">UART3_HandleStructure</a></td></tr>
+<tr class="memdesc:a9cd3ad9352e4ec09b997c27e217caa17"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library UART3 initialization structure.  <a href="#a9cd3ad9352e4ec09b997c27e217caa17">More...</a><br /></td></tr>
 <tr class="separator:a9cd3ad9352e4ec09b997c27e217caa17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3247240367db0f4d1c95243dfe49eee"><td class="memItemLeft" align="right" valign="top"><a id="ae3247240367db0f4d1c95243dfe49eee"></a>
-DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#ae3247240367db0f4d1c95243dfe49eee">DMA2_HandleStructure_UART1_TX</a></td></tr>
-<tr class="memdesc:ae3247240367db0f4d1c95243dfe49eee"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library DMA2 TX (UART1) initialization structure. <br /></td></tr>
+<tr class="memitem:ae3247240367db0f4d1c95243dfe49eee"><td class="memItemLeft" align="right" valign="top">DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#ae3247240367db0f4d1c95243dfe49eee">DMA2_HandleStructure_UART1_TX</a></td></tr>
+<tr class="memdesc:ae3247240367db0f4d1c95243dfe49eee"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library DMA2 TX (UART1) initialization structure.  <a href="#ae3247240367db0f4d1c95243dfe49eee">More...</a><br /></td></tr>
 <tr class="separator:ae3247240367db0f4d1c95243dfe49eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae181374a925906caa3c2c1daae05f9c7"><td class="memItemLeft" align="right" valign="top"><a id="ae181374a925906caa3c2c1daae05f9c7"></a>
-DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#ae181374a925906caa3c2c1daae05f9c7">DMA2_HandleStructure_UART1_RX</a></td></tr>
-<tr class="memdesc:ae181374a925906caa3c2c1daae05f9c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library DMA2 RX (UART1) initialization structure. <br /></td></tr>
+<tr class="memitem:ae181374a925906caa3c2c1daae05f9c7"><td class="memItemLeft" align="right" valign="top">DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#ae181374a925906caa3c2c1daae05f9c7">DMA2_HandleStructure_UART1_RX</a></td></tr>
+<tr class="memdesc:ae181374a925906caa3c2c1daae05f9c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library DMA2 RX (UART1) initialization structure.  <a href="#ae181374a925906caa3c2c1daae05f9c7">More...</a><br /></td></tr>
 <tr class="separator:ae181374a925906caa3c2c1daae05f9c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedde37a000c5967e08ead4fd9e4f8774"><td class="memItemLeft" align="right" valign="top"><a id="aedde37a000c5967e08ead4fd9e4f8774"></a>
-DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#aedde37a000c5967e08ead4fd9e4f8774">DMA1_HandleStructure_UART2_TX</a></td></tr>
-<tr class="memdesc:aedde37a000c5967e08ead4fd9e4f8774"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library DMA1 TX (UART2) initialization structure. <br /></td></tr>
+<tr class="memitem:aedde37a000c5967e08ead4fd9e4f8774"><td class="memItemLeft" align="right" valign="top">DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#aedde37a000c5967e08ead4fd9e4f8774">DMA1_HandleStructure_UART2_TX</a></td></tr>
+<tr class="memdesc:aedde37a000c5967e08ead4fd9e4f8774"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library DMA1 TX (UART2) initialization structure.  <a href="#aedde37a000c5967e08ead4fd9e4f8774">More...</a><br /></td></tr>
 <tr class="separator:aedde37a000c5967e08ead4fd9e4f8774"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adda0757b994a436eeb2379a5e945289e"><td class="memItemLeft" align="right" valign="top"><a id="adda0757b994a436eeb2379a5e945289e"></a>
-DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#adda0757b994a436eeb2379a5e945289e">DMA1_HandleStructure_UART2_RX</a></td></tr>
-<tr class="memdesc:adda0757b994a436eeb2379a5e945289e"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library DMA1 RX (UART2) initialization structure. <br /></td></tr>
+<tr class="memitem:adda0757b994a436eeb2379a5e945289e"><td class="memItemLeft" align="right" valign="top">DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#adda0757b994a436eeb2379a5e945289e">DMA1_HandleStructure_UART2_RX</a></td></tr>
+<tr class="memdesc:adda0757b994a436eeb2379a5e945289e"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library DMA1 RX (UART2) initialization structure.  <a href="#adda0757b994a436eeb2379a5e945289e">More...</a><br /></td></tr>
 <tr class="separator:adda0757b994a436eeb2379a5e945289e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a096f45c7b675de5d19d4532c025fca8d"><td class="memItemLeft" align="right" valign="top"><a id="a096f45c7b675de5d19d4532c025fca8d"></a>
-DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#a096f45c7b675de5d19d4532c025fca8d">DMA1_HandleStructure_UART3_RX</a></td></tr>
-<tr class="memdesc:a096f45c7b675de5d19d4532c025fca8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library DMA1 TX (UART3) initialization structure. <br /></td></tr>
+<tr class="memitem:a096f45c7b675de5d19d4532c025fca8d"><td class="memItemLeft" align="right" valign="top">DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#a096f45c7b675de5d19d4532c025fca8d">DMA1_HandleStructure_UART3_RX</a></td></tr>
+<tr class="memdesc:a096f45c7b675de5d19d4532c025fca8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library DMA1 TX (UART3) initialization structure.  <a href="#a096f45c7b675de5d19d4532c025fca8d">More...</a><br /></td></tr>
 <tr class="separator:a096f45c7b675de5d19d4532c025fca8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f0729373a1825a8728013782f4cb64e"><td class="memItemLeft" align="right" valign="top"><a id="a4f0729373a1825a8728013782f4cb64e"></a>
-DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#a4f0729373a1825a8728013782f4cb64e">DMA1_HandleStructure_UART3_TX</a></td></tr>
-<tr class="memdesc:a4f0729373a1825a8728013782f4cb64e"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library DMA1 RX (UART3) initialization structure. <br /></td></tr>
+<tr class="memitem:a4f0729373a1825a8728013782f4cb64e"><td class="memItemLeft" align="right" valign="top">DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#a4f0729373a1825a8728013782f4cb64e">DMA1_HandleStructure_UART3_TX</a></td></tr>
+<tr class="memdesc:a4f0729373a1825a8728013782f4cb64e"><td class="mdescLeft">&#160;</td><td class="mdescRight">HAL library DMA1 RX (UART3) initialization structure.  <a href="#a4f0729373a1825a8728013782f4cb64e">More...</a><br /></td></tr>
 <tr class="separator:a4f0729373a1825a8728013782f4cb64e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Communications Manager object. </p>
 <p>Manages all communications initialisations and transmission and reception of data. </p>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8h_source.html#l00020">20</a> of file <a class="el" href="_comms_manager_8h_source.html">CommsManager.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2470a5aa639ef956beb5301730516657"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2470a5aa639ef956beb5301730516657">&#9670;&nbsp;</a></span>CommsManager()</h2>
@@ -217,6 +207,10 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 <p>Default constructor for the class. </p>
 <p>Class constructor. </p>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00012">12</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00038">DMA1_HandleStructure_UART2_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00036">DMA1_HandleStructure_UART2_TX</a>, <a class="el" href="_comms_manager_8h_source.html#l00041">DMA1_HandleStructure_UART3_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00043">DMA1_HandleStructure_UART3_TX</a>, <a class="el" href="_comms_manager_8h_source.html#l00033">DMA2_HandleStructure_UART1_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00031">DMA2_HandleStructure_UART1_TX</a>, <a class="el" href="_comms_manager_8h_source.html#l00024">UART1_HandleStructure</a>, <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>, and <a class="el" href="_comms_manager_8h_source.html#l00028">UART3_HandleStructure</a>.</p>
 
 </div>
 </div>
@@ -239,9 +233,37 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <p>Default destructor for the class. </p>
 <p>Class destructor cleans up memory by deleting pointers and lists. </p>
 
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00027">27</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae2fe6d17c0335aed3e5114044270cb9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2fe6d17c0335aed3e5114044270cb9f">&#9670;&nbsp;</a></span>DMA_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CommsManager::DMA_init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise the DMA modules. </p>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00082">82</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00038">DMA1_HandleStructure_UART2_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00036">DMA1_HandleStructure_UART2_TX</a>, <a class="el" href="_comms_manager_8h_source.html#l00041">DMA1_HandleStructure_UART3_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00043">DMA1_HandleStructure_UART3_TX</a>, <a class="el" href="_comms_manager_8h_source.html#l00033">DMA2_HandleStructure_UART1_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00031">DMA2_HandleStructure_UART1_TX</a>, <a class="el" href="_comms_manager_8h_source.html#l00024">UART1_HandleStructure</a>, <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>, and <a class="el" href="_comms_manager_8h_source.html#l00028">UART3_HandleStructure</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00018">Hexapod::Initialise()</a>.</p>
+
+</div>
+</div>
 <a id="a249c6cc60e6aa33478f422341c801467"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a249c6cc60e6aa33478f422341c801467">&#9670;&nbsp;</a></span>getAccDMA()</h2>
 
@@ -267,6 +289,12 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the IMU DMA struct. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00222">222</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00041">DMA1_HandleStructure_UART3_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00043">DMA1_HandleStructure_UART3_TX</a>, <a class="el" href="enum_definitions_8h_source.html#l00070">RX</a>, and <a class="el" href="enum_definitions_8h_source.html#l00070">TX</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00585">DMA1_Stream1_IRQHandler()</a>, and <a class="el" href="main_8cpp_source.html#l00577">DMA1_Stream3_IRQHandler()</a>.</p>
+
 </div>
 </div>
 <a id="a5d9f6cd5ab41734fc8b80945ec0e42e3"></a>
@@ -286,6 +314,12 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 <p>Get the UART struct for the IMU (UART3). </p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the IMU UART struct. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00198">198</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00028">UART3_HandleStructure</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_accelerometer_8cpp_source.html#l00040">Accelerometer::requestAccelData()</a>, <a class="el" href="_accelerometer_8cpp_source.html#l00113">Accelerometer::resetHeading()</a>, <a class="el" href="_accelerometer_8cpp_source.html#l00105">Accelerometer::setConfigMode()</a>, <a class="el" href="_accelerometer_8cpp_source.html#l00096">Accelerometer::setMeasurementMode()</a>, and <a class="el" href="main_8cpp_source.html#l00535">USART3_IRQHandler()</a>.</p>
 
 </div>
 </div>
@@ -314,6 +348,12 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the motor DMA struct. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00202">202</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00033">DMA2_HandleStructure_UART1_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00031">DMA2_HandleStructure_UART1_TX</a>, <a class="el" href="enum_definitions_8h_source.html#l00070">RX</a>, and <a class="el" href="enum_definitions_8h_source.html#l00070">TX</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00552">DMA2_Stream2_IRQHandler()</a>, and <a class="el" href="main_8cpp_source.html#l00544">DMA2_Stream7_IRQHandler()</a>.</p>
+
 </div>
 </div>
 <a id="a865cbcf739ff1baa0d5a090601f18da3"></a>
@@ -333,6 +373,12 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 <p>Get the UART struct for the motors (UART1). </p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the motor UART struct. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00190">190</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00024">UART1_HandleStructure</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00229">Hexapod::enterLowPowerMode()</a>, <a class="el" href="_motor_8cpp_source.html#l00101">Motor::readReg()</a>, <a class="el" href="_leg_8cpp_source.html#l00344">Leg::UARTWrite()</a>, and <a class="el" href="main_8cpp_source.html#l00519">USART1_IRQHandler()</a>.</p>
 
 </div>
 </div>
@@ -361,6 +407,12 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the remote DMA struct. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00212">212</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00038">DMA1_HandleStructure_UART2_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00036">DMA1_HandleStructure_UART2_TX</a>, <a class="el" href="enum_definitions_8h_source.html#l00070">RX</a>, and <a class="el" href="enum_definitions_8h_source.html#l00070">TX</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00569">DMA1_Stream5_IRQHandler()</a>, and <a class="el" href="main_8cpp_source.html#l00560">DMA1_Stream6_IRQHandler()</a>.</p>
+
 </div>
 </div>
 <a id="a038cdaddef72e25bf6523a0b484fba17"></a>
@@ -380,6 +432,12 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 <p>Get the UART struct for the remote (UART2). </p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the remote UART struct. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00194">194</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_remote_8cpp_source.html#l00038">Remote::sendAcc()</a>, and <a class="el" href="main_8cpp_source.html#l00526">USART2_IRQHandler()</a>.</p>
 
 </div>
 </div>
@@ -433,6 +491,12 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True or false as success or failure of reception. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00313">313</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00045">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00046">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00028">UART3_HandleStructure</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_accelerometer_8cpp_source.html#l00047">Accelerometer::receiveAccelData()</a>.</p>
+
 </div>
 </div>
 <a id="a25d85c11668af3fd9eee806e128fe37a"></a>
@@ -484,6 +548,12 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True or false as success or failure of reception. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00281">281</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00045">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00046">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00024">UART1_HandleStructure</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_motor_8cpp_source.html#l00201">Motor::pingBool()</a>, <a class="el" href="_motor_8cpp_source.html#l00226">Motor::pingData()</a>, <a class="el" href="_motor_8cpp_source.html#l00101">Motor::readReg()</a>, and <a class="el" href="_motor_8cpp_source.html#l00141">Motor::readTable()</a>.</p>
 
 </div>
 </div>
@@ -537,6 +607,36 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True or false as success or failure of reception. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00297">297</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00045">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00046">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00537">Hexapod::checkRemoteConfig()</a>, <a class="el" href="_remote_8cpp_source.html#l00082">Remote::receiveRemoteData()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00594">Hexapod::setRemoteConfig()</a>.</p>
+
+</div>
+</div>
+<a id="a5163151618c7506e8b9ab1116b0acfd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5163151618c7506e8b9ab1116b0acfd6">&#9670;&nbsp;</a></span>setRemoteBaud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CommsManager::setRemoteBaud </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>BAUD</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00031">31</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00594">Hexapod::setRemoteConfig()</a>.</p>
+
 </div>
 </div>
 <a id="a4e435994b28653d1de398c854fb582b9"></a>
@@ -588,6 +688,12 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True or false as success or failure of transmission. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00265">265</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00045">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00046">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00028">UART3_HandleStructure</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_accelerometer_8cpp_source.html#l00040">Accelerometer::requestAccelData()</a>, <a class="el" href="_accelerometer_8cpp_source.html#l00113">Accelerometer::resetHeading()</a>, <a class="el" href="_accelerometer_8cpp_source.html#l00105">Accelerometer::setConfigMode()</a>, and <a class="el" href="_accelerometer_8cpp_source.html#l00096">Accelerometer::setMeasurementMode()</a>.</p>
 
 </div>
 </div>
@@ -641,6 +747,12 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True or false as success or failure of transmission. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00232">232</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00045">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00046">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00024">UART1_HandleStructure</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l01078">Hexapod::move()</a>, <a class="el" href="_motor_8cpp_source.html#l00201">Motor::pingBool()</a>, <a class="el" href="_motor_8cpp_source.html#l00226">Motor::pingData()</a>, <a class="el" href="_motor_8cpp_source.html#l00101">Motor::readReg()</a>, <a class="el" href="_motor_8cpp_source.html#l00141">Motor::readTable()</a>, <a class="el" href="_leg_8cpp_source.html#l00344">Leg::UARTWrite()</a>, and <a class="el" href="_motor_8cpp_source.html#l00071">Motor::writeReg()</a>.</p>
+
 </div>
 </div>
 <a id="a8ec6e05b92c35fa87861a50d7ef3f37a"></a>
@@ -693,11 +805,314 @@ DMA_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True or false as success or failure of transmission. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00251">251</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00045">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00046">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00537">Hexapod::checkRemoteConfig()</a>, <a class="el" href="_remote_8cpp_source.html#l00086">Remote::processRemoteData()</a>, <a class="el" href="_remote_8cpp_source.html#l00038">Remote::sendAcc()</a>, <a class="el" href="_remote_8cpp_source.html#l00019">Remote::sendASCII()</a>, <a class="el" href="_remote_8cpp_source.html#l00068">Remote::sendCharging()</a>, <a class="el" href="_remote_8cpp_source.html#l00073">Remote::sendError()</a>, <a class="el" href="_hexapod_8cpp_source.html#l00594">Hexapod::setRemoteConfig()</a>, <a class="el" href="_hexapod_8cpp_source.html#l00459">Hexapod::startCharging()</a>, <a class="el" href="_hexapod_8cpp_source.html#l00473">Hexapod::stopCharging()</a>, and <a class="el" href="main_8cpp_source.html#l00138">TIM3_IRQHandler()</a>.</p>
+
+</div>
+</div>
+<a id="ad5dc7d8e9f739a39296b3e152e1dc6fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5dc7d8e9f739a39296b3e152e1dc6fb">&#9670;&nbsp;</a></span>UART_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CommsManager::UART_init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise the UART modules. </p>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00037">37</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00074">UART1</a>, <a class="el" href="_comms_manager_8h_source.html#l00024">UART1_HandleStructure</a>, <a class="el" href="enum_definitions_8h_source.html#l00076">UART2</a>, <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>, <a class="el" href="enum_definitions_8h_source.html#l00078">UART3</a>, and <a class="el" href="_comms_manager_8h_source.html#l00028">UART3_HandleStructure</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00018">Hexapod::Initialise()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="adda0757b994a436eeb2379a5e945289e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adda0757b994a436eeb2379a5e945289e">&#9670;&nbsp;</a></span>DMA1_HandleStructure_UART2_RX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DMA_HandleTypeDef CommsManager::DMA1_HandleStructure_UART2_RX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>HAL library DMA1 RX (UART2) initialization structure. </p>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8h_source.html#l00038">38</a> of file <a class="el" href="_comms_manager_8h_source.html">CommsManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_comms_manager_8cpp_source.html#l00012">CommsManager()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00082">DMA_init()</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00212">getRemoteDMA()</a>.</p>
+
+</div>
+</div>
+<a id="aedde37a000c5967e08ead4fd9e4f8774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedde37a000c5967e08ead4fd9e4f8774">&#9670;&nbsp;</a></span>DMA1_HandleStructure_UART2_TX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DMA_HandleTypeDef CommsManager::DMA1_HandleStructure_UART2_TX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>HAL library DMA1 TX (UART2) initialization structure. </p>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8h_source.html#l00036">36</a> of file <a class="el" href="_comms_manager_8h_source.html">CommsManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_comms_manager_8cpp_source.html#l00012">CommsManager()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00082">DMA_init()</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00212">getRemoteDMA()</a>.</p>
+
+</div>
+</div>
+<a id="a096f45c7b675de5d19d4532c025fca8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a096f45c7b675de5d19d4532c025fca8d">&#9670;&nbsp;</a></span>DMA1_HandleStructure_UART3_RX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DMA_HandleTypeDef CommsManager::DMA1_HandleStructure_UART3_RX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>HAL library DMA1 TX (UART3) initialization structure. </p>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8h_source.html#l00041">41</a> of file <a class="el" href="_comms_manager_8h_source.html">CommsManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_comms_manager_8cpp_source.html#l00012">CommsManager()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00082">DMA_init()</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00222">getAccDMA()</a>.</p>
+
+</div>
+</div>
+<a id="a4f0729373a1825a8728013782f4cb64e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f0729373a1825a8728013782f4cb64e">&#9670;&nbsp;</a></span>DMA1_HandleStructure_UART3_TX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DMA_HandleTypeDef CommsManager::DMA1_HandleStructure_UART3_TX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>HAL library DMA1 RX (UART3) initialization structure. </p>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8h_source.html#l00043">43</a> of file <a class="el" href="_comms_manager_8h_source.html">CommsManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_comms_manager_8cpp_source.html#l00012">CommsManager()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00082">DMA_init()</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00222">getAccDMA()</a>.</p>
+
+</div>
+</div>
+<a id="ae181374a925906caa3c2c1daae05f9c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae181374a925906caa3c2c1daae05f9c7">&#9670;&nbsp;</a></span>DMA2_HandleStructure_UART1_RX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DMA_HandleTypeDef CommsManager::DMA2_HandleStructure_UART1_RX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>HAL library DMA2 RX (UART1) initialization structure. </p>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8h_source.html#l00033">33</a> of file <a class="el" href="_comms_manager_8h_source.html">CommsManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_comms_manager_8cpp_source.html#l00012">CommsManager()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00082">DMA_init()</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00202">getMotorDMA()</a>.</p>
+
+</div>
+</div>
+<a id="ae3247240367db0f4d1c95243dfe49eee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3247240367db0f4d1c95243dfe49eee">&#9670;&nbsp;</a></span>DMA2_HandleStructure_UART1_TX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DMA_HandleTypeDef CommsManager::DMA2_HandleStructure_UART1_TX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>HAL library DMA2 TX (UART1) initialization structure. </p>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8h_source.html#l00031">31</a> of file <a class="el" href="_comms_manager_8h_source.html">CommsManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_comms_manager_8cpp_source.html#l00012">CommsManager()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00082">DMA_init()</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00202">getMotorDMA()</a>.</p>
+
+</div>
+</div>
+<a id="aea83e8379fb1f083cfcd2ea678dd4ffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea83e8379fb1f083cfcd2ea678dd4ffb">&#9670;&nbsp;</a></span>remoteFailureCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t CommsManager::remoteFailureCount = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8h_source.html#l00048">48</a> of file <a class="el" href="_comms_manager_8h_source.html">CommsManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00138">TIM3_IRQHandler()</a>.</p>
+
+</div>
+</div>
+<a id="a2538bbc5808c1395641138554300a6cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2538bbc5808c1395641138554300a6cf">&#9670;&nbsp;</a></span>UART1_HandleStructure</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UART_HandleTypeDef CommsManager::UART1_HandleStructure</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>HAL library UART1 initialization structure. </p>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8h_source.html#l00024">24</a> of file <a class="el" href="_comms_manager_8h_source.html">CommsManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_comms_manager_8cpp_source.html#l00012">CommsManager()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00082">DMA_init()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00190">getMotorUART()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00281">receiveMotors()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00232">transmitMotors()</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00037">UART_init()</a>.</p>
+
+</div>
+</div>
+<a id="ae3e2b2084107faefde64571ad0e4d918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3e2b2084107faefde64571ad0e4d918">&#9670;&nbsp;</a></span>UART2_HandleStructure</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UART_HandleTypeDef CommsManager::UART2_HandleStructure</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>HAL library UART2 initialization structure. </p>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8h_source.html#l00026">26</a> of file <a class="el" href="_comms_manager_8h_source.html">CommsManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_comms_manager_8cpp_source.html#l00012">CommsManager()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00082">DMA_init()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00194">getRemoteUART()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00297">receiveRemote()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00031">setRemoteBaud()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00251">transmitRemote()</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00037">UART_init()</a>.</p>
+
+</div>
+</div>
+<a id="a9cd3ad9352e4ec09b997c27e217caa17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cd3ad9352e4ec09b997c27e217caa17">&#9670;&nbsp;</a></span>UART3_HandleStructure</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UART_HandleTypeDef CommsManager::UART3_HandleStructure</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>HAL library UART3 initialization structure. </p>
+
+<p class="definition">Definition at line <a class="el" href="_comms_manager_8h_source.html#l00028">28</a> of file <a class="el" href="_comms_manager_8h_source.html">CommsManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_comms_manager_8cpp_source.html#l00012">CommsManager()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00082">DMA_init()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00198">getAccUART()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00313">receiveAcc()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00265">transmitAcc()</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00037">UART_init()</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_comms_manager_8h_source.html">CommsManager.h</a></li>
-<li><a class="el" href="_comms_manager_8cpp.html">CommsManager.cpp</a></li>
+<li><a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

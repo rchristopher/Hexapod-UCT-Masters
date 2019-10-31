@@ -6,5 +6,8 @@ var searchData=
   ['l3',['L3',['../class_leg.html#a415ce61b71f0361cc3e75c54cffadd61',1,'Leg']]],
   ['legpath',['legPath',['../class_leg.html#afc6b495934bc5ccd04b60dafe256ec12',1,'Leg']]],
   ['legrotation',['legRotation',['../class_leg.html#a96ec5ab27bde8c0002ec094cfea9302d',1,'Leg']]],
-  ['legs',['legs',['../class_hexapod.html#afbec68c65860c3027f8b36337edd385a',1,'Hexapod']]]
+  ['legs',['legs',['../class_hexapod.html#afbec68c65860c3027f8b36337edd385a',1,'Hexapod']]],
+  ['liftedforbase',['liftedForBase',['../class_hexapod.html#a4056926a0ec3280b69e2f13d57976735',1,'Hexapod']]],
+  ['lowbatterycount',['lowBatteryCount',['../class_hexapod.html#a3631886463a660e01fea6d26da35e27e',1,'Hexapod']]],
+  ['lowpowermode',['lowPowerMode',['../class_hexapod.html#ac7b6a1d9229fedd5016e6ca22861a8ef',1,'Hexapod']]]
 ];
