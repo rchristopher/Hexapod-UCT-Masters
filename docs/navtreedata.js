@@ -27,7 +27,7 @@ var NAVTREEINDEX =
 [
 "_accelerometer_8cpp.html",
 "class_motor.html#a99f4071202ee9600229107a43759387a",
-"enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87afabf11c49e7db20ef21699f84a1f9d60"
+"enum_definitions_8h.html#af192d9cc8ec6c32858ad00fd15fddad4a702582f7f825ca83bdb076b15b4c0fc2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
