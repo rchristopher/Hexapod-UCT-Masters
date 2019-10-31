@@ -1,0 +1,672 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Modules"><param name="Local" value="modules.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="STM32F4xx_HAL_Driver"><param name="Local" value="group___s_t_m32_f4xx___h_a_l___driver.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="HAL MSP"><param name="Local" value="group___h_a_l___m_s_p.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="HAL MSP Private Functions"><param name="Local" value="group___h_a_l___m_s_p___private___functions.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="HAL_MspDeInit"><param name="Local" value="group___h_a_l___m_s_p___private___functions.html#gadd10d026ef02d00e32e80c9eab9db830"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="HAL_MspInit"><param name="Local" value="group___h_a_l___m_s_p___private___functions.html#gae4fb8e66865c87d0ebab74a726a6891f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="HAL_PPP_MspDeInit"><param name="Local" value="group___h_a_l___m_s_p___private___functions.html#gaca177eaaeb329fc02e292efd92a8ed13"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="HAL_PPP_MspInit"><param name="Local" value="group___h_a_l___m_s_p___private___functions.html#ga4f778ad7de857377eb5493377047e72d"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Classes"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class List"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Accelerometer"><param name="Local" value="class_accelerometer.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Accelerometer"><param name="Local" value="class_accelerometer.html#a6f1877f6ed458352ac08d9b53a006a6a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~Accelerometer"><param name="Local" value="class_accelerometer.html#ac032bc76ae0d7d91e98cb3d1b43940c2"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="isChecksumValid"><param name="Local" value="class_accelerometer.html#af371b41abd27945abf8043bb28c89eca"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="processAccelData"><param name="Local" value="class_accelerometer.html#a323c6548697e28f9f4ae9672b8163cf5"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="receiveAccelData"><param name="Local" value="class_accelerometer.html#aa66c1b089a8d56527c9b7eb16aece1f5"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="requestAccelData"><param name="Local" value="class_accelerometer.html#af50c4df7076e372e1a97fe5be505481e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setConfigMode"><param name="Local" value="class_accelerometer.html#af7a902f91c036e7805286b1766943deb"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setMeasurementMode"><param name="Local" value="class_accelerometer.html#afb1c77c2d6d0773c150525cc2cca5381"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="accel_transmission"><param name="Local" value="class_accelerometer.html#aca2d062a9afcc7b726f4f57d8001d9dc"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="accel_uart"><param name="Local" value="class_accelerometer.html#a681c181eed587e8ae8348cfe5ac05d71"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="dma_dataPacket"><param name="Local" value="class_accelerometer.html#acbfac5cf8519947c3e085a31072e0592"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="dma_infoPacket"><param name="Local" value="class_accelerometer.html#a18549fd110b04515ebf0a94d24d64298"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="gotoConfig"><param name="Local" value="class_accelerometer.html#ae725991ae6041c8dd7be4ded71e51bfb"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="gotoMeasurement"><param name="Local" value="class_accelerometer.html#a006dff6bd0ed6cc226e67eaab07988fd"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pitch"><param name="Local" value="class_accelerometer.html#a1e0d5d31a80909aedbe49f7e8906247e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="reqData"><param name="Local" value="class_accelerometer.html#a70c051031e069de61c637270de80f491"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="roll"><param name="Local" value="class_accelerometer.html#a7f42127302eafd0a031182152c8c4514"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="yaw"><param name="Local" value="class_accelerometer.html#a7ac5130a99c2f74c4787c87e38a18b5a"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Hexapod"><param name="Local" value="class_hexapod.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Hexapod"><param name="Local" value="class_hexapod.html#a79efec751b5959388466cb095275f3d8"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~Hexapod"><param name="Local" value="class_hexapod.html#a901b9b9452f8258be9fb93069ed284ab"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="_Error_Handler"><param name="Local" value="class_hexapod.html#a5fbad98507deb0f34e19db16b5e346a6"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA_init"><param name="Local" value="class_hexapod.html#ae5ac3ac37aae387c73f7375938743876"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="errorCheck"><param name="Local" value="class_hexapod.html#a82658b5c8e3f54687e464ae3497cff5a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getCurrentPath"><param name="Local" value="class_hexapod.html#a80410724c9855214bea91687ce6f8277"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getDMA"><param name="Local" value="class_hexapod.html#a13fa758747e035f1a4efaba2339d4b02"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getTIM"><param name="Local" value="class_hexapod.html#a729a0e08a6ff56c605f20c79ba31d7c8"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getTime"><param name="Local" value="class_hexapod.html#aa7b54abbd188b93429730dd2f09bcfbd"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getUART"><param name="Local" value="class_hexapod.html#acdedc8a931ec4759ee24df2cd5c34f1a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="GPIO_init"><param name="Local" value="class_hexapod.html#a024fed457462d8e6e4072c513c2ba6e2"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Initialise"><param name="Local" value="class_hexapod.html#ac54cbde269ebe4f9dbe7b8bedd1ccbef"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="makePath"><param name="Local" value="class_hexapod.html#ac4fba2aa0e9693c0dccc4982c36c2975"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="move"><param name="Local" value="class_hexapod.html#a561f1349b74eae2f5b3230f3597b8333"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="moveNextPathPoint"><param name="Local" value="class_hexapod.html#ac2b5d9191f710586796e5ef4bb5e7aaa"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Ping"><param name="Local" value="class_hexapod.html#ac7ef729ac284ecccb695087758b6c9ff"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="readyForNextPosition"><param name="Local" value="class_hexapod.html#a09126a65d36f7068b4c4c01566c46834"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="resetMotor"><param name="Local" value="class_hexapod.html#af22ac90056285244507ad4ff784b51ad"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setBodyHeight"><param name="Local" value="class_hexapod.html#a2978afc5456cc9df3f81110f8c4114b4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setDirection"><param name="Local" value="class_hexapod.html#a4dbf7ca82b123e05f882064f6c9e75f6"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setOrientation"><param name="Local" value="class_hexapod.html#aa8e3e40b984212957edb179344aa1fb0"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setParamenters"><param name="Local" value="class_hexapod.html#aed77720c5e1f450b19aa2390f178ba90"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setPosition"><param name="Local" value="class_hexapod.html#af4f5c454c076e71542e5ce9cb098d860"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setPositionBits"><param name="Local" value="class_hexapod.html#a7f8e6480555fa23118cd07dd466db637"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setSpeed"><param name="Local" value="class_hexapod.html#a7ecc809aedcec9a8cd7f5e31ecfe28e4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setTick"><param name="Local" value="class_hexapod.html#a132d3e9cff50f3d1ee4513344b867979"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="startTimers"><param name="Local" value="class_hexapod.html#ac186dd7342f9f93b9c2a45398ab465f3"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SystemClock_Config"><param name="Local" value="class_hexapod.html#a9f7e97ca56c6c9ddd6272ba08aa58ae8"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TIM2_init"><param name="Local" value="class_hexapod.html#ab8f693c42e5876ee83a3daf9b7093000"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TIM3_init"><param name="Local" value="class_hexapod.html#a16f6061713fa4c58e8450202ab361595"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="UART1_Toggle_Read"><param name="Local" value="class_hexapod.html#a0d3206659a3dc4711f88aab9c153a6da"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="UART1_Toggle_Write"><param name="Local" value="class_hexapod.html#afe6053b43d635b28786da6b45f255dda"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="UART1_WRITE_DMA"><param name="Local" value="class_hexapod.html#a1a8cf807773f21a1d3c5738ed6e6e5df"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="UART2_WRITE_DMA"><param name="Local" value="class_hexapod.html#a539ae19ba217b2b3977b15501621ddb4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="UART3_WRITE_DMA"><param name="Local" value="class_hexapod.html#a7df89e2014905569cd8dc448a3f88879"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="UART_init"><param name="Local" value="class_hexapod.html#ae18ac50c7eeb1df7f48158b506a03f85"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="update"><param name="Local" value="class_hexapod.html#a13c257f8f07a483688dd5c2308e43551"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="accel"><param name="Local" value="class_hexapod.html#a5afa43555b965a28a2e41286c5cf4069"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bodyHeight"><param name="Local" value="class_hexapod.html#a1f7a48c13e6886bb1a095f2b98172d03"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="currentPath"><param name="Local" value="class_hexapod.html#acffb21a3fd16e25f06042ff8b4152b7f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="currentPathPoint"><param name="Local" value="class_hexapod.html#ad4b6456b2ae0274b93be66f8db1bea5a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="currentPathTheta"><param name="Local" value="class_hexapod.html#afb9ea4318b68d5848c70d6fe485a2ed5"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="direction"><param name="Local" value="class_hexapod.html#afeb72cd05c266143fd7c59ac69676aa9"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA1_HandleStructure_UART2_RX"><param name="Local" value="class_hexapod.html#afcf2d0933ce49be208acfbf6179b725f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA1_HandleStructure_UART2_TX"><param name="Local" value="class_hexapod.html#ab4597e937e5bf76f0a106b06b3f137fd"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA1_HandleStructure_UART3_RX"><param name="Local" value="class_hexapod.html#ac20f8019de6725e9b4c8d2e6e0951e0f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA1_HandleStructure_UART3_TX"><param name="Local" value="class_hexapod.html#a5de22bda2f130cab97458571c96a8a96"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA2_HandleStructure_UART1_RX"><param name="Local" value="class_hexapod.html#a4353bdb6c0298fa1eea106f0a8169d65"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA2_HandleStructure_UART1_TX"><param name="Local" value="class_hexapod.html#ad7c140f8e3276ac1deb6582cbd19ea9c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="GPIO_InitStructure"><param name="Local" value="class_hexapod.html#ad99af652dccba66376656c5fc959ec69"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="legs"><param name="Local" value="class_hexapod.html#afbec68c65860c3027f8b36337edd385a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pitchAngle"><param name="Local" value="class_hexapod.html#a395462f398a4c20fb7422540738f0426"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="radialDistance"><param name="Local" value="class_hexapod.html#a4aa8469c65d33cee6dafbc435d52def3"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="remote"><param name="Local" value="class_hexapod.html#af94936e122509d05cd3e46bdb5180527"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="rollAngle"><param name="Local" value="class_hexapod.html#af7510e25b7193b5ca81f58a9cc398961"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="speed"><param name="Local" value="class_hexapod.html#aff84fc6694ac6362baaec561771e1b22"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="stepHeight"><param name="Local" value="class_hexapod.html#af242563a9e91932e14eaaaff2cbdbf2d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="strideLength"><param name="Local" value="class_hexapod.html#ab414e50c299a5067bb77f82a6b17065e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TIM2_HandleStructure"><param name="Local" value="class_hexapod.html#a6278a64d64e538da5523f50639b42667"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="TIM3_HandleStructure"><param name="Local" value="class_hexapod.html#a4bf68c3756c20efb8b4423c2bb889433"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="UART1_HandleStructure"><param name="Local" value="class_hexapod.html#a670cfd1aeea14ee79bf31f9bb503609e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="UART2_HandleStructure"><param name="Local" value="class_hexapod.html#a1ea3d5418dea7f71a57116a437c9bc28"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="UART3_HandleStructure"><param name="Local" value="class_hexapod.html#ab421b4ce1582c6a7d1490db5c7f527fc"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="utick"><param name="Local" value="class_hexapod.html#a7ac5c76defdabb4f70a82d62811a834f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="xyz_stand"><param name="Local" value="class_hexapod.html#a261121c316c3ae13db7496c8188db08f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="yawAngle"><param name="Local" value="class_hexapod.html#a35b47d8218896af9c5741d917a17c173"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Leg"><param name="Local" value="class_leg.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Leg"><param name="Local" value="class_leg.html#aaa307b522b93b170846a7c623b7b79d8"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Leg"><param name="Local" value="class_leg.html#ae1ebe00ac0112a2a53f291784bb1d697"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Leg"><param name="Local" value="class_leg.html#a9478905b8f03e666091ab9d33cd85253"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~Leg"><param name="Local" value="class_leg.html#a908ec4b657b0e5741a9705d2e503c615"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="atDesiredPosition"><param name="Local" value="class_leg.html#ab78f2b4fd5bd225c9ee5bc9cddfc81d4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="forwardKinematics"><param name="Local" value="class_leg.html#a28ad816ccc22b4b4c1fdb74a049f0817"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getSpeed"><param name="Local" value="class_leg.html#a5d724be075265adfe2738f54a726c297"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="inverseKinematics"><param name="Local" value="class_leg.html#a635772e2c657130269364f938de4222a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="makePath"><param name="Local" value="class_leg.html#a0c4aa392b3972c2249a735cf17a4d910"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="move"><param name="Local" value="class_leg.html#af07e04e4a370d767911c9894b3385fd9"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="moveNextPathPoint"><param name="Local" value="class_leg.html#a40ec4aacfed41f4302e62ee9a6bad0f3"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setOffsets"><param name="Local" value="class_leg.html#a484270a838633036a34ed7ba7c644849"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setPosition"><param name="Local" value="class_leg.html#a48b8f150127aab7477f5f02a61a50133"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setPosition"><param name="Local" value="class_leg.html#a66b5bf6d4fa551b2f5e28a259cb99887"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setPositionBits"><param name="Local" value="class_leg.html#aec27eea7990fdd4e48f193693ccbcc59"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setPositionBits"><param name="Local" value="class_leg.html#a56e99bda2b76726cd4b564fb15121b31"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setSpeed"><param name="Local" value="class_leg.html#a5b27a2e07b4a7bc6b80fce71499edf2a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setSpeed"><param name="Local" value="class_leg.html#aa31a11eaa204365227e70d585ffd519c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setSpeedBits"><param name="Local" value="class_leg.html#a83e768e4fac5f9d1064be4f2453410c8"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setTheta"><param name="Local" value="class_leg.html#ac269b14ade3b8d03d500316a238489cd"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setTheta"><param name="Local" value="class_leg.html#a1cf49a29095ab01da0826a2003513259"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setTiltOffset"><param name="Local" value="class_leg.html#a6b8a2f056bf230b09ced83404304eb0b"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setUARTHandler"><param name="Local" value="class_leg.html#a2a3e958f5c22c7c1ca56a7f212d5e39c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="UARTWrite"><param name="Local" value="class_leg.html#a3d3249d8e5d9ec7c6c56f58626f71fc9"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="writeRegs"><param name="Local" value="class_leg.html#ad2632d74b0c23701f699f11d09ce396d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="accOffsets"><param name="Local" value="class_leg.html#ae7f108a1afa3aca5d12947c3876e045f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="currentPathPoint"><param name="Local" value="class_leg.html#a07544fdd40511f09310d0fa19c15169e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="dutyOffset"><param name="Local" value="class_leg.html#add280d4f359ae909372c169776c8d7a7"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="L1x"><param name="Local" value="class_leg.html#aafbfd7322eeda40274585af07dc8f381"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="L1z"><param name="Local" value="class_leg.html#a1e1e42ca509159d6b230d05119caf404"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="L2"><param name="Local" value="class_leg.html#ac831f584ef0b52a1c10c7b2e588086b9"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="L3"><param name="Local" value="class_leg.html#a415ce61b71f0361cc3e75c54cffadd61"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="legPath"><param name="Local" value="class_leg.html#a143bfce2f09fbcae857046d8f498c9fb"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="motor_uart"><param name="Local" value="class_leg.html#a56c2c14fc811141e09917f9ea4cab8ee"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="motors"><param name="Local" value="class_leg.html#a7244522431a1d0ec5532c41fb4fffde2"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="offsets"><param name="Local" value="class_leg.html#a02481b12d33db465298ca23f9d3589b7"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="positionTHETA"><param name="Local" value="class_leg.html#a4d4f7690d311c5e431b7e37ebc7b11d3"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="positionXYZ"><param name="Local" value="class_leg.html#ac5551a05ede63fe749ea07d762651a98"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="rotation"><param name="Local" value="class_leg.html#a90a0ff604ebc3c263150f9460597a55f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="theta_dot"><param name="Local" value="class_leg.html#acfcb839f6148257accaf8b5bd85544f4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="tiltOffset"><param name="Local" value="class_leg.html#a13b179c45ba24b6b2f1c2fd1d12481eb"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="List"><param name="Local" value="class_list.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="List"><param name="Local" value="class_list.html#aa66f3b140bb03a3c0962b2c50d44fdaf"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="List"><param name="Local" value="class_list.html#ab58b8f21002f3ec16237f9e105d99b67"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="List"><param name="Local" value="class_list.html#ad1a6eba45613c73e5cc7bb6bbe44a2e7"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~List"><param name="Local" value="class_list.html#ab9854ff0f0268fd8ea78310259335513"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="add"><param name="Local" value="class_list.html#abb9b8ce760110ccd6ce27df951b3a625"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="class_list.html#a7a7cf1378f7e1413ac75e7d3ba4d3995"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="get"><param name="Local" value="class_list.html#aba239c7dc73d457aec3145b869324ceb"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getLength"><param name="Local" value="class_list.html#abba70433b1a86fadd96361903c9a758a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="data"><param name="Local" value="class_list.html#a89ba758ab2be16e7127060392418976d"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Motor"><param name="Local" value="class_motor.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Motor"><param name="Local" value="class_motor.html#a6fbadf348c2e162d15d96e6720164d63"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~Motor"><param name="Local" value="class_motor.html#a11b7c04b3a7c1ecc97ece0655d5607fc"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="calcPositionBits"><param name="Local" value="class_motor.html#a740d2a4371be80ce5da3ca53b9ef2556"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="calcSpeedBits"><param name="Local" value="class_motor.html#ad638297d23361eff46434de99c99c3b2"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getGoalMovementBits"><param name="Local" value="class_motor.html#accca547345173c711f3f2571617adfa2"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getPresentMovementBits"><param name="Local" value="class_motor.html#a844aacffa0e3796a13167effd8ffa3e3"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="move"><param name="Local" value="class_motor.html#a62b0c7f0fc5adc0a6f965f1274af4541"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ping"><param name="Local" value="class_motor.html#ae0cc71efcc6a8087a3053c1543e58f7b"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="readReg"><param name="Local" value="class_motor.html#a32dd67f9de040e4aae27299c4a1a6d8f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setGoalPositionSpeed"><param name="Local" value="class_motor.html#a4951362199bafcca0462253af4651b36"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setPositionBits"><param name="Local" value="class_motor.html#a929d98fbd408530c8b5ef65cf91948d8"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setSpeedBits"><param name="Local" value="class_motor.html#a44ab72e0be6481d09338581cd2ae5479"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setUARTHandler"><param name="Local" value="class_motor.html#a30cd5a8f0cbe3f5f2d2fcb898e0c5ef0"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="writeReg"><param name="Local" value="class_motor.html#abd9a4e9d027d5b10bf82929debeb703a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="writeReg"><param name="Local" value="class_motor.html#a1ed406bd0e980f748e82ede8e61278f7"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="controlTable"><param name="Local" value="class_motor.html#a3f17795b41f9fd3f225c9dd37b1a7f57"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="dma_motor_statusPacket"><param name="Local" value="class_motor.html#a8390e61175ef6accfd221f83e0412101"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="error"><param name="Local" value="class_motor.html#a0f471d3bf4d80d3af3dabd793a4f8470"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="goalMovementBits"><param name="Local" value="class_motor.html#af98a46b8e573fa5a443690f15cb5168c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="ID"><param name="Local" value="class_motor.html#a08b2e6a12e9e75e178f039f4bca5384d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="motor_uart"><param name="Local" value="class_motor.html#aba04ad86c3068fba31e381d6de133f0c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pingStatusPacket"><param name="Local" value="class_motor.html#ae9a5f903875a4160b218c040b8555906"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="presentMovementBits"><param name="Local" value="class_motor.html#ab080bd843b47b510d2cde0f108285dd4"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Path"><param name="Local" value="class_path.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Path"><param name="Local" value="class_path.html#af067d22af9ec8e835fb282b533b92642"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~Path"><param name="Local" value="class_path.html#a40f8bd5462703506bbc23541899c2579"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getPath"><param name="Local" value="class_path.html#ad6b7cc1dc2235833e3df8f171a68a097"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getPathBits"><param name="Local" value="class_path.html#ae120a505e952a6e78919379624380b94"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="inverseKinematics"><param name="Local" value="class_path.html#aa6435689b6bfbcc2c7dc77e9c53fddaa"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="makePath"><param name="Local" value="class_path.html#a7261333a22f3e1a0a7ef286b52e2e34c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setPoints"><param name="Local" value="class_path.html#a41b0fb774d61a852bb281144630a501f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="endBits"><param name="Local" value="class_path.html#a56ebde12c7698fcb3ec02082b4e01398"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="endPoint"><param name="Local" value="class_path.html#abdc47e1fa79e59b465fc243646769574"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="endTheta"><param name="Local" value="class_path.html#a0004098379ad98bdf59521e39f73d361"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="L1x"><param name="Local" value="class_path.html#ac463b184828af3c140d4527c5e21696c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="L1z"><param name="Local" value="class_path.html#aef9777860946ddefde32e8b797ecfebc"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="L2"><param name="Local" value="class_path.html#a03bcb7a4ec067c76c692a5a3ae2ed1e6"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="L3"><param name="Local" value="class_path.html#aa470cfb441d7e9f4b39e902eeb3257c4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="midBits"><param name="Local" value="class_path.html#a9d04da57cc96f2e5655630eb69f8dd81"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="midPoint"><param name="Local" value="class_path.html#a2a05a77aa681fa4d9f80294b9ebc4264"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="midTheta"><param name="Local" value="class_path.html#aadb0cc89ca3063c9dc16f97dff65add6"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="path_list"><param name="Local" value="class_path.html#a738a8bc8bc77d79525d5b5805bfcd7fc"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pathBITS"><param name="Local" value="class_path.html#a7d9468321317c59db9c0dd0d2125b428"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pathTHETA"><param name="Local" value="class_path.html#a2348659e47209f52c2635f00aac1a3a9"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pathXYZ"><param name="Local" value="class_path.html#a964958027aca36aca7d007ea060c4ba9"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="startBits"><param name="Local" value="class_path.html#a084d8629ea3823b16b2d4a58cdde1b01"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="startPoint"><param name="Local" value="class_path.html#abfe336021b3795374b6d24f4ee1b7a0f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="startTheta"><param name="Local" value="class_path.html#a20976a9f3bf34cadaa067ac152fa8bbf"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Point"><param name="Local" value="class_point.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Point"><param name="Local" value="class_point.html#a8321bdf2f27bcc89b6c04209fffcebdc"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Point"><param name="Local" value="class_point.html#a8c35606f1fdda3ccf78179b868424905"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Point"><param name="Local" value="class_point.html#ad6e652722fd0155124e4b1de29bac1f6"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~Point"><param name="Local" value="class_point.html#af8f2ae17cce624bb3efa29d2c903e8cd"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="p1"><param name="Local" value="class_point.html#a3abe1d85d3f12ef7036ec0b26adbda43"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="p2"><param name="Local" value="class_point.html#a003668f4ab1eaf3f96802d473fa08ba8"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="p3"><param name="Local" value="class_point.html#aaca117bff9182401b259fda1a8fe73eb"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Remote"><param name="Local" value="class_remote.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Remote"><param name="Local" value="class_remote.html#a955d4fbb98920c4631666569067ac470"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~Remote"><param name="Local" value="class_remote.html#a96f9a1d38d93f95db769fa2ff6973701"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="isChecksumValid"><param name="Local" value="class_remote.html#a3dbc0a931a593b667935cd1841541d7b"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="processRemoteData"><param name="Local" value="class_remote.html#aef46f3b9522e8ff6ecf0f5ba1fc56915"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="receiveRemoteData"><param name="Local" value="class_remote.html#a836cee94645b0eb6a64fe37509b9324d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="bodyHeight"><param name="Local" value="class_remote.html#abe9001c2fc2be46f455940d95fea92cb"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="direction"><param name="Local" value="class_remote.html#a9e1394a0254eb7d91f33fd62e901cc0d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="dma_dataPacket"><param name="Local" value="class_remote.html#a0aac0e0aa9a46eaaf9609a1d60fb540e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="function"><param name="Local" value="class_remote.html#a0b1df8e9267d4018232d2c2f214eaba3"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="newData"><param name="Local" value="class_remote.html#ab3e6812039ba7ee6e03c38a7fa394c9b"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="remote_uart"><param name="Local" value="class_remote.html#a59e8ddcf2a50178beba7a1ba4d13cbcc"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="speed"><param name="Local" value="class_remote.html#a5f5a995222dfe6a8f67425d18c23d2fa"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Index"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Members"><param name="Local" value="functions.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="functions.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="functions_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Variables"><param name="Local" value="functions_vars.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Files"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="include"><param name="Local" value="dir_d44c64559bbebec7f509842c48db8b23.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Accelerometer.h"><param name="Local" value="_accelerometer_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Accelerometer"><param name="Local" value="class_accelerometer.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Accelerometer"><param name="Local" value="class_accelerometer.html#a6f1877f6ed458352ac08d9b53a006a6a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="~Accelerometer"><param name="Local" value="class_accelerometer.html#ac032bc76ae0d7d91e98cb3d1b43940c2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="isChecksumValid"><param name="Local" value="class_accelerometer.html#af371b41abd27945abf8043bb28c89eca"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="processAccelData"><param name="Local" value="class_accelerometer.html#a323c6548697e28f9f4ae9672b8163cf5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="receiveAccelData"><param name="Local" value="class_accelerometer.html#aa66c1b089a8d56527c9b7eb16aece1f5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="requestAccelData"><param name="Local" value="class_accelerometer.html#af50c4df7076e372e1a97fe5be505481e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setConfigMode"><param name="Local" value="class_accelerometer.html#af7a902f91c036e7805286b1766943deb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setMeasurementMode"><param name="Local" value="class_accelerometer.html#afb1c77c2d6d0773c150525cc2cca5381"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="accel_transmission"><param name="Local" value="class_accelerometer.html#aca2d062a9afcc7b726f4f57d8001d9dc"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="accel_uart"><param name="Local" value="class_accelerometer.html#a681c181eed587e8ae8348cfe5ac05d71"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="dma_dataPacket"><param name="Local" value="class_accelerometer.html#acbfac5cf8519947c3e085a31072e0592"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="dma_infoPacket"><param name="Local" value="class_accelerometer.html#a18549fd110b04515ebf0a94d24d64298"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="gotoConfig"><param name="Local" value="class_accelerometer.html#ae725991ae6041c8dd7be4ded71e51bfb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="gotoMeasurement"><param name="Local" value="class_accelerometer.html#a006dff6bd0ed6cc226e67eaab07988fd"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="pitch"><param name="Local" value="class_accelerometer.html#a1e0d5d31a80909aedbe49f7e8906247e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="reqData"><param name="Local" value="class_accelerometer.html#a70c051031e069de61c637270de80f491"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="roll"><param name="Local" value="class_accelerometer.html#a7f42127302eafd0a031182152c8c4514"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="yaw"><param name="Local" value="class_accelerometer.html#a7ac5130a99c2f74c4787c87e38a18b5a"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="enumDefinitions.h"><param name="Local" value="enum_definitions_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="UART1"><param name="Local" value="enum_definitions_8h.html#a8d69bf04d07af4fbbab5a8bd291f65ff"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="UART2"><param name="Local" value="enum_definitions_8h.html#a7f6bd6eb89ae2eeae97af4207ebe3cde"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="UART3"><param name="Local" value="enum_definitions_8h.html#a961726a611b38bcaf61f3d598b0a59ec"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="ACCEL_TRANSMISSIONS"><param name="Local" value="enum_definitions_8h.html#af192d9cc8ec6c32858ad00fd15fddad4"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CONFIG"><param name="Local" value="enum_definitions_8h.html#af192d9cc8ec6c32858ad00fd15fddad4a702582f7f825ca83bdb076b15b4c0fc2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DATA"><param name="Local" value="enum_definitions_8h.html#af192d9cc8ec6c32858ad00fd15fddad4a9d7d6f31868d66330397c967c4afd2d2"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="COMM_DIR"><param name="Local" value="enum_definitions_8h.html#a465d491dc1d60ba2dd410f42c490f5a4"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="TX"><param name="Local" value="enum_definitions_8h.html#a465d491dc1d60ba2dd410f42c490f5a4a951f819598b53b2729ee0e4c05e6888e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RX"><param name="Local" value="enum_definitions_8h.html#a465d491dc1d60ba2dd410f42c490f5a4a4aca20d6e60fffb66e9668b3a6592531"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="CONTROL_TABLE"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MODEL_NUMBER_L"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a1d5b97743e5f90ed44cbdb0a7dcf7c79"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MODEL_NUMBER_H"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87acae2d85bcb634246bfbcb279c080b0a6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="VERSION"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a52f49aba124a600ad9581caabe6a099a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ID"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a001479a58fb44c39a29b20d565081a68"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="BAUD_RATE"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87aa6784f71bbdc61f1d864f2fe0c4465bc"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RETURN_DELAY_TIME"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87abda1b4b0320ef7a0279d4112f896812e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CW_ANGLE_LIMIT_L"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a26aeac0212348de666e4b7b62707d699"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CW_ANGLE_LIMIT_H"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a508e810516c95de91866dc9e0bbb9778"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CCW_ANGLE_LIMIT_L"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a4a6baf3505bd59d6939127f9dc8479e4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CCW_ANGLE_LIMIT_H"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87aad7f7aa1d7c9821ce98728ff7315700d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RESERVED1"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a3401f88113645c341c269d49d044a020"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="HIGHEST_LIMIT_TEMPERATURE"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a0c7ba51bc52be76ee79589c034bb4b77"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LOWEST_LIMIT_VOLTAGE"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a62971d9a923fe2c8f151ecfdca74d923"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="HIGHEST_LIMIT_VOLTAGE"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a51bacd3154fa00f023703af4b5055d88"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MAX_TORQUE_L"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a3a597d447d9bdb845c2a5a55d05f85e3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MAX_TORQUE_H"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a8774cd4185ac495ad0eb2b8637105fb5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="STATUS_RETURN_LEVEL"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a86bb60fdf062d900b6eba2ddbb1a66bd"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ALARM_LED"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87abb3bec83901c4c68db572e891d6a6d7b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ALARM_SHUTDOWN"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87afabf11c49e7db20ef21699f84a1f9d60"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RESERVED2"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a41ae559bcd93bd57005b00f3b8cf4d3d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RESERVED3"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a21f333931288d41f97ef46a2e351902c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RESERVED4"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a6c1ab8087a7f45934b67cc8e005b3177"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RESERVED5"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a302f30b8c1048782a33a955b63eda10f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RESERVED6"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87ac0cb2fb8680828581b8c65689437a489"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="TORQUE_ENABLE"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a438f99957e2d14482b2c1ab0292e2b3e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LED"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a21447137d62c46e603b924d455e8cd12"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CW_COMPLIANCE_MARGIN"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a58728ecac80232356087e2a9e5e73665"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CCW_COMPLIANCE_MARGIN"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a897b895cd047e35101b9f2b6d956c0a2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CW_COMPLIANCE_SLOPE"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a60cd97eddff154c2bb1c15ec814b79fd"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CCW_COMPLIANCE_SLOPE"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a21740fbe20b2c363242fe3a206a22017"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GOAL_POSITION_L"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a9fd6c532b28cedd0e7d0b3b971e7c5cb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GOAL_POSITION_H"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87abb8463cfa19572da9492cd6e9ce7c673"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MOVING_SPEED_L"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a6d8e9253d3421942ed4515043055b0f6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MOVING_SPEED_H"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a2f9185abdc74035d0e091702492d0c9a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="TORQUE_LIMIT_L"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a48ad70bf97125747bf0ccdc90c85fbf9"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="TORQUE_LIMIT_H"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a840382879efa0bcec390001eefd06864"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PRESENT_POSITION_L"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a7fbbb0b1d30a11f885333e5d7672ce28"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PRESENT_POSITION_H"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87aec75450e2b9239d73bccc7475718a776"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PRESENT_SPEED_L"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87addfa98c85408902d76334218df1d2cbd"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PRESENT_SPEED_H"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87aebc229f9461ccfc98c47c9b90d142d1a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PRESENT_LOAD_L"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87aa307cfc95feec6a91fa50a8562d53b1e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PRESENT_LOAD_H"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a2a7affad1d2c5605feb9a96b77607b1f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PRESENT_VOLTAGE"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a71968ae9470af481fc092a222631196b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PRESENT_TEMPERATURE"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a6233079c617c4eaa841574760364fa14"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="REGISTERED_INSTRUCTION"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a32bb18d7493fff2a4712b316195809ef"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RESERVE3"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87ab94d7d619f8e1050362129efc77ee482"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MOVING"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a16ebdcb23eb5337fd5bc598fa8d6035d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LOCK"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a438b68412f24003b09e0993b62dc7b48"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PUNCH_L"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87aa68e4a497a64910caa1c0049f49b2183"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PUNCH_H"><param name="Local" value="enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87aef7c7abe4d9973d99906ba988de5d49e"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="INSTRUCTION"><param name="Local" value="enum_definitions_8h.html#a02f65af1c9771ddf39a14a97782efdf0"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="PING"><param name="Local" value="enum_definitions_8h.html#a02f65af1c9771ddf39a14a97782efdf0a3a95ef902bc659901cceef98e0bc8041"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="READ_DATA"><param name="Local" value="enum_definitions_8h.html#a02f65af1c9771ddf39a14a97782efdf0a6c9aea235a9b44681dfcc088658ccdd6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="WRITE_DATA"><param name="Local" value="enum_definitions_8h.html#a02f65af1c9771ddf39a14a97782efdf0ac6c55a4e76bf555712854329895490de"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="REG_WRITE"><param name="Local" value="enum_definitions_8h.html#a02f65af1c9771ddf39a14a97782efdf0a32293503277d119911f6b3cae49510e3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ACTION"><param name="Local" value="enum_definitions_8h.html#a02f65af1c9771ddf39a14a97782efdf0ae1bb1460cb779888412e634e983be161"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SYNC_WRITE"><param name="Local" value="enum_definitions_8h.html#a02f65af1c9771ddf39a14a97782efdf0a648d9dc76d42e38680757d1c01db4e41"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LEGS"><param name="Local" value="enum_definitions_8h.html#a85bd5457696fcc8f50107ff054cadd45"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RELATIVE"><param name="Local" value="enum_definitions_8h.html#a85bd5457696fcc8f50107ff054cadd45ac8ee683c19bb6a988eccfbaf0f584c66"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LEG1"><param name="Local" value="enum_definitions_8h.html#a85bd5457696fcc8f50107ff054cadd45a5fbc3011812984b174b28d6590047292"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LEG2"><param name="Local" value="enum_definitions_8h.html#a85bd5457696fcc8f50107ff054cadd45a630c39a3295cfb43568af3d5a2a991a9"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LEG3"><param name="Local" value="enum_definitions_8h.html#a85bd5457696fcc8f50107ff054cadd45ac72ca85cb113b56206dae81fc28b0c7a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LEG4"><param name="Local" value="enum_definitions_8h.html#a85bd5457696fcc8f50107ff054cadd45a40b7fbc1c17253e9f6385f0800a193da"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LEG5"><param name="Local" value="enum_definitions_8h.html#a85bd5457696fcc8f50107ff054cadd45a57850d25591f82307b6ebd39f7ec6230"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LEG6"><param name="Local" value="enum_definitions_8h.html#a85bd5457696fcc8f50107ff054cadd45a7c5b20c7ca99171e81fd3b500aa8f48b"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="MOTOR_ERROR"><param name="Local" value="enum_definitions_8h.html#abd919b067bdb999fe01ebfa1395185d8"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="NO_ERROR"><param name="Local" value="enum_definitions_8h.html#abd919b067bdb999fe01ebfa1395185d8abf350750d0d4fabd8954c0f1e9bbae94"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="INSTRUCTION_ERROR"><param name="Local" value="enum_definitions_8h.html#abd919b067bdb999fe01ebfa1395185d8aaab9891472e570ab47c73cfa2e801709"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OVERLOAD_ERROR"><param name="Local" value="enum_definitions_8h.html#abd919b067bdb999fe01ebfa1395185d8a9ec6d5168a76ec818868493d7e197f9e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="CHECKSUM_ERROR"><param name="Local" value="enum_definitions_8h.html#abd919b067bdb999fe01ebfa1395185d8aee44ad5fdd2aeeb1e5f1519fd1d587d3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RANGE_ERROR"><param name="Local" value="enum_definitions_8h.html#abd919b067bdb999fe01ebfa1395185d8af1416900abf05d8ecbec408a3d61e493"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="OVERHEATING_ERROR"><param name="Local" value="enum_definitions_8h.html#abd919b067bdb999fe01ebfa1395185d8a07f4151a89cca55409ab68ee830551a6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ANGLE_LIMIT_ERROR"><param name="Local" value="enum_definitions_8h.html#abd919b067bdb999fe01ebfa1395185d8a73a152c8d8d59aac0a33c1e2e4fed11b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="INPUT_VOLTAGE_ERROR"><param name="Local" value="enum_definitions_8h.html#abd919b067bdb999fe01ebfa1395185d8a9db65f3e15bc25237544dd707926018d"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="MOVEMENT"><param name="Local" value="enum_definitions_8h.html#adc716dd21485bffb9015eaeb3cfe6859"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="XYZ"><param name="Local" value="enum_definitions_8h.html#adc716dd21485bffb9015eaeb3cfe6859ac3906aa83f2e1601606b5297cd4508a2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="THETA"><param name="Local" value="enum_definitions_8h.html#adc716dd21485bffb9015eaeb3cfe6859a2ca1df2c1d9af87b566993bd594570ce"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="WRITE_TYPE"><param name="Local" value="enum_definitions_8h.html#ae087ce7caaa168bc01d5c90d4b707e7a"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="INTERRUPT_DMA"><param name="Local" value="enum_definitions_8h.html#ae087ce7caaa168bc01d5c90d4b707e7aac6cf7742d7d1d3cb85a35aebfb7c71ef"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="STANDARD"><param name="Local" value="enum_definitions_8h.html#ae087ce7caaa168bc01d5c90d4b707e7aa9de934790934fe831fe946c851e8338e"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="asByte"><param name="Local" value="enum_definitions_8h.html#a5797d00cbec4a67a87c46f28f5821faa"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="asFloat"><param name="Local" value="enum_definitions_8h.html#a075caeb9b7b5bc210b54d4b322e81096"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="byteData"><param name="Local" value="enum_definitions_8h.html#ad7e78562375bb404ab5225568c00dfe7"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Hexapod.h"><param name="Local" value="_hexapod_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Hexapod"><param name="Local" value="class_hexapod.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Hexapod"><param name="Local" value="class_hexapod.html#a79efec751b5959388466cb095275f3d8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="~Hexapod"><param name="Local" value="class_hexapod.html#a901b9b9452f8258be9fb93069ed284ab"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="_Error_Handler"><param name="Local" value="class_hexapod.html#a5fbad98507deb0f34e19db16b5e346a6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA_init"><param name="Local" value="class_hexapod.html#ae5ac3ac37aae387c73f7375938743876"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="errorCheck"><param name="Local" value="class_hexapod.html#a82658b5c8e3f54687e464ae3497cff5a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="getCurrentPath"><param name="Local" value="class_hexapod.html#a80410724c9855214bea91687ce6f8277"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="getDMA"><param name="Local" value="class_hexapod.html#a13fa758747e035f1a4efaba2339d4b02"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="getTIM"><param name="Local" value="class_hexapod.html#a729a0e08a6ff56c605f20c79ba31d7c8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="getTime"><param name="Local" value="class_hexapod.html#aa7b54abbd188b93429730dd2f09bcfbd"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="getUART"><param name="Local" value="class_hexapod.html#acdedc8a931ec4759ee24df2cd5c34f1a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GPIO_init"><param name="Local" value="class_hexapod.html#a024fed457462d8e6e4072c513c2ba6e2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Initialise"><param name="Local" value="class_hexapod.html#ac54cbde269ebe4f9dbe7b8bedd1ccbef"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="makePath"><param name="Local" value="class_hexapod.html#ac4fba2aa0e9693c0dccc4982c36c2975"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="move"><param name="Local" value="class_hexapod.html#a561f1349b74eae2f5b3230f3597b8333"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="moveNextPathPoint"><param name="Local" value="class_hexapod.html#ac2b5d9191f710586796e5ef4bb5e7aaa"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Ping"><param name="Local" value="class_hexapod.html#ac7ef729ac284ecccb695087758b6c9ff"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="readyForNextPosition"><param name="Local" value="class_hexapod.html#a09126a65d36f7068b4c4c01566c46834"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="resetMotor"><param name="Local" value="class_hexapod.html#af22ac90056285244507ad4ff784b51ad"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setBodyHeight"><param name="Local" value="class_hexapod.html#a2978afc5456cc9df3f81110f8c4114b4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setDirection"><param name="Local" value="class_hexapod.html#a4dbf7ca82b123e05f882064f6c9e75f6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setOrientation"><param name="Local" value="class_hexapod.html#aa8e3e40b984212957edb179344aa1fb0"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setParamenters"><param name="Local" value="class_hexapod.html#aed77720c5e1f450b19aa2390f178ba90"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setPosition"><param name="Local" value="class_hexapod.html#af4f5c454c076e71542e5ce9cb098d860"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setPositionBits"><param name="Local" value="class_hexapod.html#a7f8e6480555fa23118cd07dd466db637"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setSpeed"><param name="Local" value="class_hexapod.html#a7ecc809aedcec9a8cd7f5e31ecfe28e4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setTick"><param name="Local" value="class_hexapod.html#a132d3e9cff50f3d1ee4513344b867979"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="startTimers"><param name="Local" value="class_hexapod.html#ac186dd7342f9f93b9c2a45398ab465f3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="SystemClock_Config"><param name="Local" value="class_hexapod.html#a9f7e97ca56c6c9ddd6272ba08aa58ae8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="TIM2_init"><param name="Local" value="class_hexapod.html#ab8f693c42e5876ee83a3daf9b7093000"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="TIM3_init"><param name="Local" value="class_hexapod.html#a16f6061713fa4c58e8450202ab361595"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="UART1_Toggle_Read"><param name="Local" value="class_hexapod.html#a0d3206659a3dc4711f88aab9c153a6da"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="UART1_Toggle_Write"><param name="Local" value="class_hexapod.html#afe6053b43d635b28786da6b45f255dda"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="UART1_WRITE_DMA"><param name="Local" value="class_hexapod.html#a1a8cf807773f21a1d3c5738ed6e6e5df"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="UART2_WRITE_DMA"><param name="Local" value="class_hexapod.html#a539ae19ba217b2b3977b15501621ddb4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="UART3_WRITE_DMA"><param name="Local" value="class_hexapod.html#a7df89e2014905569cd8dc448a3f88879"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="UART_init"><param name="Local" value="class_hexapod.html#ae18ac50c7eeb1df7f48158b506a03f85"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="update"><param name="Local" value="class_hexapod.html#a13c257f8f07a483688dd5c2308e43551"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="accel"><param name="Local" value="class_hexapod.html#a5afa43555b965a28a2e41286c5cf4069"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="bodyHeight"><param name="Local" value="class_hexapod.html#a1f7a48c13e6886bb1a095f2b98172d03"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="currentPath"><param name="Local" value="class_hexapod.html#acffb21a3fd16e25f06042ff8b4152b7f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="currentPathPoint"><param name="Local" value="class_hexapod.html#ad4b6456b2ae0274b93be66f8db1bea5a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="currentPathTheta"><param name="Local" value="class_hexapod.html#afb9ea4318b68d5848c70d6fe485a2ed5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="direction"><param name="Local" value="class_hexapod.html#afeb72cd05c266143fd7c59ac69676aa9"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA1_HandleStructure_UART2_RX"><param name="Local" value="class_hexapod.html#afcf2d0933ce49be208acfbf6179b725f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA1_HandleStructure_UART2_TX"><param name="Local" value="class_hexapod.html#ab4597e937e5bf76f0a106b06b3f137fd"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA1_HandleStructure_UART3_RX"><param name="Local" value="class_hexapod.html#ac20f8019de6725e9b4c8d2e6e0951e0f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA1_HandleStructure_UART3_TX"><param name="Local" value="class_hexapod.html#a5de22bda2f130cab97458571c96a8a96"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA2_HandleStructure_UART1_RX"><param name="Local" value="class_hexapod.html#a4353bdb6c0298fa1eea106f0a8169d65"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA2_HandleStructure_UART1_TX"><param name="Local" value="class_hexapod.html#ad7c140f8e3276ac1deb6582cbd19ea9c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="GPIO_InitStructure"><param name="Local" value="class_hexapod.html#ad99af652dccba66376656c5fc959ec69"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="legs"><param name="Local" value="class_hexapod.html#afbec68c65860c3027f8b36337edd385a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="pitchAngle"><param name="Local" value="class_hexapod.html#a395462f398a4c20fb7422540738f0426"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="radialDistance"><param name="Local" value="class_hexapod.html#a4aa8469c65d33cee6dafbc435d52def3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="remote"><param name="Local" value="class_hexapod.html#af94936e122509d05cd3e46bdb5180527"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="rollAngle"><param name="Local" value="class_hexapod.html#af7510e25b7193b5ca81f58a9cc398961"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="speed"><param name="Local" value="class_hexapod.html#aff84fc6694ac6362baaec561771e1b22"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="stepHeight"><param name="Local" value="class_hexapod.html#af242563a9e91932e14eaaaff2cbdbf2d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="strideLength"><param name="Local" value="class_hexapod.html#ab414e50c299a5067bb77f82a6b17065e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="TIM2_HandleStructure"><param name="Local" value="class_hexapod.html#a6278a64d64e538da5523f50639b42667"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="TIM3_HandleStructure"><param name="Local" value="class_hexapod.html#a4bf68c3756c20efb8b4423c2bb889433"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="UART1_HandleStructure"><param name="Local" value="class_hexapod.html#a670cfd1aeea14ee79bf31f9bb503609e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="UART2_HandleStructure"><param name="Local" value="class_hexapod.html#a1ea3d5418dea7f71a57116a437c9bc28"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="UART3_HandleStructure"><param name="Local" value="class_hexapod.html#ab421b4ce1582c6a7d1490db5c7f527fc"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="utick"><param name="Local" value="class_hexapod.html#a7ac5c76defdabb4f70a82d62811a834f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="xyz_stand"><param name="Local" value="class_hexapod.html#a261121c316c3ae13db7496c8188db08f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="yawAngle"><param name="Local" value="class_hexapod.html#a35b47d8218896af9c5741d917a17c173"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Leg.h"><param name="Local" value="_leg_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Leg"><param name="Local" value="class_leg.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Leg"><param name="Local" value="class_leg.html#aaa307b522b93b170846a7c623b7b79d8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Leg"><param name="Local" value="class_leg.html#ae1ebe00ac0112a2a53f291784bb1d697"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Leg"><param name="Local" value="class_leg.html#a9478905b8f03e666091ab9d33cd85253"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="~Leg"><param name="Local" value="class_leg.html#a908ec4b657b0e5741a9705d2e503c615"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="atDesiredPosition"><param name="Local" value="class_leg.html#ab78f2b4fd5bd225c9ee5bc9cddfc81d4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="forwardKinematics"><param name="Local" value="class_leg.html#a28ad816ccc22b4b4c1fdb74a049f0817"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="getSpeed"><param name="Local" value="class_leg.html#a5d724be075265adfe2738f54a726c297"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="inverseKinematics"><param name="Local" value="class_leg.html#a635772e2c657130269364f938de4222a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="makePath"><param name="Local" value="class_leg.html#a0c4aa392b3972c2249a735cf17a4d910"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="move"><param name="Local" value="class_leg.html#af07e04e4a370d767911c9894b3385fd9"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="moveNextPathPoint"><param name="Local" value="class_leg.html#a40ec4aacfed41f4302e62ee9a6bad0f3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setOffsets"><param name="Local" value="class_leg.html#a484270a838633036a34ed7ba7c644849"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setPosition"><param name="Local" value="class_leg.html#a48b8f150127aab7477f5f02a61a50133"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setPosition"><param name="Local" value="class_leg.html#a66b5bf6d4fa551b2f5e28a259cb99887"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setPositionBits"><param name="Local" value="class_leg.html#aec27eea7990fdd4e48f193693ccbcc59"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setPositionBits"><param name="Local" value="class_leg.html#a56e99bda2b76726cd4b564fb15121b31"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setSpeed"><param name="Local" value="class_leg.html#a5b27a2e07b4a7bc6b80fce71499edf2a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setSpeed"><param name="Local" value="class_leg.html#aa31a11eaa204365227e70d585ffd519c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setSpeedBits"><param name="Local" value="class_leg.html#a83e768e4fac5f9d1064be4f2453410c8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setTheta"><param name="Local" value="class_leg.html#ac269b14ade3b8d03d500316a238489cd"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setTheta"><param name="Local" value="class_leg.html#a1cf49a29095ab01da0826a2003513259"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setTiltOffset"><param name="Local" value="class_leg.html#a6b8a2f056bf230b09ced83404304eb0b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setUARTHandler"><param name="Local" value="class_leg.html#a2a3e958f5c22c7c1ca56a7f212d5e39c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="UARTWrite"><param name="Local" value="class_leg.html#a3d3249d8e5d9ec7c6c56f58626f71fc9"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="writeRegs"><param name="Local" value="class_leg.html#ad2632d74b0c23701f699f11d09ce396d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="accOffsets"><param name="Local" value="class_leg.html#ae7f108a1afa3aca5d12947c3876e045f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="currentPathPoint"><param name="Local" value="class_leg.html#a07544fdd40511f09310d0fa19c15169e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="dutyOffset"><param name="Local" value="class_leg.html#add280d4f359ae909372c169776c8d7a7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="L1x"><param name="Local" value="class_leg.html#aafbfd7322eeda40274585af07dc8f381"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="L1z"><param name="Local" value="class_leg.html#a1e1e42ca509159d6b230d05119caf404"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="L2"><param name="Local" value="class_leg.html#ac831f584ef0b52a1c10c7b2e588086b9"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="L3"><param name="Local" value="class_leg.html#a415ce61b71f0361cc3e75c54cffadd61"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="legPath"><param name="Local" value="class_leg.html#a143bfce2f09fbcae857046d8f498c9fb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="motor_uart"><param name="Local" value="class_leg.html#a56c2c14fc811141e09917f9ea4cab8ee"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="motors"><param name="Local" value="class_leg.html#a7244522431a1d0ec5532c41fb4fffde2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="offsets"><param name="Local" value="class_leg.html#a02481b12d33db465298ca23f9d3589b7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="positionTHETA"><param name="Local" value="class_leg.html#a4d4f7690d311c5e431b7e37ebc7b11d3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="positionXYZ"><param name="Local" value="class_leg.html#ac5551a05ede63fe749ea07d762651a98"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="rotation"><param name="Local" value="class_leg.html#a90a0ff604ebc3c263150f9460597a55f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="theta_dot"><param name="Local" value="class_leg.html#acfcb839f6148257accaf8b5bd85544f4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="tiltOffset"><param name="Local" value="class_leg.html#a13b179c45ba24b6b2f1c2fd1d12481eb"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="List.h"><param name="Local" value="_list_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="List"><param name="Local" value="class_list.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="List"><param name="Local" value="class_list.html#aa66f3b140bb03a3c0962b2c50d44fdaf"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="List"><param name="Local" value="class_list.html#ab58b8f21002f3ec16237f9e105d99b67"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="List"><param name="Local" value="class_list.html#ad1a6eba45613c73e5cc7bb6bbe44a2e7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="~List"><param name="Local" value="class_list.html#ab9854ff0f0268fd8ea78310259335513"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="add"><param name="Local" value="class_list.html#abb9b8ce760110ccd6ce27df951b3a625"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="class_list.html#a7a7cf1378f7e1413ac75e7d3ba4d3995"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="get"><param name="Local" value="class_list.html#aba239c7dc73d457aec3145b869324ceb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="getLength"><param name="Local" value="class_list.html#abba70433b1a86fadd96361903c9a758a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="data"><param name="Local" value="class_list.html#a89ba758ab2be16e7127060392418976d"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Motor.h"><param name="Local" value="_motor_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Motor"><param name="Local" value="class_motor.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Motor"><param name="Local" value="class_motor.html#a6fbadf348c2e162d15d96e6720164d63"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="~Motor"><param name="Local" value="class_motor.html#a11b7c04b3a7c1ecc97ece0655d5607fc"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="calcPositionBits"><param name="Local" value="class_motor.html#a740d2a4371be80ce5da3ca53b9ef2556"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="calcSpeedBits"><param name="Local" value="class_motor.html#ad638297d23361eff46434de99c99c3b2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="getGoalMovementBits"><param name="Local" value="class_motor.html#accca547345173c711f3f2571617adfa2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="getPresentMovementBits"><param name="Local" value="class_motor.html#a844aacffa0e3796a13167effd8ffa3e3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="move"><param name="Local" value="class_motor.html#a62b0c7f0fc5adc0a6f965f1274af4541"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ping"><param name="Local" value="class_motor.html#ae0cc71efcc6a8087a3053c1543e58f7b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="readReg"><param name="Local" value="class_motor.html#a32dd67f9de040e4aae27299c4a1a6d8f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setGoalPositionSpeed"><param name="Local" value="class_motor.html#a4951362199bafcca0462253af4651b36"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setPositionBits"><param name="Local" value="class_motor.html#a929d98fbd408530c8b5ef65cf91948d8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setSpeedBits"><param name="Local" value="class_motor.html#a44ab72e0be6481d09338581cd2ae5479"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setUARTHandler"><param name="Local" value="class_motor.html#a30cd5a8f0cbe3f5f2d2fcb898e0c5ef0"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="writeReg"><param name="Local" value="class_motor.html#abd9a4e9d027d5b10bf82929debeb703a"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="writeReg"><param name="Local" value="class_motor.html#a1ed406bd0e980f748e82ede8e61278f7"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="controlTable"><param name="Local" value="class_motor.html#a3f17795b41f9fd3f225c9dd37b1a7f57"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="dma_motor_statusPacket"><param name="Local" value="class_motor.html#a8390e61175ef6accfd221f83e0412101"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="error"><param name="Local" value="class_motor.html#a0f471d3bf4d80d3af3dabd793a4f8470"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="goalMovementBits"><param name="Local" value="class_motor.html#af98a46b8e573fa5a443690f15cb5168c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ID"><param name="Local" value="class_motor.html#a08b2e6a12e9e75e178f039f4bca5384d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="motor_uart"><param name="Local" value="class_motor.html#aba04ad86c3068fba31e381d6de133f0c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="pingStatusPacket"><param name="Local" value="class_motor.html#ae9a5f903875a4160b218c040b8555906"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="presentMovementBits"><param name="Local" value="class_motor.html#ab080bd843b47b510d2cde0f108285dd4"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Path.h"><param name="Local" value="_path_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Path"><param name="Local" value="class_path.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Path"><param name="Local" value="class_path.html#af067d22af9ec8e835fb282b533b92642"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="~Path"><param name="Local" value="class_path.html#a40f8bd5462703506bbc23541899c2579"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="getPath"><param name="Local" value="class_path.html#ad6b7cc1dc2235833e3df8f171a68a097"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="getPathBits"><param name="Local" value="class_path.html#ae120a505e952a6e78919379624380b94"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="inverseKinematics"><param name="Local" value="class_path.html#aa6435689b6bfbcc2c7dc77e9c53fddaa"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="makePath"><param name="Local" value="class_path.html#a7261333a22f3e1a0a7ef286b52e2e34c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="setPoints"><param name="Local" value="class_path.html#a41b0fb774d61a852bb281144630a501f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="endBits"><param name="Local" value="class_path.html#a56ebde12c7698fcb3ec02082b4e01398"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="endPoint"><param name="Local" value="class_path.html#abdc47e1fa79e59b465fc243646769574"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="endTheta"><param name="Local" value="class_path.html#a0004098379ad98bdf59521e39f73d361"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="L1x"><param name="Local" value="class_path.html#ac463b184828af3c140d4527c5e21696c"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="L1z"><param name="Local" value="class_path.html#aef9777860946ddefde32e8b797ecfebc"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="L2"><param name="Local" value="class_path.html#a03bcb7a4ec067c76c692a5a3ae2ed1e6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="L3"><param name="Local" value="class_path.html#aa470cfb441d7e9f4b39e902eeb3257c4"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="midBits"><param name="Local" value="class_path.html#a9d04da57cc96f2e5655630eb69f8dd81"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="midPoint"><param name="Local" value="class_path.html#a2a05a77aa681fa4d9f80294b9ebc4264"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="midTheta"><param name="Local" value="class_path.html#aadb0cc89ca3063c9dc16f97dff65add6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="path_list"><param name="Local" value="class_path.html#a738a8bc8bc77d79525d5b5805bfcd7fc"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="pathBITS"><param name="Local" value="class_path.html#a7d9468321317c59db9c0dd0d2125b428"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="pathTHETA"><param name="Local" value="class_path.html#a2348659e47209f52c2635f00aac1a3a9"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="pathXYZ"><param name="Local" value="class_path.html#a964958027aca36aca7d007ea060c4ba9"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="startBits"><param name="Local" value="class_path.html#a084d8629ea3823b16b2d4a58cdde1b01"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="startPoint"><param name="Local" value="class_path.html#abfe336021b3795374b6d24f4ee1b7a0f"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="startTheta"><param name="Local" value="class_path.html#a20976a9f3bf34cadaa067ac152fa8bbf"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="numPoints"><param name="Local" value="_path_8h.html#ab992cea4e57ddb6a1ace66bdd5230cec"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="pathSize"><param name="Local" value="_path_8h.html#a62d0ec58e0f889f811c2610e46e7eef9"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Point.h"><param name="Local" value="_point_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Point"><param name="Local" value="class_point.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Point"><param name="Local" value="class_point.html#a8321bdf2f27bcc89b6c04209fffcebdc"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Point"><param name="Local" value="class_point.html#a8c35606f1fdda3ccf78179b868424905"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Point"><param name="Local" value="class_point.html#ad6e652722fd0155124e4b1de29bac1f6"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="~Point"><param name="Local" value="class_point.html#af8f2ae17cce624bb3efa29d2c903e8cd"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="p1"><param name="Local" value="class_point.html#a3abe1d85d3f12ef7036ec0b26adbda43"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="p2"><param name="Local" value="class_point.html#a003668f4ab1eaf3f96802d473fa08ba8"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="p3"><param name="Local" value="class_point.html#aaca117bff9182401b259fda1a8fe73eb"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Remote.h"><param name="Local" value="_remote_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Remote"><param name="Local" value="class_remote.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Remote"><param name="Local" value="class_remote.html#a955d4fbb98920c4631666569067ac470"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="~Remote"><param name="Local" value="class_remote.html#a96f9a1d38d93f95db769fa2ff6973701"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="isChecksumValid"><param name="Local" value="class_remote.html#a3dbc0a931a593b667935cd1841541d7b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="processRemoteData"><param name="Local" value="class_remote.html#aef46f3b9522e8ff6ecf0f5ba1fc56915"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="receiveRemoteData"><param name="Local" value="class_remote.html#a836cee94645b0eb6a64fe37509b9324d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="bodyHeight"><param name="Local" value="class_remote.html#abe9001c2fc2be46f455940d95fea92cb"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="direction"><param name="Local" value="class_remote.html#a9e1394a0254eb7d91f33fd62e901cc0d"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="dma_dataPacket"><param name="Local" value="class_remote.html#a0aac0e0aa9a46eaaf9609a1d60fb540e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="function"><param name="Local" value="class_remote.html#a0b1df8e9267d4018232d2c2f214eaba3"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="newData"><param name="Local" value="class_remote.html#ab3e6812039ba7ee6e03c38a7fa394c9b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="remote_uart"><param name="Local" value="class_remote.html#a59e8ddcf2a50178beba7a1ba4d13cbcc"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="speed"><param name="Local" value="class_remote.html#a5f5a995222dfe6a8f67425d18c23d2fa"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="stm32f4xx_hal_conf.h"><param name="Local" value="stm32f4xx__hal__conf_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="src"><param name="Local" value="dir_68267d1309a1af8e8297ef4c3efbcdba.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Accelerometer.cpp"><param name="Local" value="_accelerometer_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Hexapod.cpp"><param name="Local" value="_hexapod_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Leg.cpp"><param name="Local" value="_leg_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="main.cpp"><param name="Local" value="main_8cpp.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA1_Stream1_IRQHandler"><param name="Local" value="main_8cpp.html#a31783ba032a9c7268a10ba2b4c59a9fd"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA1_Stream3_IRQHandler"><param name="Local" value="main_8cpp.html#a51d485393cf37043623c8bd0abae12a1"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA1_Stream5_IRQHandler"><param name="Local" value="main_8cpp.html#ac201b60d58b0eba2ce0b55710eb3c4d0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA1_Stream6_IRQHandler"><param name="Local" value="main_8cpp.html#aa28fd448462a6347589129f63bb0a388"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA2_Stream2_IRQHandler"><param name="Local" value="main_8cpp.html#a7e367d7c7b74485c4c75cdef30ad01e1"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DMA2_Stream7_IRQHandler"><param name="Local" value="main_8cpp.html#afc1d00127dcf2fb0afdbc50e4b587fdf"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="HAL_UART_RxCpltCallback"><param name="Local" value="main_8cpp.html#a4ba273e201c80dfad1217470950899a3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="HAL_UART_RxHalfCpltCallback"><param name="Local" value="main_8cpp.html#a5f83a63afd99c8ba0b45d72648440ea3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="HAL_UART_TxCpltCallback"><param name="Local" value="main_8cpp.html#aac748b84dc96c9da115e6cddecf99005"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="HAL_UART_TxHalfCpltCallback"><param name="Local" value="main_8cpp.html#aafcb8c76a34698ea0663655d852b2cd4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="main"><param name="Local" value="main_8cpp.html#acdef7a1fd863a6d3770c1268cb06add3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="SysTick_Handler"><param name="Local" value="main_8cpp.html#ab5e09814056d617c521549e542639b7e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TIM2_IRQHandler"><param name="Local" value="main_8cpp.html#a38ad4725462bdc5e86c4ead4f04b9fc2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="TIM3_IRQHandler"><param name="Local" value="main_8cpp.html#ac8e51d2183b5230cbd5481f8867adce9"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="USART1_IRQHandler"><param name="Local" value="main_8cpp.html#a7139cd4baabbbcbab0c1fe6d7d4ae1cc"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="USART2_IRQHandler"><param name="Local" value="main_8cpp.html#a0ca6fd0e6f77921dd1123539857ba0a8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="USART3_IRQHandler"><param name="Local" value="main_8cpp.html#a0d108a3468b2051548183ee5ca2158a0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="HEX"><param name="Local" value="main_8cpp.html#a6920b1987ac4e1185d300ee1df625ba3"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Motor.cpp"><param name="Local" value="_motor_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Path.cpp"><param name="Local" value="_path_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Remote.cpp"><param name="Local" value="_remote_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="File Members"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="globals_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Variables"><param name="Local" value="globals_vars.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Enumerations"><param name="Local" value="globals_enum.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Macros"><param name="Local" value="globals_defs.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>

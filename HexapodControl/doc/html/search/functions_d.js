@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['readallmotors',['readAllMotors',['../class_hexapod.html#aaa146af627e1ae7e10dc1b7d066fcb30',1,'Hexapod']]],
+  ['readcharger',['readCharger',['../class_hexapod.html#aa5f943971f7a0296e735a9d5b1e71301',1,'Hexapod']]],
+  ['readinternaltemp',['readInternalTemp',['../class_hexapod.html#a19aee8228571acca710b6b3d6cae5a26',1,'Hexapod']]],
+  ['readreg',['readReg',['../class_motor.html#af53a90477bf9b5541aa711578d56194e',1,'Motor']]],
+  ['readtable',['readTable',['../class_motor.html#ac0fc292fc4e90f754cc287b1fe25e906',1,'Motor']]],
+  ['readyfornextposition',['readyForNextPosition',['../class_hexapod.html#a09126a65d36f7068b4c4c01566c46834',1,'Hexapod']]],
+  ['receiveacc',['receiveAcc',['../class_comms_manager.html#ac43325e1abc6c113ab599893ede37478',1,'CommsManager']]],
+  ['receiveacceldata',['receiveAccelData',['../class_accelerometer.html#aa66c1b089a8d56527c9b7eb16aece1f5',1,'Accelerometer']]],
+  ['receivemotors',['receiveMotors',['../class_comms_manager.html#a25d85c11668af3fd9eee806e128fe37a',1,'CommsManager']]],
+  ['receiveremote',['receiveRemote',['../class_comms_manager.html#a815bb923df5fa6e51f2e9e769ae5f766',1,'CommsManager']]],
+  ['receiveremotedata',['receiveRemoteData',['../class_remote.html#a1b6238f1ff74e9dbd3c2f75e563a9377',1,'Remote']]],
+  ['remote',['Remote',['../class_remote.html#a3882dee4f97d0e097adb9ab612bf9e2b',1,'Remote']]],
+  ['requestacceldata',['requestAccelData',['../class_accelerometer.html#af50c4df7076e372e1a97fe5be505481e',1,'Accelerometer']]],
+  ['resetallmotors',['resetAllMotors',['../class_hexapod.html#a2b799039ab0a0340e32f581dbe646aaf',1,'Hexapod']]],
+  ['reseterrors',['resetErrors',['../class_motor.html#a481578665765ae569769f5f599d1b583',1,'Motor']]],
+  ['resetmotor',['resetMotor',['../class_hexapod.html#af22ac90056285244507ad4ff784b51ad',1,'Hexapod']]]
+];

@@ -1,0 +1,25 @@
+var class_accelerometer =
+[
+    [ "Accelerometer", "class_accelerometer.html#a442ef973a50cfc4514faf7f7ec3ac2ab", null ],
+    [ "~Accelerometer", "class_accelerometer.html#ac032bc76ae0d7d91e98cb3d1b43940c2", null ],
+    [ "bytesToFloat", "class_accelerometer.html#aec27f88de7102fcb741fc5b8acc46e48", null ],
+    [ "isChecksumValid", "class_accelerometer.html#af371b41abd27945abf8043bb28c89eca", null ],
+    [ "processAccelData", "class_accelerometer.html#a323c6548697e28f9f4ae9672b8163cf5", null ],
+    [ "receiveAccelData", "class_accelerometer.html#aa66c1b089a8d56527c9b7eb16aece1f5", null ],
+    [ "requestAccelData", "class_accelerometer.html#af50c4df7076e372e1a97fe5be505481e", null ],
+    [ "resetHeading", "class_accelerometer.html#a3243278fba821cf2c6c0507b4e434b97", null ],
+    [ "setConfigMode", "class_accelerometer.html#af7a902f91c036e7805286b1766943deb", null ],
+    [ "setMeasurementMode", "class_accelerometer.html#afb1c77c2d6d0773c150525cc2cca5381", null ],
+    [ "accel_transmission", "class_accelerometer.html#aca2d062a9afcc7b726f4f57d8001d9dc", null ],
+    [ "comms", "class_accelerometer.html#a467ed07999f0a36d88dbaf027160feba", null ],
+    [ "dma_dataPacket", "class_accelerometer.html#ae95f1a41ef6580e5f64e9444a1473b8a", null ],
+    [ "dma_infoPacket", "class_accelerometer.html#a18549fd110b04515ebf0a94d24d64298", null ],
+    [ "gotoConfig", "class_accelerometer.html#ae725991ae6041c8dd7be4ded71e51bfb", null ],
+    [ "gotoMeasurement", "class_accelerometer.html#a006dff6bd0ed6cc226e67eaab07988fd", null ],
+    [ "pitch", "class_accelerometer.html#a1e0d5d31a80909aedbe49f7e8906247e", null ],
+    [ "reqData", "class_accelerometer.html#a70c051031e069de61c637270de80f491", null ],
+    [ "resetHeadingData", "class_accelerometer.html#a8c7a7d7fd836ea6dac6fed81f60f6085", null ],
+    [ "roll", "class_accelerometer.html#a7f42127302eafd0a031182152c8c4514", null ],
+    [ "timestamp", "class_accelerometer.html#acea7abb0901ecbdce070e21d8a0b928c", null ],
+    [ "yaw", "class_accelerometer.html#a7ac5130a99c2f74c4787c87e38a18b5a", null ]
+];
