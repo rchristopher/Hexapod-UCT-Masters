@@ -1,0 +1,32 @@
+Mass properties of L1_Assembly
+     Configuration: Default
+     Coordinate system: Base Frame
+
+Mass = 143.27 grams
+
+Volume = 78446.09 cubic millimeters
+
+Surface area = 25548.26  square millimeters
+
+Center of mass: ( millimeters )
+	X = 49.84
+	Y = 0.35
+	Z = 22.89
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = ( 0.08, -0.09,  0.99)   	Px = 43713.84
+	 Iy = ( 0.98,  0.16, -0.06)   	Py = 57809.58
+	 Iz = (-0.16,  0.98,  0.10)   	Pz = 59527.79
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system.
+	Lxx = 57770.47	Lxy = 167.78	Lxz = 1084.47
+	Lyx = 167.78	Lyy = 59358.94	Lyz = -1407.32
+	Lzx = 1084.47	Lzy = -1407.32	Lzz = 43921.79
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the output coordinate system.					********************
+	Ixx = 132857.18	Ixy = 2687.33	Ixz = 164548.51
+	Iyx = 2687.33	Iyy = 490374.16	Iyz = -250.25
+	Izx = 164548.51	Izy = -250.25	Izz = 399885.97

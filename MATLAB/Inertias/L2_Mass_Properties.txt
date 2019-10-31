@@ -1,0 +1,32 @@
+Mass properties of Assem1
+     Configuration: Default
+     Coordinate system: Base Frame
+
+Mass = 49.77 grams
+
+Volume = 18404.67 cubic millimeters
+
+Surface area = 17224.86  square millimeters
+
+Center of mass: ( millimeters )
+	X = 50.63
+	Y = -4.58
+	Z = -1.50
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = ( 1.00,  0.01,  0.00)   	Px = 33722.50
+	 Iy = ( 0.00,  0.00, -1.00)   	Py = 75515.76
+	 Iz = (-0.01,  1.00,  0.00)   	Pz = 100444.33
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system.
+	Lxx = 33731.18	Lxy = 761.00	Lxz = 0.00
+	Lyx = 761.00	Lyy = 100435.65	Lyz = 0.00
+	Lzx = 0.00	Lzy = 0.00	Lzz = 75515.76
+
+Moments of inertia: ( grams *  square millimeters )*************************
+Taken at the output coordinate system.
+	Ixx = 34886.82	Ixy = -10778.87	Ixz = -3780.08
+	Iyx = -10778.87	Iyy = 228145.32	Iyz = 341.87
+	Izx = -3780.08	Izy = 341.87	Izz = 204157.10

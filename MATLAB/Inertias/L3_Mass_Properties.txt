@@ -1,0 +1,35 @@
+Mass properties of L3_Assembly
+     Configuration: Default
+     Coordinate system: Base Frame
+
+Mass = 154.56 grams
+
+Volume = 77863.52 cubic millimeters
+
+Surface area = 27374.25  square millimeters
+
+Center of mass: ( millimeters )
+	X = 33.56
+	Y = 7.90
+	Z = -0.02
+
+Principal axes of inertia and principal moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass.
+	 Ix = ( 1.00,  0.06,  0.00)   	Px = 31288.90
+	 Iy = ( 0.06, -1.00, -0.02)   	Py = 197312.57
+	 Iz = ( 0.00,  0.02, -1.00)   	Pz = 200364.07
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the center of mass and aligned with the output coordinate system.
+	Lxx = 31910.67	Lxy = 10140.69	Lxz = -98.26
+	Lyx = 10140.69	Lyy = 196691.86	Lyz = 49.52
+	Lzx = -98.26	Lzy = 49.52	Lzz = 200363.01
+
+Moments of inertia: ( grams *  square millimeters )
+Taken at the output coordinate system.				*************************
+	Ixx = 41560.95	Ixy = 51130.24	Ixz = -211.30
+	Iyx = 51130.24	Iyy = 370796.48	Iyz = 22.90
+	Izx = -211.30	Izy = 22.90	Izz = 384117.75
+
+One or more components have overridden mass properties:
+	RX-28Dual<1><Default>
