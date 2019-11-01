@@ -49,20 +49,17 @@ public:
 	double bodyHeight = 0;
 	/** @brief The button function data received from the remote. **/
 	uint8_t function = 0;
-
+	/** @brief The twist angle of the body. **/
 	double twistBody = 0;
 
 	/** @brief A state variable to determine if the remote is currently sending data. **/
 	bool sending = false;
 
+	/** @brief Boolean holding the status of the last ping. **/
 	bool pingSuccess = false;
 
+	/** @brief Boolean holding the current charging status. **/
 	bool charging = false;
-
-	float pidKp = 0;
-	float pidKi = 0;
-	float pidKd = 0;
-	uint8_t pidPitchRoll = 0;
 
 	/**
 	 * @brief Default constructor for the class.
@@ -92,6 +89,14 @@ public:
 	 **/
 	void sendASCII(char * msg);
 
+	/**
+	 * @brief Send the start or stop charging command to the charging base.
+	 *
+	 * @details
+	 *
+	 * @param charging True or false to start or stop charging respectively.
+	 *
+	 **/
 	void sendCharging(bool charging);
 
 	/**
@@ -100,6 +105,7 @@ public:
 	 *	@details
 	 *	@param pitch The pitch of the IMU.
 	 *	@param roll The roll of the IMU.
+	 *	@param yaw The yaw of the IMU.
 	 *	@param timestamp The timestamp of the IMU.
 	 *	@param slopePitch The slope pitch of the Hexapod.
 	 *	@param slopeRoll The slope roll of the Hexapod.
@@ -153,8 +159,23 @@ public:
 	 **/
 	void floatToBytes(float value, uint8_t * bytes);
 
+	/**
+	 * 	@brief Convert a byte array into a float.
+	 *
+	 *	@details
+	 *
+	 *	@param bytes The byte array to convert.
+	 *
+	 **/
 	float bytesToFloat(uint8_t * bytes);
 
+	/**
+	 * 	@brief Return the pingSuccess boolean.
+	 *
+	 *	@details
+	 *
+	 *
+	 **/
 	bool successfulPing(void);
 
 };

@@ -107,6 +107,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a47b31b7a26d91e680d15301982e13b38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send an ASCII string through the remote.  <a href="#a47b31b7a26d91e680d15301982e13b38">More...</a><br /></td></tr>
 <tr class="separator:a47b31b7a26d91e680d15301982e13b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab89f2598d29a2a98fe5a15f256ec0f19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_remote.html#ab89f2598d29a2a98fe5a15f256ec0f19">sendCharging</a> (bool <a class="el" href="class_remote.html#aff6c9dd9a808480bde5f2d0889e2cca0">charging</a>)</td></tr>
+<tr class="memdesc:ab89f2598d29a2a98fe5a15f256ec0f19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the start or stop charging command to the charging base.  <a href="#ab89f2598d29a2a98fe5a15f256ec0f19">More...</a><br /></td></tr>
 <tr class="separator:ab89f2598d29a2a98fe5a15f256ec0f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4e39584387b264d6bcba4e72a00ad8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_remote.html#af4e39584387b264d6bcba4e72a00ad8d">sendAcc</a> (double pitch, double roll, double yaw, uint16_t timestamp, double slopePitch, double slopeRoll)</td></tr>
 <tr class="memdesc:af4e39584387b264d6bcba4e72a00ad8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send the IMU data through the remote.  <a href="#af4e39584387b264d6bcba4e72a00ad8d">More...</a><br /></td></tr>
@@ -127,8 +128,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad93bf9337a28b79ee8df1779994d888b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a float into a byte array.  <a href="#ad93bf9337a28b79ee8df1779994d888b">More...</a><br /></td></tr>
 <tr class="separator:ad93bf9337a28b79ee8df1779994d888b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a64038b60ee7e6034f12e4941e6f59b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_remote.html#a5a64038b60ee7e6034f12e4941e6f59b">bytesToFloat</a> (uint8_t *bytes)</td></tr>
+<tr class="memdesc:a5a64038b60ee7e6034f12e4941e6f59b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a byte array into a float.  <a href="#a5a64038b60ee7e6034f12e4941e6f59b">More...</a><br /></td></tr>
 <tr class="separator:a5a64038b60ee7e6034f12e4941e6f59b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aada57911eb33965e3a1cb423e79ba4e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_remote.html#aada57911eb33965e3a1cb423e79ba4e1">successfulPing</a> (void)</td></tr>
+<tr class="memdesc:aada57911eb33965e3a1cb423e79ba4e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the pingSuccess boolean.  <a href="#aada57911eb33965e3a1cb423e79ba4e1">More...</a><br /></td></tr>
 <tr class="separator:aada57911eb33965e3a1cb423e79ba4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -149,22 +152,17 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a0b1df8e9267d4018232d2c2f214eaba3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The button function data received from the remote.  <a href="#a0b1df8e9267d4018232d2c2f214eaba3">More...</a><br /></td></tr>
 <tr class="separator:a0b1df8e9267d4018232d2c2f214eaba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81544e3a510a0c6d3db44e8f71b9faf4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_remote.html#a81544e3a510a0c6d3db44e8f71b9faf4">twistBody</a> = 0</td></tr>
+<tr class="memdesc:a81544e3a510a0c6d3db44e8f71b9faf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The twist angle of the body.  <a href="#a81544e3a510a0c6d3db44e8f71b9faf4">More...</a><br /></td></tr>
 <tr class="separator:a81544e3a510a0c6d3db44e8f71b9faf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13150619245c1654aead7bc7ba8b7965"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_remote.html#a13150619245c1654aead7bc7ba8b7965">sending</a> = false</td></tr>
 <tr class="memdesc:a13150619245c1654aead7bc7ba8b7965"><td class="mdescLeft">&#160;</td><td class="mdescRight">A state variable to determine if the remote is currently sending data.  <a href="#a13150619245c1654aead7bc7ba8b7965">More...</a><br /></td></tr>
 <tr class="separator:a13150619245c1654aead7bc7ba8b7965"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b5a23abe010c2665ecf62b9a4c3a490"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_remote.html#a3b5a23abe010c2665ecf62b9a4c3a490">pingSuccess</a> = false</td></tr>
+<tr class="memdesc:a3b5a23abe010c2665ecf62b9a4c3a490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean holding the status of the last ping.  <a href="#a3b5a23abe010c2665ecf62b9a4c3a490">More...</a><br /></td></tr>
 <tr class="separator:a3b5a23abe010c2665ecf62b9a4c3a490"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff6c9dd9a808480bde5f2d0889e2cca0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_remote.html#aff6c9dd9a808480bde5f2d0889e2cca0">charging</a> = false</td></tr>
+<tr class="memdesc:aff6c9dd9a808480bde5f2d0889e2cca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean holding the current charging status.  <a href="#aff6c9dd9a808480bde5f2d0889e2cca0">More...</a><br /></td></tr>
 <tr class="separator:aff6c9dd9a808480bde5f2d0889e2cca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eb50c4c814c3fc670d4284fad37af02"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_remote.html#a4eb50c4c814c3fc670d4284fad37af02">pidKp</a> = 0</td></tr>
-<tr class="separator:a4eb50c4c814c3fc670d4284fad37af02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae93b4ddfde45cb0f3a403aac7204251"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_remote.html#aae93b4ddfde45cb0f3a403aac7204251">pidKi</a> = 0</td></tr>
-<tr class="separator:aae93b4ddfde45cb0f3a403aac7204251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad963d503f4623b2334a5d40de386e5a2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_remote.html#ad963d503f4623b2334a5d40de386e5a2">pidKd</a> = 0</td></tr>
-<tr class="separator:ad963d503f4623b2334a5d40de386e5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcec21339c3572108b3e103b14f4de1d"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_remote.html#afcec21339c3572108b3e103b14f4de1d">pidPitchRoll</a> = 0</td></tr>
-<tr class="separator:afcec21339c3572108b3e103b14f4de1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -256,6 +254,14 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Convert a byte array into a float. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bytes</td><td>The byte array to convert. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="_remote_8cpp_source.html#l00182">182</a> of file <a class="el" href="_remote_8cpp_source.html">Remote.cpp</a>.</p>
 
@@ -351,7 +357,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_remote_8cpp_source.html#l00086">86</a> of file <a class="el" href="_remote_8cpp_source.html">Remote.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_remote_8h_source.html#l00049">bodyHeight</a>, <a class="el" href="_remote_8h_source.html#l00030">comms</a>, <a class="el" href="_remote_8h_source.html#l00047">direction</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="_remote_8h_source.html#l00033">dma_dataPacket</a>, <a class="el" href="_remote_8cpp_source.html#l00163">isChecksumValid()</a>, <a class="el" href="_remote_8h_source.html#l00043">newData</a>, <a class="el" href="_remote_8h_source.html#l00045">speed</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00251">CommsManager::transmitRemote()</a>, and <a class="el" href="_remote_8h_source.html#l00053">twistBody</a>.</p>
+<p class="reference">References <a class="el" href="_remote_8h_source.html#l00049">bodyHeight</a>, <a class="el" href="_remote_8h_source.html#l00030">comms</a>, <a class="el" href="_remote_8h_source.html#l00047">direction</a>, <a class="el" href="enum_definitions_8h_source.html#l00050">DMA</a>, <a class="el" href="_remote_8h_source.html#l00033">dma_dataPacket</a>, <a class="el" href="_remote_8cpp_source.html#l00163">isChecksumValid()</a>, <a class="el" href="_remote_8h_source.html#l00043">newData</a>, <a class="el" href="_remote_8h_source.html#l00045">speed</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00251">CommsManager::transmitRemote()</a>, and <a class="el" href="_remote_8h_source.html#l00053">twistBody</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00287">HAL_UART_RxCpltCallback()</a>.</p>
 
@@ -377,9 +383,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_remote_8cpp_source.html#l00082">82</a> of file <a class="el" href="_remote_8cpp_source.html">Remote.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_remote_8h_source.html#l00030">comms</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="_remote_8h_source.html#l00033">dma_dataPacket</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00297">CommsManager::receiveRemote()</a>.</p>
+<p class="reference">References <a class="el" href="_remote_8h_source.html#l00030">comms</a>, <a class="el" href="enum_definitions_8h_source.html#l00050">DMA</a>, <a class="el" href="_remote_8h_source.html#l00033">dma_dataPacket</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00297">CommsManager::receiveRemote()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00437">HAL_UART_ErrorCallback()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00018">Hexapod::Initialise()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00439">HAL_UART_ErrorCallback()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00018">Hexapod::Initialise()</a>.</p>
 
 </div>
 </div>
@@ -438,6 +444,7 @@ Private Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">pitch</td><td>The pitch of the IMU. </td></tr>
     <tr><td class="paramname">roll</td><td>The roll of the IMU. </td></tr>
+    <tr><td class="paramname">yaw</td><td>The yaw of the IMU. </td></tr>
     <tr><td class="paramname">timestamp</td><td>The timestamp of the IMU. </td></tr>
     <tr><td class="paramname">slopePitch</td><td>The slope pitch of the <a class="el" href="class_hexapod.html" title="Hexapod Class. ">Hexapod</a>. </td></tr>
     <tr><td class="paramname">slopeRoll</td><td>The slope roll of the <a class="el" href="class_hexapod.html" title="Hexapod Class. ">Hexapod</a>. </td></tr>
@@ -447,7 +454,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_remote_8cpp_source.html#l00038">38</a> of file <a class="el" href="_remote_8cpp_source.html">Remote.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_remote_8h_source.html#l00030">comms</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="_remote_8h_source.html#l00036">dma_acc_transmit</a>, <a class="el" href="_remote_8cpp_source.html#l00178">floatToBytes()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00194">CommsManager::getRemoteUART()</a>, <a class="el" href="_remote_8h_source.html#l00056">sending</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00251">CommsManager::transmitRemote()</a>.</p>
+<p class="reference">References <a class="el" href="_remote_8h_source.html#l00030">comms</a>, <a class="el" href="enum_definitions_8h_source.html#l00050">DMA</a>, <a class="el" href="_remote_8h_source.html#l00036">dma_acc_transmit</a>, <a class="el" href="_remote_8cpp_source.html#l00178">floatToBytes()</a>, <a class="el" href="_comms_manager_8cpp_source.html#l00194">CommsManager::getRemoteUART()</a>, <a class="el" href="_remote_8h_source.html#l00056">sending</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00251">CommsManager::transmitRemote()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00138">TIM3_IRQHandler()</a>.</p>
 
@@ -479,9 +486,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_remote_8cpp_source.html#l00019">19</a> of file <a class="el" href="_remote_8cpp_source.html">Remote.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_remote_8h_source.html#l00030">comms</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00251">CommsManager::transmitRemote()</a>.</p>
+<p class="reference">References <a class="el" href="_remote_8h_source.html#l00030">comms</a>, <a class="el" href="enum_definitions_8h_source.html#l00050">DMA</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00251">CommsManager::transmitRemote()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l01078">Hexapod::move()</a>, and <a class="el" href="main_8cpp_source.html#l00138">TIM3_IRQHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l01064">Hexapod::move()</a>, and <a class="el" href="main_8cpp_source.html#l00138">TIM3_IRQHandler()</a>.</p>
 
 </div>
 </div>
@@ -501,9 +508,17 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Send the start or stop charging command to the charging base. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">charging</td><td>True or false to start or stop charging respectively. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p class="definition">Definition at line <a class="el" href="_remote_8cpp_source.html#l00068">68</a> of file <a class="el" href="_remote_8cpp_source.html">Remote.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_remote_8h_source.html#l00030">comms</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00251">CommsManager::transmitRemote()</a>.</p>
+<p class="reference">References <a class="el" href="_remote_8h_source.html#l00030">comms</a>, <a class="el" href="enum_definitions_8h_source.html#l00050">DMA</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00251">CommsManager::transmitRemote()</a>.</p>
 
 </div>
 </div>
@@ -544,9 +559,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_remote_8cpp_source.html#l00073">73</a> of file <a class="el" href="_remote_8cpp_source.html">Remote.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_remote_8h_source.html#l00030">comms</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="_remote_8h_source.html#l00039">dma_error_transmit</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00251">CommsManager::transmitRemote()</a>.</p>
+<p class="reference">References <a class="el" href="_remote_8h_source.html#l00030">comms</a>, <a class="el" href="enum_definitions_8h_source.html#l00050">DMA</a>, <a class="el" href="_remote_8h_source.html#l00039">dma_error_transmit</a>, and <a class="el" href="_comms_manager_8cpp_source.html#l00251">CommsManager::transmitRemote()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00437">HAL_UART_ErrorCallback()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00991">Hexapod::PingAll()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00439">HAL_UART_ErrorCallback()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00977">Hexapod::PingAll()</a>.</p>
 
 </div>
 </div>
@@ -566,9 +581,11 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Return the pingSuccess boolean. </p>
+
 <p class="definition">Definition at line <a class="el" href="_remote_8cpp_source.html#l00187">187</a> of file <a class="el" href="_remote_8cpp_source.html">Remote.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_remote_8h_source.html#l00058">pingSuccess</a>.</p>
+<p class="reference">References <a class="el" href="_remote_8h_source.html#l00059">pingSuccess</a>.</p>
 
 </div>
 </div>
@@ -589,7 +606,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00049">49</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_remote_8cpp_source.html#l00086">processRemoteData()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00768">Hexapod::update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_remote_8cpp_source.html#l00086">processRemoteData()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00758">Hexapod::update()</a>.</p>
 
 </div>
 </div>
@@ -605,9 +622,11 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00060">60</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
+<p>Boolean holding the current charging status. </p>
 
-<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00768">Hexapod::update()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00062">62</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00758">Hexapod::update()</a>.</p>
 
 </div>
 </div>
@@ -655,7 +674,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00047">47</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_remote_8cpp_source.html#l00086">processRemoteData()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00768">Hexapod::update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_remote_8cpp_source.html#l00086">processRemoteData()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00758">Hexapod::update()</a>.</p>
 
 </div>
 </div>
@@ -759,7 +778,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00051">51</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00768">Hexapod::update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00758">Hexapod::update()</a>.</p>
 
 </div>
 </div>
@@ -779,71 +798,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00043">43</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_remote_8cpp_source.html#l00086">processRemoteData()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00768">Hexapod::update()</a>.</p>
-
-</div>
-</div>
-<a id="ad963d503f4623b2334a5d40de386e5a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad963d503f4623b2334a5d40de386e5a2">&#9670;&nbsp;</a></span>pidKd</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Remote::pidKd = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00064">64</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
-
-</div>
-</div>
-<a id="aae93b4ddfde45cb0f3a403aac7204251"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae93b4ddfde45cb0f3a403aac7204251">&#9670;&nbsp;</a></span>pidKi</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Remote::pidKi = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00063">63</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
-
-</div>
-</div>
-<a id="a4eb50c4c814c3fc670d4284fad37af02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4eb50c4c814c3fc670d4284fad37af02">&#9670;&nbsp;</a></span>pidKp</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Remote::pidKp = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00062">62</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
-
-</div>
-</div>
-<a id="afcec21339c3572108b3e103b14f4de1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcec21339c3572108b3e103b14f4de1d">&#9670;&nbsp;</a></span>pidPitchRoll</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t Remote::pidPitchRoll = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00065">65</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_remote_8cpp_source.html#l00086">processRemoteData()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00758">Hexapod::update()</a>.</p>
 
 </div>
 </div>
@@ -859,7 +814,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00058">58</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
+<p>Boolean holding the status of the last ping. </p>
+
+<p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00059">59</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00287">HAL_UART_RxCpltCallback()</a>, <a class="el" href="_remote_8cpp_source.html#l00187">successfulPing()</a>, and <a class="el" href="main_8cpp_source.html#l00138">TIM3_IRQHandler()</a>.</p>
 
@@ -881,7 +838,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00056">56</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00437">HAL_UART_ErrorCallback()</a>, <a class="el" href="_remote_8cpp_source.html#l00038">sendAcc()</a>, and <a class="el" href="main_8cpp_source.html#l00138">TIM3_IRQHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00439">HAL_UART_ErrorCallback()</a>, <a class="el" href="_remote_8cpp_source.html#l00038">sendAcc()</a>, and <a class="el" href="main_8cpp_source.html#l00138">TIM3_IRQHandler()</a>.</p>
 
 </div>
 </div>
@@ -901,7 +858,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00045">45</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_remote_8cpp_source.html#l00086">processRemoteData()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00768">Hexapod::update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_remote_8cpp_source.html#l00086">processRemoteData()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00758">Hexapod::update()</a>.</p>
 
 </div>
 </div>
@@ -917,9 +874,11 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The twist angle of the body. </p>
+
 <p class="definition">Definition at line <a class="el" href="_remote_8h_source.html#l00053">53</a> of file <a class="el" href="_remote_8h_source.html">Remote.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_remote_8cpp_source.html#l00086">processRemoteData()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00768">Hexapod::update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_remote_8cpp_source.html#l00086">processRemoteData()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00758">Hexapod::update()</a>.</p>
 
 </div>
 </div>

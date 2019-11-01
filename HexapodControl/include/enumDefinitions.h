@@ -10,6 +10,7 @@
 
 #include "stm32f4xx.h"
 
+/** @brief The possible charging statuses and base communications.  **/
 enum CHARGER_STATUS{
 	NOT_CHARGING,
 	CHARGING_CC,
@@ -23,6 +24,7 @@ enum CHARGER_STATUS{
 	RESEND
 };
 
+/** @brief A struct holding the battery voltage and charging status.  **/
 struct CHARGER{
 	enum CHARGER_STATUS status;
 	double voltage;
@@ -35,6 +37,7 @@ enum ACCEL_TRANSMISSIONS{
 	DATA
 };
 
+/** @brief The mode of turning.  **/
 enum TURN_MODE{
 	DEPENDENT,
 	ABSOLUTE

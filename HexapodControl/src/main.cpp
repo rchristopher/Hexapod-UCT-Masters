@@ -326,13 +326,15 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef * UART_HandleStructure){
 			bool togglePID = (bool)UART_HandleStructure->pRxBuffPtr[2];
 			uint8_t pitchRoll = UART_HandleStructure->pRxBuffPtr[3];
 
-			if(pitchRoll == 1){	//pitch
-				HEX.pidPitch->togglePID(togglePID);
-			}else if(pitchRoll == 2){	// roll
-				HEX.pidRoll->togglePID(togglePID);
-			}else if(pitchRoll == 3){
-				HEX.pidPitch->togglePID(togglePID);
-				HEX.pidRoll->togglePID(togglePID);
+			if(!HEX.liftedForBase){
+				if(pitchRoll == 1){	//pitch
+					HEX.pidPitch->togglePID(togglePID);
+				}else if(pitchRoll == 2){	// roll
+					HEX.pidRoll->togglePID(togglePID);
+				}else if(pitchRoll == 3){
+					HEX.pidPitch->togglePID(togglePID);
+					HEX.pidRoll->togglePID(togglePID);
+				}
 			}
 		}else if(UART_HandleStructure->pRxBuffPtr[0] == 255 && UART_HandleStructure->pRxBuffPtr[1] == 222){ // set PID parameters command
 				if(UART_HandleStructure->pRxBuffPtr[2] == 1){//pitch

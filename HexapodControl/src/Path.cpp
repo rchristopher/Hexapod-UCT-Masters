@@ -15,36 +15,6 @@ Path::~Path(void){
 
 }
 
-/*Point<double> * Path::inverseKinematics(Point<double> position, double rotation){
-
-	double x = position.p1;
-	double y = position.p2;
-	double z = position.p3;
-
-	if (rotation != 0) {
-		double LEG = rotation*M_PI/180.0;
-		x = (x==-0 ? 0 : x)*cos(LEG) - (y==-0 ? 0 : y)*sin(LEG) - this->bodyRadius;
-		y = (y==-0 ? 0 : y)*cos(LEG) + (x==-0 ? 0 : x)*sin(LEG);
-	}
-
-	double theta[3];
-
-	theta[0] = atan2(y,x);
-
-	double C3_temp = (  (x - L1x*cos(theta[0]))*(x - L1x*cos(theta[0])) + (y - L1x*sin(theta[0]))*(y - L1x*sin(theta[0])) + (z - L1z)*(z - L1z) - L2*L2 - L3*L3  )/(  2*L2*L3  );
-	double C3 = (C3_temp>1 ? 1 : (C3_temp<-1 ? -1 : C3_temp));
-
-	double S3 = -sqrt( 1 - C3*C3 );
-
-	theta[1] = atan2(z - L1z, sqrt( (x - L1x*cos(theta[0]))*(x - L1x*cos(theta[0])) + (y - L1x*sin(theta[0]))*(y - L1x*sin(theta[0])) ) ) - atan2(L3*S3, L2 + L3*C3);
-
-	theta[2] = atan2(S3,C3);
-
-	Point<double> * pOut = new Point<double>(theta[0], theta[1], theta[2], THETA);
-
-	return pOut;
-}*/
-
 void Path::makePath(){	//XYZ
 
 	// X variables
@@ -128,22 +98,6 @@ void Path::setPoints(double radialDistance, double direction, double strideLengt
 		this->endPoint.p1 = radialDistance*cos(rotation*M_PI/180.0)-(strideLength/2.0)*cos(direction);
 		this->endPoint.p2 = -(radialDistance*sin(rotation*M_PI/180.0)-(strideLength/2.0)*sin(direction));
 		this->endPoint.p3 = -bodyHeight + endDeltaH;
-
-		/*this->startTheta = *inverseKinematics(this->startPoint, rotation);
-		this->midTheta = *inverseKinematics(this->midPoint, rotation);
-		this->endTheta = *inverseKinematics(this->endPoint, rotation);
-
-		this->startBits.p1 = (startTheta.p1+2.61799)*195.569883766;
-		this->startBits.p2 = (startTheta.p2+2.61799)*195.569883766;
-		this->startBits.p3 = (startTheta.p3+2.61799)*195.569883766;
-
-		this->midBits.p1 = (midTheta.p1+2.61799)*195.569883766;
-		this->midBits.p2 = (midTheta.p2+2.61799)*195.569883766;
-		this->midBits.p3 = (midTheta.p3+2.61799)*195.569883766;
-
-		this->endBits.p1 = (endTheta.p1+2.61799)*195.569883766;
-		this->endBits.p2 = (endTheta.p2+2.61799)*195.569883766;
-		this->endBits.p3 = (endTheta.p3+2.61799)*195.569883766;*/
 
 		this->makePath();
 	}

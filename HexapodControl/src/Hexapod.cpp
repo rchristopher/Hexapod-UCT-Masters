@@ -64,7 +64,6 @@ void Hexapod::Initialise(){
 
 	double spd = 0.5;
 
-	uint32_t time = spd;//((1.0/this->speed)*500)*2;
 	this->setTIM2Time(650*(1.1-spd));
 	for(int i = 0; i < 6; i++){
 		double tfNew = (double)(3.33333*(1.1-spd));
@@ -103,7 +102,7 @@ void Hexapod::setLegOffsets(){
 
 void Hexapod::_Error_Handler(char * file, int line)
 {
-	//trace_printf("ERROR in: %s at line number: %i\n", file, line);
+	trace_printf("ERROR in: %s at line number: %i\n", file, line);
 	while(1);
 }
 
@@ -656,13 +655,6 @@ void Hexapod::UART1_Toggle_Read(void){
 	HAL_GPIO_WritePin(GPIOD,GPIO_PIN_12,GPIO_PIN_RESET);
 }
 
-void Hexapod::toggleLED(int pin){
-	if(HAL_GPIO_ReadPin(GPIOD,pin) == GPIO_PIN_SET){
-		HAL_GPIO_WritePin(GPIOD,pin,GPIO_PIN_RESET);
-	}else{
-		HAL_GPIO_WritePin(GPIOD,pin,GPIO_PIN_SET);
-	}
-}
 
 void Hexapod::makePath(){
 	this->legs[0]->makePath(this->radialDistance, this->direction, this->strideLength, this->stepHeight, this->bodyHeight, this->slopePitch, this->slopeRoll, this->bodyTwist);
@@ -677,23 +669,21 @@ void Hexapod::setNextPathPoint(void){
 
 	for(int i = 0; i < 6; i++){
 
-		if(this->liftedForBase){
-			i++;
-		}
 
-		this->legs[i]->positionXYZ.p1 = this->legs[i]->legPath->pathXYZ[this->legs[i]->currentPathPoint].p1;
-		this->legs[i]->positionXYZ.p2 = this->legs[i]->legPath->pathXYZ[this->legs[i]->currentPathPoint].p2;
-		this->legs[i]->positionXYZ.p3 = this->legs[i]->legPath->pathXYZ[this->legs[i]->currentPathPoint].p3;
+		//if(!(this->liftedForBase && i == 0)){
+			this->legs[i]->positionXYZ.p1 = this->legs[i]->legPath->pathXYZ[this->legs[i]->currentPathPoint].p1;
+			this->legs[i]->positionXYZ.p2 = this->legs[i]->legPath->pathXYZ[this->legs[i]->currentPathPoint].p2;
+			this->legs[i]->positionXYZ.p3 = this->legs[i]->legPath->pathXYZ[this->legs[i]->currentPathPoint].p3;
 
-		this->legs[i]->inverseKinematics();
+			this->legs[i]->inverseKinematics();
+			this->legs[i]->setPositionBits();
 
-		this->legs[i]->setPositionBits();
+			double xd = this->legs[i]->legPath->pathXYZ_dot[this->legs[i]->currentPathPoint].p1;//*this->speed*0.2;
+			double yd = this->legs[i]->legPath->pathXYZ_dot[this->legs[i]->currentPathPoint].p2;//*this->speed*0.2;
+			double zd = this->legs[i]->legPath->pathXYZ_dot[this->legs[i]->currentPathPoint].p3;//*this->speed*0.2;
 
-		double xd = this->legs[i]->legPath->pathXYZ_dot[this->legs[i]->currentPathPoint].p1;//*this->speed*0.2;
-		double yd = this->legs[i]->legPath->pathXYZ_dot[this->legs[i]->currentPathPoint].p2;//*this->speed*0.2;
-		double zd = this->legs[i]->legPath->pathXYZ_dot[this->legs[i]->currentPathPoint].p3;//*this->speed*0.2;
-
-		this->legs[i]->setSpeed(xd, yd, zd);
+			this->legs[i]->setSpeed(xd, yd, zd);
+		//}
 
 		if(this->legs[i]->currentPathPoint == (uint)sizeof(this->legs[i]->legPath->pathXYZ)/sizeof(this->legs[i]->legPath->pathXYZ[0])-1){
 			this->legs[i]->currentPathPoint = 0;
@@ -785,6 +775,9 @@ void Hexapod::update(void){
 						currentPos[i][2] = -this->bodyHeight;
 					}
 					this->setPosition(currentPos);
+					if(this->liftedForBase){
+					//	this->legs[0]->setTheta(0, 1, -1.5);
+					}
 					this->move(DMA);
 				}else{
 					this->setBodyHeight(this->remote->bodyHeight);
@@ -850,24 +843,27 @@ void Hexapod::update(void){
 					break;
 				case 3:
 					this->function = 0;
-					if(this->pidYaw->enabled){
+					/*if(this->pidYaw->enabled){
 						this->pidYaw->reset();
 						this->yawSetPoint += 0.6;
-					}
+					}*/
 					this->turnBody(-0.3, ABSOLUTE);
 					break;
 				case 4:
 					this->function = 0;
-					if(this->pidYaw->enabled){
+					/*if(this->pidYaw->enabled){
 						this->pidYaw->reset();
 						this->yawSetPoint -= 0.6;
-					}
+					}*/
 					this->turnBody(0.3, ABSOLUTE);
 					break;
 				case 5:
 					this->function = 0;
-					//this->addPIDSetPoints(0.25,-0.25);
-					//this->move();
+					if(!this->liftedForBase){
+						this->liftOntoBase(true);
+					}else{
+						this->liftOntoBase(false);
+					}
 					break;
 				case 6:
 					this->function = 0;
@@ -877,8 +873,6 @@ void Hexapod::update(void){
 					break;
 				case 8:
 					this->function = 0;
-					//this->addPIDSetPoints(-0.25,+0.25);
-					//this->move();
 					break;
 				case 55:
 					this->fullSystemReset(true);
@@ -922,12 +916,6 @@ void Hexapod::turnBody(double angle, enum TURN_MODE mode){
 
 	if(angle != 0.0){
 
-		double xd = this->xd;
-		double yd = this->yd;
-		double zd = this->zd;
-
-		this->setSpeed(3,3,6);
-
 		if(mode == ABSOLUTE){
 			for(int i = 0; i < 6; i++){
 				this->legs[i]->setTheta(0,this->legs[i]->positionTHETA.p2, this->legs[i]->positionTHETA.p3);
@@ -949,7 +937,7 @@ void Hexapod::turnBody(double angle, enum TURN_MODE mode){
 									  this->legs[i*2]->positionTHETA.p3);
 		}
 
-		this->move(BLOCKING);
+		this->move(DMA);
 
 		int delayTime = 4000000;
 
@@ -971,7 +959,7 @@ void Hexapod::turnBody(double angle, enum TURN_MODE mode){
 
 		}
 
-		this->move(BLOCKING);
+		this->move(DMA);
 		//HAL_Delay(400);
 		for(int i = 0; i < delayTime;i++);
 
@@ -982,9 +970,7 @@ void Hexapod::turnBody(double angle, enum TURN_MODE mode){
 
 		}
 
-		this->move(BLOCKING);
-
-		this->setSpeed(xd,yd,zd);
+		this->move(DMA);
 	}
 }
 
@@ -1132,12 +1118,26 @@ void Hexapod::move(enum UART_TRANSMISSION_TYPE type){
 	}
 }
 
-void Hexapod::liftOntoBase(void){
-	this->liftedForBase = true;
-	this->setBodyHeight(200);
-	this->setPose(0,0);
-	this->legs[0]->setTheta(0, 0.7, 0.7);
-	this->newPosition = true;
+void Hexapod::liftOntoBase(bool state){
+	this->liftedForBase = state;
+	if(state){
+		this->pidPitch->togglePID(false);
+		this->pidRoll->togglePID(false);
+		this->pidYaw->togglePID(false);
+		this->setBodyHeight(190);
+		this->setPose(0,0);
+		this->legs[0]->setOffsets(this->legs[0]->offsets.p1+0.3,this->legs[0]->offsets.p2,this->legs[0]->offsets.p3);
+		this->legs[5]->setOffsets(this->legs[5]->offsets.p1-0.3,this->legs[5]->offsets.p2,this->legs[5]->offsets.p3);
+		//this->legs[0]->setTheta(0, 1, -1.5);
+		//this->legs[0]->setPosition(100,0.0,20);
+	}else{
+		//this->legs[0]->setPosition(283.710,0.0,-this->bodyHeight);
+		this->setBodyHeight(140);
+		this->legs[0]->setOffsets(this->legs[0]->offsets.p1-0.3,this->legs[0]->offsets.p2,this->legs[0]->offsets.p3);
+		this->legs[5]->setOffsets(this->legs[5]->offsets.p1+0.3,this->legs[5]->offsets.p2,this->legs[5]->offsets.p3);
+	}
+	this->stand();
+	//this->newPosition = true;
 }
 
 void Hexapod::stop(void){

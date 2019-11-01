@@ -28,26 +28,6 @@ private:
 	/** @brief A point object holding the end points for the legs path. **/
 	Point<double> endPoint;
 
-	/** @brief The legs link 1 x dimension. **/
-	//const double L1x = 53.17;
-	/** @brief The legs link 1 z dimension. **/
-	//const double L1z = 8.0;
-	/** @brief The legs link 2 dimension. **/
-	//const double L2 = 101.88;
-	/** @brief The legs link 3 dimension. **/
-	//const double L3 = 149.16;				//was 152.0 with old foot
-
-	//const double bodyRadius = 125.54;
-
-	/**
-	 * 	@brief Calculate the inverse kinematics of a leg.
-	 *
-	 *	@details
-	 *
-	 *	@return A pointer to a 3D point object containing the inverse kinematics solution.
-	 **/
-	//Point<double> * inverseKinematics(Point<double> position, double rotation);
-
 	/**
 	 * 	@brief Generates the path points from the starting, middle and end points.
 	 *

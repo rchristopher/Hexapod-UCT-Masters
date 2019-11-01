@@ -71,10 +71,38 @@ public:
 	 **/
     ~PID();
 
+	/**
+	 * @brief Set the PID controller gain parameters.
+	 *
+	 * @param Kp PID controller proportional gain.
+	 * @param Ki PID controller integral gain.
+	 * @param Kd PID controller derivative gain.
+	 *
+	 **/
     void setParameters(double Kp, double Ki, double Kd);
 
+	/**
+	 * @brief Set the PID controller gain Kp.
+	 *
+	 * @param kp PID controller proportional gain.
+	 *
+	 **/
     void setKp(double kp);
+
+	/**
+	 * @brief Set the PID controller gain Ki.
+	 *
+	 * @param ki PID controller integral gain.
+	 *
+	 **/
     void setKi(double ki);
+
+	/**
+	 * @brief Set the PID controller gain Kd.
+	 *
+	 * @param kd PID controller derivative gain.
+	 *
+	 **/
     void setKd(double kd);
 
 	/**
@@ -85,8 +113,20 @@ public:
 	 **/
     void togglePID(bool state);
 
+	/**
+	 * @brief Reset the PID controller.
+	 *
+	 * @details
+	 *
+	 **/
     void reset();
 
+	/**
+	 * @brief Return the error term from the PID controller.
+	 *
+	 * @details
+	 *
+	 **/
     double getError();
 
 	/**

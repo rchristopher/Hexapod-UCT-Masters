@@ -107,6 +107,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad5dc7d8e9f739a39296b3e152e1dc6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the UART modules.  <a href="#ad5dc7d8e9f739a39296b3e152e1dc6fb">More...</a><br /></td></tr>
 <tr class="separator:ad5dc7d8e9f739a39296b3e152e1dc6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5163151618c7506e8b9ab1116b0acfd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#a5163151618c7506e8b9ab1116b0acfd6">setRemoteBaud</a> (uint32_t BAUD)</td></tr>
+<tr class="memdesc:a5163151618c7506e8b9ab1116b0acfd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the remote baud rate.  <a href="#a5163151618c7506e8b9ab1116b0acfd6">More...</a><br /></td></tr>
 <tr class="separator:a5163151618c7506e8b9ab1116b0acfd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2fe6d17c0335aed3e5114044270cb9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#ae2fe6d17c0335aed3e5114044270cb9f">DMA_init</a> (void)</td></tr>
 <tr class="memdesc:ae2fe6d17c0335aed3e5114044270cb9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the DMA modules.  <a href="#ae2fe6d17c0335aed3e5114044270cb9f">More...</a><br /></td></tr>
@@ -151,6 +152,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aea83e8379fb1f083cfcd2ea678dd4ffb"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_comms_manager.html#aea83e8379fb1f083cfcd2ea678dd4ffb">remoteFailureCount</a> = 0</td></tr>
+<tr class="memdesc:aea83e8379fb1f083cfcd2ea678dd4ffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter to hold the number of failed remote connections.  <a href="#aea83e8379fb1f083cfcd2ea678dd4ffb">More...</a><br /></td></tr>
 <tr class="separator:aea83e8379fb1f083cfcd2ea678dd4ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -291,9 +293,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00222">222</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00041">DMA1_HandleStructure_UART3_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00043">DMA1_HandleStructure_UART3_TX</a>, <a class="el" href="enum_definitions_8h_source.html#l00070">RX</a>, and <a class="el" href="enum_definitions_8h_source.html#l00070">TX</a>.</p>
+<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00041">DMA1_HandleStructure_UART3_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00043">DMA1_HandleStructure_UART3_TX</a>, <a class="el" href="enum_definitions_8h_source.html#l00073">RX</a>, and <a class="el" href="enum_definitions_8h_source.html#l00073">TX</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00585">DMA1_Stream1_IRQHandler()</a>, and <a class="el" href="main_8cpp_source.html#l00577">DMA1_Stream3_IRQHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00587">DMA1_Stream1_IRQHandler()</a>, and <a class="el" href="main_8cpp_source.html#l00579">DMA1_Stream3_IRQHandler()</a>.</p>
 
 </div>
 </div>
@@ -319,7 +321,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00028">UART3_HandleStructure</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_accelerometer_8cpp_source.html#l00040">Accelerometer::requestAccelData()</a>, <a class="el" href="_accelerometer_8cpp_source.html#l00113">Accelerometer::resetHeading()</a>, <a class="el" href="_accelerometer_8cpp_source.html#l00105">Accelerometer::setConfigMode()</a>, <a class="el" href="_accelerometer_8cpp_source.html#l00096">Accelerometer::setMeasurementMode()</a>, and <a class="el" href="main_8cpp_source.html#l00535">USART3_IRQHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_accelerometer_8cpp_source.html#l00040">Accelerometer::requestAccelData()</a>, <a class="el" href="_accelerometer_8cpp_source.html#l00113">Accelerometer::resetHeading()</a>, <a class="el" href="_accelerometer_8cpp_source.html#l00105">Accelerometer::setConfigMode()</a>, <a class="el" href="_accelerometer_8cpp_source.html#l00096">Accelerometer::setMeasurementMode()</a>, and <a class="el" href="main_8cpp_source.html#l00537">USART3_IRQHandler()</a>.</p>
 
 </div>
 </div>
@@ -350,9 +352,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00202">202</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00033">DMA2_HandleStructure_UART1_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00031">DMA2_HandleStructure_UART1_TX</a>, <a class="el" href="enum_definitions_8h_source.html#l00070">RX</a>, and <a class="el" href="enum_definitions_8h_source.html#l00070">TX</a>.</p>
+<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00033">DMA2_HandleStructure_UART1_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00031">DMA2_HandleStructure_UART1_TX</a>, <a class="el" href="enum_definitions_8h_source.html#l00073">RX</a>, and <a class="el" href="enum_definitions_8h_source.html#l00073">TX</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00552">DMA2_Stream2_IRQHandler()</a>, and <a class="el" href="main_8cpp_source.html#l00544">DMA2_Stream7_IRQHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00554">DMA2_Stream2_IRQHandler()</a>, and <a class="el" href="main_8cpp_source.html#l00546">DMA2_Stream7_IRQHandler()</a>.</p>
 
 </div>
 </div>
@@ -378,7 +380,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00024">UART1_HandleStructure</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00229">Hexapod::enterLowPowerMode()</a>, <a class="el" href="_motor_8cpp_source.html#l00101">Motor::readReg()</a>, <a class="el" href="_leg_8cpp_source.html#l00344">Leg::UARTWrite()</a>, and <a class="el" href="main_8cpp_source.html#l00519">USART1_IRQHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00228">Hexapod::enterLowPowerMode()</a>, <a class="el" href="_motor_8cpp_source.html#l00101">Motor::readReg()</a>, <a class="el" href="_leg_8cpp_source.html#l00344">Leg::UARTWrite()</a>, and <a class="el" href="main_8cpp_source.html#l00521">USART1_IRQHandler()</a>.</p>
 
 </div>
 </div>
@@ -409,9 +411,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00212">212</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00038">DMA1_HandleStructure_UART2_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00036">DMA1_HandleStructure_UART2_TX</a>, <a class="el" href="enum_definitions_8h_source.html#l00070">RX</a>, and <a class="el" href="enum_definitions_8h_source.html#l00070">TX</a>.</p>
+<p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00038">DMA1_HandleStructure_UART2_RX</a>, <a class="el" href="_comms_manager_8h_source.html#l00036">DMA1_HandleStructure_UART2_TX</a>, <a class="el" href="enum_definitions_8h_source.html#l00073">RX</a>, and <a class="el" href="enum_definitions_8h_source.html#l00073">TX</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00569">DMA1_Stream5_IRQHandler()</a>, and <a class="el" href="main_8cpp_source.html#l00560">DMA1_Stream6_IRQHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00571">DMA1_Stream5_IRQHandler()</a>, and <a class="el" href="main_8cpp_source.html#l00562">DMA1_Stream6_IRQHandler()</a>.</p>
 
 </div>
 </div>
@@ -437,7 +439,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_remote_8cpp_source.html#l00038">Remote::sendAcc()</a>, and <a class="el" href="main_8cpp_source.html#l00526">USART2_IRQHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_remote_8cpp_source.html#l00038">Remote::sendAcc()</a>, and <a class="el" href="main_8cpp_source.html#l00528">USART2_IRQHandler()</a>.</p>
 
 </div>
 </div>
@@ -493,7 +495,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00313">313</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00045">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00046">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00028">UART3_HandleStructure</a>.</p>
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00048">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00050">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00049">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00028">UART3_HandleStructure</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_accelerometer_8cpp_source.html#l00047">Accelerometer::receiveAccelData()</a>.</p>
 
@@ -551,7 +553,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00281">281</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00045">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00046">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00024">UART1_HandleStructure</a>.</p>
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00048">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00050">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00049">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00024">UART1_HandleStructure</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_motor_8cpp_source.html#l00201">Motor::pingBool()</a>, <a class="el" href="_motor_8cpp_source.html#l00226">Motor::pingData()</a>, <a class="el" href="_motor_8cpp_source.html#l00101">Motor::readReg()</a>, and <a class="el" href="_motor_8cpp_source.html#l00141">Motor::readTable()</a>.</p>
 
@@ -609,9 +611,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00297">297</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00045">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00046">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>.</p>
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00048">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00050">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00049">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00537">Hexapod::checkRemoteConfig()</a>, <a class="el" href="_remote_8cpp_source.html#l00082">Remote::receiveRemoteData()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00594">Hexapod::setRemoteConfig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00536">Hexapod::checkRemoteConfig()</a>, <a class="el" href="_remote_8cpp_source.html#l00082">Remote::receiveRemoteData()</a>, and <a class="el" href="_hexapod_8cpp_source.html#l00593">Hexapod::setRemoteConfig()</a>.</p>
 
 </div>
 </div>
@@ -631,11 +633,13 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the remote baud rate. </p>
+
 <p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00031">31</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00594">Hexapod::setRemoteConfig()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00593">Hexapod::setRemoteConfig()</a>.</p>
 
 </div>
 </div>
@@ -691,7 +695,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00265">265</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00045">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00046">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00028">UART3_HandleStructure</a>.</p>
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00048">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00050">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00049">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00028">UART3_HandleStructure</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_accelerometer_8cpp_source.html#l00040">Accelerometer::requestAccelData()</a>, <a class="el" href="_accelerometer_8cpp_source.html#l00113">Accelerometer::resetHeading()</a>, <a class="el" href="_accelerometer_8cpp_source.html#l00105">Accelerometer::setConfigMode()</a>, and <a class="el" href="_accelerometer_8cpp_source.html#l00096">Accelerometer::setMeasurementMode()</a>.</p>
 
@@ -749,9 +753,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00232">232</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00045">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00046">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00024">UART1_HandleStructure</a>.</p>
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00048">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00050">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00049">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00024">UART1_HandleStructure</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l01078">Hexapod::move()</a>, <a class="el" href="_motor_8cpp_source.html#l00201">Motor::pingBool()</a>, <a class="el" href="_motor_8cpp_source.html#l00226">Motor::pingData()</a>, <a class="el" href="_motor_8cpp_source.html#l00101">Motor::readReg()</a>, <a class="el" href="_motor_8cpp_source.html#l00141">Motor::readTable()</a>, <a class="el" href="_leg_8cpp_source.html#l00344">Leg::UARTWrite()</a>, and <a class="el" href="_motor_8cpp_source.html#l00071">Motor::writeReg()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l01064">Hexapod::move()</a>, <a class="el" href="_motor_8cpp_source.html#l00201">Motor::pingBool()</a>, <a class="el" href="_motor_8cpp_source.html#l00226">Motor::pingData()</a>, <a class="el" href="_motor_8cpp_source.html#l00101">Motor::readReg()</a>, <a class="el" href="_motor_8cpp_source.html#l00141">Motor::readTable()</a>, <a class="el" href="_leg_8cpp_source.html#l00344">Leg::UARTWrite()</a>, and <a class="el" href="_motor_8cpp_source.html#l00071">Motor::writeReg()</a>.</p>
 
 </div>
 </div>
@@ -807,9 +811,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00251">251</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00045">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00047">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00046">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>.</p>
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00048">BLOCKING</a>, <a class="el" href="enum_definitions_8h_source.html#l00050">DMA</a>, <a class="el" href="enum_definitions_8h_source.html#l00049">INTERRUPT</a>, and <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00537">Hexapod::checkRemoteConfig()</a>, <a class="el" href="_remote_8cpp_source.html#l00086">Remote::processRemoteData()</a>, <a class="el" href="_remote_8cpp_source.html#l00038">Remote::sendAcc()</a>, <a class="el" href="_remote_8cpp_source.html#l00019">Remote::sendASCII()</a>, <a class="el" href="_remote_8cpp_source.html#l00068">Remote::sendCharging()</a>, <a class="el" href="_remote_8cpp_source.html#l00073">Remote::sendError()</a>, <a class="el" href="_hexapod_8cpp_source.html#l00594">Hexapod::setRemoteConfig()</a>, <a class="el" href="_hexapod_8cpp_source.html#l00459">Hexapod::startCharging()</a>, <a class="el" href="_hexapod_8cpp_source.html#l00473">Hexapod::stopCharging()</a>, and <a class="el" href="main_8cpp_source.html#l00138">TIM3_IRQHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00536">Hexapod::checkRemoteConfig()</a>, <a class="el" href="_remote_8cpp_source.html#l00086">Remote::processRemoteData()</a>, <a class="el" href="_remote_8cpp_source.html#l00038">Remote::sendAcc()</a>, <a class="el" href="_remote_8cpp_source.html#l00019">Remote::sendASCII()</a>, <a class="el" href="_remote_8cpp_source.html#l00068">Remote::sendCharging()</a>, <a class="el" href="_remote_8cpp_source.html#l00073">Remote::sendError()</a>, <a class="el" href="_hexapod_8cpp_source.html#l00593">Hexapod::setRemoteConfig()</a>, <a class="el" href="_hexapod_8cpp_source.html#l00458">Hexapod::startCharging()</a>, <a class="el" href="_hexapod_8cpp_source.html#l00472">Hexapod::stopCharging()</a>, and <a class="el" href="main_8cpp_source.html#l00138">TIM3_IRQHandler()</a>.</p>
 
 </div>
 </div>
@@ -833,7 +837,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_comms_manager_8cpp_source.html#l00037">37</a> of file <a class="el" href="_comms_manager_8cpp_source.html">CommsManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00074">UART1</a>, <a class="el" href="_comms_manager_8h_source.html#l00024">UART1_HandleStructure</a>, <a class="el" href="enum_definitions_8h_source.html#l00076">UART2</a>, <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>, <a class="el" href="enum_definitions_8h_source.html#l00078">UART3</a>, and <a class="el" href="_comms_manager_8h_source.html#l00028">UART3_HandleStructure</a>.</p>
+<p class="reference">References <a class="el" href="enum_definitions_8h_source.html#l00077">UART1</a>, <a class="el" href="_comms_manager_8h_source.html#l00024">UART1_HandleStructure</a>, <a class="el" href="enum_definitions_8h_source.html#l00079">UART2</a>, <a class="el" href="_comms_manager_8h_source.html#l00026">UART2_HandleStructure</a>, <a class="el" href="enum_definitions_8h_source.html#l00081">UART3</a>, and <a class="el" href="_comms_manager_8h_source.html#l00028">UART3_HandleStructure</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_hexapod_8cpp_source.html#l00018">Hexapod::Initialise()</a>.</p>
 
@@ -1019,6 +1023,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Counter to hold the number of failed remote connections. </p>
 
 <p class="definition">Definition at line <a class="el" href="_comms_manager_8h_source.html#l00048">48</a> of file <a class="el" href="_comms_manager_8h_source.html">CommsManager.h</a>.</p>
 

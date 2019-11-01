@@ -150,6 +150,10 @@ public class ComputerControlWindow extends javax.swing.JFrame {
         return standButton;
     }
 
+    public JButton getLiftBaseButton() {
+        return liftBaseButton;
+    }
+    
     public void setStop(JButton stop) {
         this.stop = stop;
     }
@@ -188,6 +192,7 @@ public class ComputerControlWindow extends javax.swing.JFrame {
         standButton = new javax.swing.JButton();
         speedControl = new javax.swing.JSlider();
         jLabel1 = new javax.swing.JLabel();
+        liftBaseButton = new javax.swing.JButton();
 
         arrowPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         arrowPanel.setFocusCycleRoot(true);
@@ -294,9 +299,10 @@ public class ComputerControlWindow extends javax.swing.JFrame {
         speedControl.setPaintLabels(true);
         speedControl.setPaintTicks(true);
         speedControl.setSnapToTicks(true);
-        speedControl.setValue(50);
 
         jLabel1.setText("Speed");
+
+        liftBaseButton.setText("Lift For Base");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -306,7 +312,8 @@ public class ComputerControlWindow extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(arrowPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(standButton))
+                    .addComponent(standButton)
+                    .addComponent(liftBaseButton))
                 .addGap(18, 18, 18)
                 .addComponent(speedControl, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -323,7 +330,9 @@ public class ComputerControlWindow extends javax.swing.JFrame {
                         .addComponent(arrowPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(21, 21, 21)
                         .addComponent(standButton)
-                        .addGap(0, 78, Short.MAX_VALUE)))
+                        .addGap(18, 18, 18)
+                        .addComponent(liftBaseButton)
+                        .addGap(0, 37, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -385,6 +394,7 @@ public class ComputerControlWindow extends javax.swing.JFrame {
     private javax.swing.JButton left;
     private javax.swing.JButton left_down;
     private javax.swing.JButton left_up;
+    private javax.swing.JButton liftBaseButton;
     private javax.swing.JButton right;
     private javax.swing.JButton right_down;
     private javax.swing.JButton right_up;

@@ -54,6 +54,7 @@ public:
 	 * @details Class constructor initializing the motor ID.
 	 *
 	 * @param IDVal The motor ID
+	 * @param comms A point to the CommsManager object.
 	 *
 	 **/
 	Motor(uint8_t IDVal, CommsManager * comms);

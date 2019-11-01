@@ -126,7 +126,7 @@ public final class ReadAllEvents extends TimerTask implements SerialPortEventLis
         Controller[] controllers;
         
         public PlotFrameWindow plotWindow;
-        
+               
         
         private String[] controlTableNames = {"ID","Length","Error","Model Number(L)", "Model Number(H)","Version of Firmware","ID","Baud Rate","Return Delay Time","CW Angle Limit(L)","CW Angle Limit(H)",
                                                 "CCW Angle Limit(L)","CCW Angle Limit(H)","NULL", "Highest Limit Temperature","Lowest Limit Voltage","Highest Limit Voltage","Max Torque(L)",
@@ -324,6 +324,14 @@ public final class ReadAllEvents extends TimerTask implements SerialPortEventLis
                 } 
             } );
             
+            compControlWindow.getLiftBaseButton().addActionListener(new ActionListener() { 
+                public void actionPerformed(ActionEvent e) { 
+                    currentDirection = 0;
+                    button = 5;
+                    sendData(true);
+                } 
+            } );
+            
             compControlWindow.getSpeedSlider().addMouseListener(new MouseListener(){
                 @Override
                 public void mouseClicked(MouseEvent e) {}
@@ -361,8 +369,7 @@ public final class ReadAllEvents extends TimerTask implements SerialPortEventLis
             window.getMotorsEnabled().addActionListener(new ActionListener() { 
                 public void actionPerformed(ActionEvent e) { 
                     if(motorsEnabled != window.getMotorsEnabled().isSelected()){
-                        motorsEnabled = window.getMotorsEnabled().isSelected();
-                        toggleMotors(motorsEnabled);
+                        toggleMotors(window.getMotorsEnabled().isSelected());
                     }
                 } 
             } );
@@ -505,10 +512,20 @@ public final class ReadAllEvents extends TimerTask implements SerialPortEventLis
                                     
                                 case 5:
                                     this.button = 6;
+                                    if(this.buttonDown == true){
+                                        this.buttonDown = false;
+                                         toggleMotors(!motorsEnabled);
+                                    }
+                                  
                                     break;
                                     
                                 case 6:
                                     this.button = 7;
+                                    if(charging){
+                                        stopCharging();
+                                    }else{
+                                        startCharging();
+                                    }
                                     break;
                                     
                                 case 7:
@@ -540,7 +557,7 @@ public final class ReadAllEvents extends TimerTask implements SerialPortEventLis
                    //GUI FOR JOYSTICK
                    window.setXYAxis((int)(((2 - (1 - xAxis)) * 100) / 2), (int)(((2 - (1 - yAxis)) * 100) / 2));
                                    
-                    if(!window.getLatchingJoystick().isSelected() || this.button == 1){
+                    if((!window.getLatchingJoystick().isSelected() || this.button == 1) && this.button != 7 && this.button != 6){
                         sendMovementData(false);
                     }
                                       
@@ -716,6 +733,7 @@ public final class ReadAllEvents extends TimerTask implements SerialPortEventLis
         }
         
         public void toggleMotors(boolean enabled){
+            this.motorsEnabled = enabled;
             byte[] data = {(byte) 255, (byte) 250, (byte)(enabled ? 1 : 0), 0,0,0,0,0,0,0}; //toggle motors command
 
             int checksumSend = 0;
@@ -1022,6 +1040,12 @@ public final class ReadAllEvents extends TimerTask implements SerialPortEventLis
                     //sendByte(126);
                     this.buttonDown = false;
                 }
+                
+                if(this.button == 6 && this.buttonDown == true){
+                    sendNewData = true;
+                    //sendByte(126);
+                    this.buttonDown = false;
+                }
 
                 if(this.button == 8 && this.buttonDown == true){
                     sendNewData = true;
@@ -1043,6 +1067,7 @@ public final class ReadAllEvents extends TimerTask implements SerialPortEventLis
                         this.dataSendCount = 0;
                     }
 
+                    this.zAxis=0;
                     byte[] data = {(byte)0x01, (byte)this.currentDirection, (byte)((this.zAxis+1)*100), (byte)0x02, (byte)this.currentSpeed, (byte)0x03, (byte)(this.currentHeight), (byte)0x04, (byte)this.button, 0};
 
                     int checksumSend = 0;

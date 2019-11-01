@@ -44,7 +44,7 @@ private:
 
 public:
 
-	/**  **/
+	/** @brief Counter to hold the number of failed remote connections. **/
 	uint8_t remoteFailureCount = 0;
 
 	/**
@@ -69,6 +69,13 @@ public:
 	 **/
 	void UART_init(void);
 
+
+	/**
+	 * @brief Sets the remote baud rate.
+	 *
+	 * @details
+	 *
+	 **/
 	void setRemoteBaud(uint32_t BAUD);
 
 	/**

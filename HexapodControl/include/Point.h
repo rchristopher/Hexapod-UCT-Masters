@@ -30,8 +30,6 @@ public:
 	/** @brief The third element of the point  **/
 	T p3;
 
-
-
 	/**
 	 * @brief Constructor for the class.
 	 *

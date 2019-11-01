@@ -96,7 +96,7 @@ void Leg::setPosition(double * xyz){
 	this->inverseKinematics();
 	this->setPositionBits();
 
-	this->forwardKinematics();
+	//this->forwardKinematics();
 }
 
 void Leg::setTheta(double theta1, double theta2, double theta3){

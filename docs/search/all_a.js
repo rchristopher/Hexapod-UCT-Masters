@@ -19,7 +19,7 @@ var searchData=
   ['legs',['legs',['../class_hexapod.html#afbec68c65860c3027f8b36337edd385a',1,'Hexapod::legs()'],['../enum_definitions_8h.html#a85bd5457696fcc8f50107ff054cadd45',1,'LEGS():&#160;enumDefinitions.h']]],
   ['lib_5fabs',['Lib_abs',['../class_hexapod.html#afab9c574b284b3dd082c7875c603620b',1,'Hexapod::Lib_abs()'],['../class_leg.html#ae02f326e0d3702ec7b6055f3a80a8127',1,'Leg::Lib_abs()']]],
   ['liftedforbase',['liftedForBase',['../class_hexapod.html#a4056926a0ec3280b69e2f13d57976735',1,'Hexapod']]],
-  ['liftontobase',['liftOntoBase',['../class_hexapod.html#a50c2a9a0df8a7310bd06b8e5a65712ca',1,'Hexapod']]],
+  ['liftontobase',['liftOntoBase',['../class_hexapod.html#a1e101064cccd23f725406c8394cb1a71',1,'Hexapod']]],
   ['lock',['LOCK',['../enum_definitions_8h.html#aedf710b9e9877b4de641e0d6ced12a87a438b68412f24003b09e0993b62dc7b48',1,'enumDefinitions.h']]],
   ['low_5fbattery',['LOW_BATTERY',['../enum_definitions_8h.html#a5bcae88e5e81b4706c44cf1eeb8dd9bea86fbcd2781d697097cfa2c24cbf3ffce',1,'enumDefinitions.h']]],
   ['lowbatterycount',['lowBatteryCount',['../class_hexapod.html#a3631886463a660e01fea6d26da35e27e',1,'Hexapod']]],

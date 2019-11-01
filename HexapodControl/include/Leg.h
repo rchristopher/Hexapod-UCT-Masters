@@ -27,20 +27,14 @@ class Leg{
 private:
 	/** @brief A pointer to the global communications manager. **/
 	CommsManager * comms;
-	/** @brief A point array containing the default leg offsets.  **/
-	Point<double> offsets;
+
 
 	//** @brief A point array containing the offsets due to the IMU orientaion. **/
 	//Point<double> accOffsets;
 	/** @brief The rotation of the leg around the center of the Hexapod for body rotation. **/
 	double legRotation = 0;
 
-	/**
-	 * 	@brief Calculate the forward kinematics of the leg.
-	 *
-	 *	@details
-	 **/
-	void forwardKinematics(void);
+
 
 	/**
 	 * 	@brief Write data to the UART channel of the leg.
@@ -53,6 +47,8 @@ private:
 	void UARTWrite(uint8_t * data, uint8_t dataLength);
 
 public:
+	/** @brief A point array containing the default leg offsets.  **/
+	Point<double> offsets;
 	/** @brief The legs link 1 x dimension. **/
 	double L1x = 53.17;
 	/** @brief The legs link 1 z dimension. **/
@@ -140,6 +136,13 @@ public:
 	void inverseKinematics(void);
 
 	/**
+	 * 	@brief Calculate the forward kinematics of the leg.
+	 *
+	 *	@details
+	 **/
+	void forwardKinematics(void);
+
+	/**
 	 * 	@brief Get the absolute value of a number.
 	 *
 	 *	@details
@@ -181,6 +184,7 @@ public:
 	 *	@param bodyHeight The body height of the Hexapod.
 	 *	@param slopePitch The pitch of the slope the Hexapod is walking on.
 	 *	@param slopeRoll The roll of the slope the Hexapod is walking on.
+	 *	@param bodyRotation An offset for the body twist angle.
 	 *
 	 *	@details
 	 **/

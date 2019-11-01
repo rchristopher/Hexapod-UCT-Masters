@@ -110,11 +110,18 @@ private:
 	 **/
 	void setPositionBits(Point<uint8_t> * pos);
 
+	/**
+	 * 	@brief Sets the leg offsets for software calibration.
+	 *
+	 *	@details
+	 **/
 	void setLegOffsets();
 
 public:
 
+	/** @brief Boolean holding current charging status.  **/
 	bool charging = false;
+	/** @brief Boolean holding the desired charging status.  **/
 	bool shouldCharging = false;
 	 /** @brief Communications manager object  **/
 	CommsManager comms;
@@ -143,6 +150,7 @@ public:
 	 /** @brief The set point for the PID control for yaw.  **/
 	double yawSetPoint = 0;
 
+	 /** @brief The transmission frequency of the IMU data to the host computer.  **/
 	double IMUTransFreq = 1;
 
 	 /** @brief The pitch angle of the slope.  **/
@@ -163,6 +171,7 @@ public:
 	/** @brief The body rotation of the hexapod. **/
 	double bodyTwist = 0;
 
+	 /** @brief The distance that the hexapod has walked.  **/
 	double distanceWalked = 0;
 
 	/** @brief The speed of a leg in the x direction. **/
@@ -207,10 +216,13 @@ public:
 	/** @brief STM32F4 current internal temperature.   **/
 	double currentTemperature = -9999;
 
+	 /** @brief Boolean holding whether or not the hexapod is lifted, ready to mount the charging base.  **/
 	bool liftedForBase = false;
 
+	 /** @brief Boolean holding whether or not the hexapod is in its low power mode.  **/
 	bool lowPowerMode = false;
 
+	 /** @brief A counter for determining if the battery voltage is actually low, or if it just spiked low once.  **/
 	uint8_t lowBatteryCount = 0;
 
 	/**
@@ -223,20 +235,34 @@ public:
 	double readInternalTemp();
 
 	/**
-	 * @brief
+	 * @brief Read the current battery voltage and charging status.
+	 *
+	 * @details
+	 *
+	 * @return CHARGER struct holding battery voltage and charging status.
+	 **/
+	struct CHARGER readCharger();
+
+	/**
+	 * @brief Enter a low power state to conserve battery life.
 	 *
 	 * @details
 	 *
 	 * @return
 	 **/
-	struct CHARGER readCharger();
-
 	void enterLowPowerMode(void);
 
+	/**
+	 * @brief Exit the low power state.
+	 *
+	 * @details
+	 *
+	 * @return
+	 **/
 	void exitLowPowerMode(void);
 
 	/**
-	 * @brief
+	 * @brief Enable reading of the battery voltage through the ADC.
 	 *
 	 * @details
 	 *
@@ -245,7 +271,7 @@ public:
 	void enableChargerReading();
 
 	/**
-	 * @brief
+	 * @brief Disable reading of the battery voltage.
 	 *
 	 * @details
 	 *
@@ -253,12 +279,26 @@ public:
 	 **/
 	void disableChargerReading();
 
+	/**
+	 * @brief Send the start charging command to the base.
+	 *
+	 * @details
+	 *
+	 * @return
+	 **/
 	void startCharging();
 
+	/**
+	 * @brief Send the stop charging command to the base.
+	 *
+	 * @details
+	 *
+	 * @return
+	 **/
 	void stopCharging();
 
 	/**
-	 * @brief
+	 * @brief Disable power to the motors.
 	 *
 	 * @details
 	 *
@@ -267,7 +307,7 @@ public:
 	void disableMotors();
 
 	/**
-	 * @brief
+	 * @brief Enable power to the motors.
 	 *
 	 * @details
 	 *
@@ -455,6 +495,7 @@ public:
 	 * @details
 	 *
 	 * @param angle The angle to turn by in radians. + angle is clockwise body rotation.
+	 * @param mode The mode of turning, either ABSOLUATE or DEPENDENT on the body twist angle.
 	 **/
 	void turnBody(double angle, enum TURN_MODE mode);
 
@@ -504,8 +545,6 @@ public:
 	 **/
 	void UART1_Toggle_Read(void);
 
-	void toggleLED(int pin);
-
 	/**
 	 * 	@brief Read the full control table of all of the motors.
 	 *
@@ -520,10 +559,31 @@ public:
 	 **/
 	void move(enum UART_TRANSMISSION_TYPE type);
 
+	/**
+	 * @brief Stop the hexapod from walking or moving.
+	 *
+	 * @details
+	 *
+	 * @return
+	 **/
 	void stop(void);
 
-	void liftOntoBase(void);
+	/**
+	 * @brief Lift the hexapod into a position ready to walk over the charging base.
+	 *
+	 * @details
+	 *
+	 * @return
+	 **/
+	void liftOntoBase(bool state);
 
+	/**
+	 * @brief Check if the desired position is reachable.
+	 *
+	 * @details
+	 *
+	 * @return
+	 **/
 	bool reachablePosition(void);
 
 	/**
@@ -595,6 +655,17 @@ public:
 	 **/
 	void setSpeed(double xd, double yd, double zd);
 
+	/**
+	 * @brief Set the speed of the legs in RPM of each motor.
+	 *
+	 * @details
+	 *
+	 * @param th1d Speed of motor 1.
+	 *  @param th2d Speed of motor 2.
+	 *   @param th3d Speed of motor 3.
+	 *
+	 * @return
+	 **/
 	void setSpeedRPM(double th1d, double th2d, double th3d);
 
 	/**

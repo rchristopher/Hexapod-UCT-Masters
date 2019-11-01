@@ -25,6 +25,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="arrowPanel" min="-2" max="-2" attributes="0"/>
                   <Component id="standButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="liftBaseButton" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="speedControl" min="-2" pref="38" max="-2" attributes="0"/>
@@ -44,7 +45,9 @@
                       <Component id="arrowPanel" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                       <Component id="standButton" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="78" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="liftBaseButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="37" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -268,12 +271,16 @@
         <Property name="paintLabels" type="boolean" value="true"/>
         <Property name="paintTicks" type="boolean" value="true"/>
         <Property name="snapToTicks" type="boolean" value="true"/>
-        <Property name="value" type="int" value="50"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="text" type="java.lang.String" value="Speed"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="liftBaseButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lift For Base"/>
       </Properties>
     </Component>
   </SubComponents>
