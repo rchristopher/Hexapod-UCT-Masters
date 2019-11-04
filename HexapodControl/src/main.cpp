@@ -5,11 +5,7 @@
  * @brief main function
  **/
 
-/*! \mainpage "Hexapod" Masters Project
- * Robotics and Agents Research Lab, University of Cape Town
- *
- *
- *
+/*! \mainpage
  */
 
 

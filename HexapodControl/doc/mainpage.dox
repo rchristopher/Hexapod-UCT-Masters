@@ -1,4 +1,8 @@
-Hexapod Masters Micro-Controller C++ Code Documentation {#mainpage}
-=====================
-
-Numerical integration of a function in one dimension using Simpson's Rule and Gauss Quadrature.
+/*!
+  \mainpage "Hexapod" Masters Project
+Robotics and Agents Research Lab, University of Cape Town
+<video width="320" height="240" controls>
+  	<source src="Hexapod Body Twist.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video> 
+*/
