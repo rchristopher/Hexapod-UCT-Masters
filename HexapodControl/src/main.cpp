@@ -5,10 +5,6 @@
  * @brief main function
  **/
 
-/*! \mainpage
- */
-
-
 #include "CommsManager.h"
 #include "Hexapod.h"
 
