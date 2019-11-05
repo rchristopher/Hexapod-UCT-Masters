@@ -18,17 +18,17 @@
            
     J_plus = (inv(transpose(J)*J))*transpose(J);
     
-    X = [xd; yd; zd;0;th2d+th3d; th1d];
+    X = [xd; yd; zd;(th2d+th3d)*sin(th1);-(th2d+th3d)*cos(th1); th1d];
     
     thd = J_plus*X;
     
     thds = [th1d;th2d;th3d];
     
-%     sol = structfun(@simplify,(solve(thd == thds,[th1d th2d th3d])),'Uniform',0);
-%    
-%     th1d = simplify(sol.th1d,'Steps',100)
-%     th2d = simplify(sol.th2d,'Steps',100)
-%     th3d = simplify(sol.th3d,'Steps',100)
+     sol = structfun(@simplify,(solve(thd == thds,[th1d th2d th3d])),'Uniform',0);
+    
+     th1d = simplify(sol.th1d,'Steps',100)
+     th2d = simplify(sol.th2d,'Steps',100)
+     th3d = simplify(sol.th3d,'Steps',100)
 %     
 %     params = [0.053,0.008,0.102,0.153,  0.1,0.4,0.5,    0.001,pi/2-pi/3,0.001];
 %     
