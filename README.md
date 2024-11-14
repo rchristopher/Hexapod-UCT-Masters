@@ -10,7 +10,7 @@ Final report available at: https://drive.google.com/file/d/1L6Y8xdj6XzMt_z8zyFrf
 
 
 
-Videos of the hexapod in operation can be found at:
+**Videos of the hexapod in operation can be found at:**
 
 Hexapod Twisting its Body: https://youtu.be/Y7dhTmXj7jc
 
